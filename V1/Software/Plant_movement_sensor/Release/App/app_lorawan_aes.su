@@ -1,0 +1,8 @@
+../App/app_lorawan_aes.c:323:13:copy_block	0	static
+../App/app_lorawan_aes.c:357:13:xor_block	0	static
+../App/app_lorawan_aes.c:384:13:copy_and_key	8	static
+../App/app_lorawan_aes.c:522:13:aes_set_key	32	static
+../App/app_lorawan_aes.c:577:13:aes_encrypt	88	static
+../App/app_lorawan_aes.c:608:13:aes_cbc_encrypt	24	static
+../App/app_lorawan_aes.c:631:13:aes_decrypt	72	static
+../App/app_lorawan_aes.c:662:13:aes_cbc_decrypt	40	static

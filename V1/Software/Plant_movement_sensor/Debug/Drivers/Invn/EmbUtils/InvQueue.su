@@ -1,0 +1,13 @@
+../Drivers/Invn/EmbUtils/InvQueue.c:34:7:QueueInit	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:46:7:QueueItemInit	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:58:7:QueueInsertBefore	40	static
+../Drivers/Invn/EmbUtils/InvQueue.c:82:7:QueueInsertAfter	40	static
+../Drivers/Invn/EmbUtils/InvQueue.c:106:8:QueueRemove	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:127:8:QueueRemoveBefore	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:144:8:QueueRemoveAfter	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:171:8:QueuePrev	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:189:8:QueueNext	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:209:12:QueueAtHead	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:219:12:QueueAtMiddle	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:230:12:QueueAtTail	24	static
+../Drivers/Invn/EmbUtils/InvQueue.c:240:10:QueueOf	24	static

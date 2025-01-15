@@ -1,0 +1,4 @@
+../Core/Src/app_freertos.c:123:6:StartDefaultTask	1
+../Core/Src/app_freertos.c:67:13:PreSleepProcessing	1
+../Core/Src/app_freertos.c:72:13:PostSleepProcessing	1
+../Core/Src/app_freertos.c:83:6:MX_FREERTOS_Init	1

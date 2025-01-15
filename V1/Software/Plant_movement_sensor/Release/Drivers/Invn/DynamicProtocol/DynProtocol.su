@@ -1,0 +1,16 @@
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:64:19:DynProtocol_decodeVect16QxToQy	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:75:19:DynProtocol_encodeQxToQyVect16	20	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:87:12:DynProtocol_getPrecision	0	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:127:16:DynProtocol_getPayload	0	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:294:12:DynProtocol_decodeSensorEvent	40	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:674:12:DynProtocol_encodeSensorEvent	48	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:635:12:DynProtocol_doProcess	168	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:984:6:DynProtocol_init	16	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:996:6:DynProtocol_processReset	0	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1001:6:DynProtocol_setCurrentFrameSize	0	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1006:5:DynProtocol_setPrecision	0	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1024:5:DynProtocol_processPktByte	16	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1094:5:DynProtocol_encodeCommand	32	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1224:5:DynProtocol_encodeResponse	32	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1344:5:DynProtocol_encodeAsync	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocol.c:1392:14:DynProtocol_sensorTypeToStr	0	static

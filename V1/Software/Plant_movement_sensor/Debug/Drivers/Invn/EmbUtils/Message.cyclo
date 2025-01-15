@@ -1,0 +1,4 @@
+../Drivers/Invn/EmbUtils/Message.c:32:6:inv_msg_printer_default	1
+../Drivers/Invn/EmbUtils/Message.c:52:6:inv_msg_setup	3
+../Drivers/Invn/EmbUtils/Message.c:62:6:inv_msg	4
+../Drivers/Invn/EmbUtils/Message.c:72:5:inv_msg_get_level	1

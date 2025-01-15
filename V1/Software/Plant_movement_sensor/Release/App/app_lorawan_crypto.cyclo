@@ -1,0 +1,5 @@
+../App/app_lorawan_crypto.c:105:6:compute_mic	4
+../App/app_lorawan_crypto.c:159:6:lora_crypto_payload_encrypt	7
+../App/app_lorawan_crypto.c:225:6:lora_crypto_payload_decrypt	7
+../App/app_lorawan_crypto.c:338:6:lora_crypto_add_mic	1
+../App/app_lorawan_crypto.c:345:5:check_mic	1

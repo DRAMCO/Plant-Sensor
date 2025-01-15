@@ -1,0 +1,4 @@
+../App/app_adc.c:45:6:StartAdcThread	30
+../App/app_adc.c:33:6:AdcThreadInit	2
+../App/app_adc.c:346:6:AdcNotifyFromISR	3
+../App/app_adc.c:357:6:AdcThreadNotify	2

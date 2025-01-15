@@ -1,0 +1,4 @@
+../App/app_rtc_sync.c:73:6:StartRtcSyncThread	56	static
+../App/app_rtc_sync.c:56:6:RtcSyncThreadInit	16	static
+../App/app_rtc_sync.c:341:6:app_rtc_sync_notify_fromISR	24	static
+../App/app_rtc_sync.c:352:6:app_rtc_sync_notify	16	static

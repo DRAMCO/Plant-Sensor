@@ -1,0 +1,3 @@
+../Drivers/Invn/EmbUtils/UartTxEmulator.c:27:13:UartTxEmulator_IRQTimerHandlerHook	16	static
+../Drivers/Invn/EmbUtils/UartTxEmulator.c:86:6:UartTxEmulator_init	4	static
+../Drivers/Invn/EmbUtils/UartTxEmulator.c:98:8:UartTxEmulator_send	24	static

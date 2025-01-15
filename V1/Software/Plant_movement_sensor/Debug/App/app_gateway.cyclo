@@ -1,0 +1,6 @@
+../App/../Drivers/Invn/Devices/../Devices/Device.h:679:19:inv_device_get_sensor_config	3
+../App/../Drivers/Invn/Devices/DeviceIcm20948.h:101:30:inv_device_icm20948_get_base	2
+../App/app_gateway.c:392:6:GatewayThreadInit	2
+../App/app_gateway.c:406:6:GatewayThreadStart	44
+../App/app_gateway.c:2723:6:GatewayNotifyFromISR	3
+../App/app_gateway.c:2734:6:GatewayNotify	2

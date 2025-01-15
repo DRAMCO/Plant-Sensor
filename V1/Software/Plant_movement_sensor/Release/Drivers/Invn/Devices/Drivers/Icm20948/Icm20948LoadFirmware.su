@@ -1,0 +1,2 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948LoadFirmware.c:164:6:print_hex	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948LoadFirmware.c:23:5:inv_icm20948_firmware_load	56	static

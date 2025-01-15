@@ -1,0 +1,12 @@
+../Core/Src/idd_io_hal.c:295:13:cs_low	0	static
+../Core/Src/idd_io_hal.c:290:13:cs_high	0	static
+../Core/Src/idd_io_hal.c:366:12:idd_io_hal_init_spi	0	static
+../Core/Src/idd_io_hal.c:92:5:my_serif_open_adapter	0	static
+../Core/Src/idd_io_hal.c:98:5:my_serif_close_adapter	0	static
+../Core/Src/idd_io_hal.c:105:5:my_adapter_register_interrupt_callback	0	static
+../Core/Src/idd_io_hal.c:125:9:spi_master_read_register	40	static
+../Core/Src/idd_io_hal.c:372:12:idd_io_hal_read_reg_spi	8	static
+../Core/Src/idd_io_hal.c:206:9:spi_master_write_register	40	static
+../Core/Src/idd_io_hal.c:377:12:idd_io_hal_write_reg_spi	8	static
+../Core/Src/idd_io_hal.c:314:6:select_userbank	32	static
+../Core/Src/idd_io_hal.c:393:26:idd_io_hal_get_serif_instance_spi	0	static

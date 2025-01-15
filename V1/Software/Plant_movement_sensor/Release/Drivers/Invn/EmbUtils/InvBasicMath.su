@@ -1,0 +1,3 @@
+../Drivers/Invn/EmbUtils/InvBasicMath.c:17:14:InvBasicMath_log2u	0	static
+../Drivers/Invn/EmbUtils/InvBasicMath.c:29:5:InvBasicMath_isAnOrthonormalMatrix	96	static
+../Drivers/Invn/EmbUtils/InvBasicMath.c:75:7:InvBasicMath_computeMatrixDeterminant	0	static

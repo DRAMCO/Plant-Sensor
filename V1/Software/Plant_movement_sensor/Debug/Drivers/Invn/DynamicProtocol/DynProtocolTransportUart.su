@@ -1,0 +1,10 @@
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:37:20:DynProTransportUart_callEventCB	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:46:6:DynProTransportUart_init	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:68:6:DynProTransportUart_enableTxDma	16	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:73:6:DynProTransportUart_rxProcessReset	16	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:78:5:DynProTransportUart_checkHeader_fromISR	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:96:5:DynProTransportUart_rxProcessByte	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:175:5:DynProTransportUart_txSendFrame	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:221:5:DynProTransportUart_tx	40	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:249:5:DynProTransportUart_txAssignBuffer	24	static
+../Drivers/Invn/DynamicProtocol/DynProtocolTransportUart.c:268:5:DynProTransportUart_txEncodeFrame	16	static

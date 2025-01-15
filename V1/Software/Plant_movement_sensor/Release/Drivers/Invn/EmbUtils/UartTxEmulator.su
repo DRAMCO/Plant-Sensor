@@ -1,0 +1,2 @@
+../Drivers/Invn/EmbUtils/UartTxEmulator.c:86:6:UartTxEmulator_init	0	static
+../Drivers/Invn/EmbUtils/UartTxEmulator.c:98:8:UartTxEmulator_send	0	static

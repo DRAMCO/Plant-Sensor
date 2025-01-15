@@ -1,0 +1,3 @@
+../App/app_hal_sync.c:114:6:StartHalSyncThread	288	static
+../App/app_hal_sync.c:97:6:HalSyncThreadInit	16	static
+../App/app_hal_sync.c:1020:6:app_hal_sync_notify_fromISR	24	static

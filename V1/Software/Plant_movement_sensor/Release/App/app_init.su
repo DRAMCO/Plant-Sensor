@@ -1,0 +1,6 @@
+../App/app_init.c:124:6:InitThreadStart	176	static
+../App/app_init.c:109:6:InitThreadInit	16	static
+../App/app_init.c:90:6:ProjectInit	8	static
+../App/app_init.c:1199:6:InitThreadNotify	16	static
+../App/app_init.c:1207:6:app_init_notify_fromISR	16	static
+../App/app_init.c:1216:6:app_DIO1_notify_from_isr	24	static

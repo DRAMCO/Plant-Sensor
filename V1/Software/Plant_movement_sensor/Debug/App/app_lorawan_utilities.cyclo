@@ -1,0 +1,3 @@
+../App/app_lorawan_utilities.c:52:6:memcpy1	2
+../App/app_lorawan_utilities.c:60:6:memset1	2
+../App/app_lorawan_utilities.c:68:10:lr1mac_utilities_crc	3

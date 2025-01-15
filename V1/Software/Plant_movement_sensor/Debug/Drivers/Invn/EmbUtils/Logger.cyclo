@@ -1,0 +1,4 @@
+../Drivers/Invn/EmbUtils/Logger.c:21:6:Logger_setLevel	1
+../Drivers/Invn/EmbUtils/Logger.c:26:6:Logger_setLevelRef	2
+../Drivers/Invn/EmbUtils/Logger.c:36:6:Logger_log	4
+../Drivers/Invn/EmbUtils/Logger.c:48:6:Logger_logf	7

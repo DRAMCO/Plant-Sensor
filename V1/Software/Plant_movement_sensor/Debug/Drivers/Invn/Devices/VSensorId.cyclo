@@ -1,0 +1,2 @@
+../Drivers/Invn/Devices/VSensorId.c:92:13:inv_sensor_id_name	65
+../Drivers/Invn/Devices/VSensorId.c:105:14:inv_sensor_id_value	65

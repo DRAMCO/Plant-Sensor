@@ -1,0 +1,4 @@
+../App/app_node_gnsspps.c:47:6:GNSSPPSThreadInit	16	static
+../App/app_node_gnsspps.c:64:6:StartGNSSPPSThread	80	static
+../App/app_node_gnsspps.c:110:6:app_gnsspps_notify_fromISR	32	static
+../App/app_node_gnsspps.c:121:6:app_gnsspps_notify	24	static

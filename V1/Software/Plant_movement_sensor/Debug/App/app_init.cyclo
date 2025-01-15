@@ -1,0 +1,6 @@
+../App/app_init.c:89:6:ProjectInit	1
+../App/app_init.c:108:6:InitThreadInit	2
+../App/app_init.c:123:6:InitThreadStart	48
+../App/app_init.c:897:6:InitThreadNotify	2
+../App/app_init.c:905:6:app_init_notify_fromISR	3
+../App/app_init.c:914:6:app_DIO1_notify_from_isr	4

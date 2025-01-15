@@ -1,0 +1,11 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:139:6:inv_icm20948_register_aux_compass	2
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:328:5:inv_icm20948_check_akm_self_test	21
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:498:5:inv_icm20948_write_akm_scale	4
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:522:5:inv_icm20948_read_akm_scale	1
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:549:5:inv_icm20948_suspend_akm	3
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:195:5:inv_icm20948_setup_compass_akm	4
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:571:5:inv_icm20948_resume_akm	4
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:664:6:inv_icm20948_compass_getstate	1
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:669:5:inv_icm20948_compass_isconnected	1
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:685:5:inv_icm20948_compass_dmp_cal	9
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxCompassAkm.c:770:5:inv_icm20948_apply_raw_compass_matrix	3

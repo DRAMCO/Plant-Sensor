@@ -1,0 +1,7 @@
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:27:6:RingByteBuffer_clear	1
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:15:6:RingByteBuffer_init	1
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:37:10:RingByteBuffer_size	4
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:52:6:RingByteBuffer_pushByte	2
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:64:9:RingByteBuffer_popByte	2
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:80:6:RingByteBuffer_pushBuffer	2
+../Drivers/Invn/EmbUtils/RingByteBuffer.c:96:6:RingByteBuffer_popBuffer	2

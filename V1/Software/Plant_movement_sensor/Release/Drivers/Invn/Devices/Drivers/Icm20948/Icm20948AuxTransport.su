@@ -1,0 +1,11 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:64:5:inv_icm20948_read_secondary	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:116:5:inv_icm20948_write_secondary	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:153:6:inv_icm20948_secondary_saveI2cOdr	0	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:158:6:inv_icm20948_secondary_restoreI2cOdr	0	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:163:5:inv_icm20948_secondary_stop_channel	0	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:20:6:inv_icm20948_init_secondary	8	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:168:5:inv_icm20948_secondary_enable_i2c	0	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:174:5:inv_icm20948_secondary_disable_i2c	0	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:83:5:inv_icm20948_execute_read_secondary	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:136:5:inv_icm20948_execute_write_secondary	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948AuxTransport.c:181:5:inv_icm20948_secondary_set_odr	4	static

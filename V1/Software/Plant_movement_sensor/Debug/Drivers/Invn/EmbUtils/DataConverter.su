@@ -1,0 +1,8 @@
+../Drivers/Invn/EmbUtils/DataConverter.c:26:11:inv_dc_int32_to_little8	16	static
+../Drivers/Invn/EmbUtils/DataConverter.c:36:11:inv_dc_int16_to_little8	16	static
+../Drivers/Invn/EmbUtils/DataConverter.c:44:11:inv_dc_int32_to_big8	16	static
+../Drivers/Invn/EmbUtils/DataConverter.c:54:9:inv_dc_little8_to_int32	24	static
+../Drivers/Invn/EmbUtils/DataConverter.c:66:9:inv_dc_big16_to_int16	24	static
+../Drivers/Invn/EmbUtils/DataConverter.c:77:9:inv_dc_le_to_int16	24	static
+../Drivers/Invn/EmbUtils/DataConverter.c:87:6:inv_dc_sfix32_to_float	32	static
+../Drivers/Invn/EmbUtils/DataConverter.c:96:6:inv_dc_float_to_sfix32	32	static

@@ -1,0 +1,3 @@
+../App/app_supercap.c:42:6:ScapThreadInit	16	static
+../App/app_supercap.c:54:6:StartScapThread	80	static
+../App/app_supercap.c:281:6:ScapThreadNotify	24	static

@@ -1,0 +1,12 @@
+../Drivers/PCF2131/PCF2131.c:250:10:pcf2131SetAging	2
+../Drivers/PCF2131/PCF2131.c:588:6:pcf2131_si_off	3
+../Drivers/PCF2131/PCF2131.c:648:6:pcf2131_get_status	34
+../Drivers/PCF2131/PCF2131.c:46:6:pcf2131_disable_poro	3
+../Drivers/PCF2131/PCF2131.c:276:6:pcf2131_reset	11
+../Drivers/PCF2131/PCF2131.c:1327:9:pcf2131_start_clock	2
+../Drivers/PCF2131/PCF2131.c:1361:9:pcf2131_is_running	2
+../Drivers/PCF2131/PCF2131.c:1658:9:bcd2bin	1
+../Drivers/PCF2131/PCF2131.c:1092:9:pcf2131_get_time	3
+../Drivers/PCF2131/PCF2131.c:1663:9:bin2bcd	1
+../Drivers/PCF2131/PCF2131.c:82:10:pcf2131SecondAlarm	9
+../Drivers/PCF2131/PCF2131.c:1240:9:pcf2131_set_time	4

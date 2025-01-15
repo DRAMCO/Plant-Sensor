@@ -1,0 +1,8 @@
+../App/app_network_connect.c:307:6:NetConThreadInit	2
+../App/app_network_connect.c:2265:6:BroadCastMyID	6
+../App/app_network_connect.c:2390:6:ConfirmPairing	6
+../App/app_network_connect.c:2537:6:ConfirmDataReceived	1
+../App/app_network_connect.c:2692:9:IdenticalIDs	3
+../App/app_network_connect.c:324:6:StartNetConThread	25
+../App/app_network_connect.c:2704:6:app_netw_con_notify_fromISR	3
+../App/app_network_connect.c:2715:6:NwConThreadNotify	2

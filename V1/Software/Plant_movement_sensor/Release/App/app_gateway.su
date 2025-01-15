@@ -1,0 +1,5 @@
+../App/../Drivers/Invn/Devices/../Devices/Device.h:679:19:inv_device_get_sensor_config.constprop.isra	16	static
+../App/app_gateway.c:341:6:GatewayThreadStart	184	static
+../App/app_gateway.c:327:6:GatewayThreadInit	16	static
+../App/app_gateway.c:2693:6:GatewayNotifyFromISR	24	static
+../App/app_gateway.c:2704:6:GatewayNotify	16	static

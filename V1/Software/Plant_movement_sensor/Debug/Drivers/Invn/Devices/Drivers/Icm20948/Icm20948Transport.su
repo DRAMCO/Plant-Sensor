@@ -1,0 +1,15 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Serif.h:75:19:inv_icm20948_serif_read_reg	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Serif.h:89:19:inv_icm20948_serif_write_reg	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:36:5:inv_icm20948_read_reg	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:45:5:inv_icm20948_write_reg	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:54:6:inv_icm20948_sleep_100us	16	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:59:6:inv_icm20948_get_tick_count	8	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:71:6:inv_icm20948_transport_init	16	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:77:16:check_reg_access_lp_disable	16	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:108:12:inv_set_bank	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:142:5:inv_icm20948_write_mems_reg	40	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:185:5:inv_icm20948_write_single_mems_reg	24	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:215:5:inv_icm20948_read_mems_reg	56	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:274:5:inv_icm20948_read_mems	64	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:381:5:inv_icm20948_write_mems	48	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Transport.c:468:5:inv_icm20948_write_single_mems_reg_core	24	static

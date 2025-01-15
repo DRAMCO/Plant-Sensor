@@ -1,0 +1,14 @@
+../App/app_lorawan_aes.c:323:13:copy_block	16	static
+../App/app_lorawan_aes.c:350:13:copy_block_nn	24	static
+../App/app_lorawan_aes.c:357:13:xor_block	16	static
+../App/app_lorawan_aes.c:384:13:copy_and_key	24	static
+../App/app_lorawan_aes.c:414:13:add_round_key	16	static
+../App/app_lorawan_aes.c:419:13:shift_sub_rows	24	static
+../App/app_lorawan_aes.c:437:13:inv_shift_sub_rows	24	static
+../App/app_lorawan_aes.c:456:15:mix_sub_columns	32	static
+../App/app_lorawan_aes.c:488:15:inv_mix_sub_columns	32	static
+../App/app_lorawan_aes.c:522:13:aes_set_key	32	static
+../App/app_lorawan_aes.c:577:13:aes_encrypt	48	static
+../App/app_lorawan_aes.c:608:13:aes_cbc_encrypt	24	static
+../App/app_lorawan_aes.c:631:13:aes_decrypt	48	static
+../App/app_lorawan_aes.c:662:13:aes_cbc_decrypt	40	static

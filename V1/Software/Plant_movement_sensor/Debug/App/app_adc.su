@@ -1,0 +1,4 @@
+../App/app_adc.c:33:6:AdcThreadInit	16	static
+../App/app_adc.c:45:6:StartAdcThread	72	static
+../App/app_adc.c:346:6:AdcNotifyFromISR	32	static
+../App/app_adc.c:357:6:AdcThreadNotify	24	static

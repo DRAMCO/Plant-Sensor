@@ -1,0 +1,7 @@
+../App/app_network_connect.c:307:6:NetConThreadInit	16	static
+../App/app_network_connect.c:324:6:StartNetConThread	792	static
+../App/app_network_connect.c:2545:6:AnswerPairing	136	static
+../App/app_network_connect.c:2685:6:DataToHost	4	static
+../App/app_network_connect.c:2692:9:IdenticalIDs	24	static
+../App/app_network_connect.c:2704:6:app_netw_con_notify_fromISR	32	static
+../App/app_network_connect.c:2715:6:NwConThreadNotify	24	static

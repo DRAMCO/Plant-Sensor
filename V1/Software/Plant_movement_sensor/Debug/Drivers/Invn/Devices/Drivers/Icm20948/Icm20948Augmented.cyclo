@@ -1,0 +1,6 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:47:5:inv_icm20948_augmented_init	1
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:65:5:inv_icm20948_augmented_sensors_get_gravity	3
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:88:5:inv_icm20948_augmented_sensors_get_linearacceleration	4
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:102:5:inv_icm20948_augmented_sensors_get_orientation	4
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:143:16:inv_icm20948_augmented_sensors_set_odr	37
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948Augmented.c:195:6:inv_icm20948_augmented_sensors_update_odr	15

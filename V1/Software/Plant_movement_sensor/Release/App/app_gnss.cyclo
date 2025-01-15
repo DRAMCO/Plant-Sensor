@@ -1,0 +1,12 @@
+../App/app_gnss.c:63:6:GNSSThreadInit	2
+../App/app_gnss.c:998:15:NMEA_ParseGPRMC	1
+../App/app_gnss.c:1018:6:GNSS_DATA_GetGPRMCInfo	1
+../App/app_gnss.c:1075:15:NMEA_ParseGPGGA	1
+../App/app_gnss.c:1141:6:GNSS_DATA_GetGPGGAInfo	10
+../App/app_gnss.c:1214:15:NMEA_ParseGSA	1
+../App/app_gnss.c:1273:6:GNSS_DATA_GetGSAInfo	12
+../App/app_gnss.c:1355:6:GNSS_DATA_GetGSVInfo	8
+../App/app_gnss.c:1419:10:char2int	4
+../App/app_gnss.c:1440:10:nmea_checksum	1
+../App/app_gnss.c:1449:6:scan_utc	1
+../App/app_gnss.c:78:6:StartGNSSThread	15

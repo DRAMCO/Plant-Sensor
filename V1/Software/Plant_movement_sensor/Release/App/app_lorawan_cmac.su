@@ -1,0 +1,4 @@
+../App/app_lorawan_cmac.c:65:6:AES_CMAC_Init	8	static
+../App/app_lorawan_cmac.c:72:6:AES_CMAC_SetKey	0	static
+../App/app_lorawan_cmac.c:78:6:AES_CMAC_Update	48	static
+../App/app_lorawan_cmac.c:112:6:AES_CMAC_Final	56	static

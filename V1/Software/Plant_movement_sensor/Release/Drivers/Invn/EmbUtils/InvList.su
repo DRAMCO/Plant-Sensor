@@ -1,0 +1,4 @@
+../Drivers/Invn/EmbUtils/InvList.c:15:5:InvList_add	8	static
+../Drivers/Invn/EmbUtils/InvList.c:34:5:InvList_remove	8	static
+../Drivers/Invn/EmbUtils/InvList.c:52:12:InvList_isIn	8	static
+../Drivers/Invn/EmbUtils/InvList.c:68:10:InvList_getListCount	8	static

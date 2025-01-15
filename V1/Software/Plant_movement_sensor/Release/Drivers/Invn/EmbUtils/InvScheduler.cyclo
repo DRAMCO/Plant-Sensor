@@ -1,0 +1,13 @@
+../Drivers/Invn/EmbUtils/InvScheduler.c:34:20:InvScheduler_removeTask	4
+../Drivers/Invn/EmbUtils/InvScheduler.c:88:5:InvScheduler_getActiveTaskCountU	2
+../Drivers/Invn/EmbUtils/InvScheduler.c:100:10:InvScheduler_getNextTimeU	5
+../Drivers/Invn/EmbUtils/InvScheduler.c:128:10:InvScheduler_getMinPeriodU	3
+../Drivers/Invn/EmbUtils/InvScheduler.c:149:5:InvScheduler_dispatchOneTask	12
+../Drivers/Invn/EmbUtils/InvScheduler.c:187:5:InvScheduler_dispatchTasks	2
+../Drivers/Invn/EmbUtils/InvScheduler.c:197:6:InvScheduler_initTaskDo	1
+../Drivers/Invn/EmbUtils/InvScheduler.c:211:6:InvScheduler_startTaskU	3
+../Drivers/Invn/EmbUtils/InvScheduler.c:222:6:InvScheduler_startTask	1
+../Drivers/Invn/EmbUtils/InvScheduler.c:229:6:InvScheduler_stopTaskU	2
+../Drivers/Invn/EmbUtils/InvScheduler.c:238:6:InvScheduler_stopTask	1
+../Drivers/Invn/EmbUtils/InvScheduler.c:260:6:InvScheduler_printTask	2
+../Drivers/Invn/EmbUtils/InvScheduler.c:281:6:InvScheduler_dumpTasks	2

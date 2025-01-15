@@ -1,0 +1,4 @@
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948SelfTest.c:204:12:inv_check_accelgyro_self_test	40	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948SelfTest.c:322:12:inv_selftest_read_samples.constprop	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948SelfTest.c:362:12:inv_do_test_accelgyro	32	static
+../Drivers/Invn/Devices/Drivers/Icm20948/Icm20948SelfTest.c:414:5:inv_icm20948_run_selftest	96	static

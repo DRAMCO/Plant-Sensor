@@ -1,0 +1,3 @@
+../Drivers/Invn/EmbUtils/InvFormat.c:17:14:InvFormat_uint2hex	16	static
+../Drivers/Invn/EmbUtils/InvFormat.c:37:7:InvFormat_uint162hex	0	static
+../Drivers/Invn/EmbUtils/InvFormat.c:42:7:InvFormat_uint322hex	0	static
