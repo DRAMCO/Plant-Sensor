@@ -1,0 +1,446 @@
+(footprint "ICM20948"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "24 Lead QFN 3.0x3.0x0.9")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC3"
+		(at 2.465203 -1.872425 180)
+		(layer "F.SilkS")
+		(uuid "879318e5-45d0-41e0-985d-f5127afb40a3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ICM-20948"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f7c66ed5-a3a9-4bcd-8585-1927a89af681")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "cb3b54fc-ff43-4cf1-a7d3-1a034b923c65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "bbbe3f10-872d-4d18-a861-8757a7b6693f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "IMUs - Inertial Measurement Units World\\'s Lowest Power 9-Axis MEMS MotionTracking Device"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b46ca19b-0113-4ce6-97c8-03827397e875")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Height" "1.05"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43b17feb-a6c0-4a9c-a5d9-a373f535d54f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9c25475-88df-4270-9d86-3602f772aa34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ICM-20948"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97347cc4-10ca-4850-8fd5-60873dec69f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "410-ICM-20948"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d276116c-6963-4acf-8ea0-a57d0f0f7785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-20948?qs=u4fy%2FsgLU9OtGc31yF%2Friw%3D%3D"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ffdeee6-1620-4ae1-8b54-eceb0acdfee0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.6)
+		(end -1.875 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "96ef7157-d608-42cd-8d38-6193620d9649")
+	)
+	(fp_line
+		(start -2.125 -2.125)
+		(end -2.125 2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5f4f043-7e97-4ed9-b67d-cba6ca1bbec4")
+	)
+	(fp_line
+		(start -2.125 2.125)
+		(end 2.125 2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10295bee-cccc-4fd3-a116-1a8c83ed0dc4")
+	)
+	(fp_line
+		(start 2.125 -2.125)
+		(end -2.125 -2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83591f1c-5406-430c-a28e-dfb974f8279a")
+	)
+	(fp_line
+		(start 2.125 2.125)
+		(end 2.125 -2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fff00f4-c2f6-470f-b8e7-471e963d684c")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaa92243-04f2-4836-99da-9376654919db")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69102746-d705-401e-a1aa-071fc2879b58")
+	)
+	(fp_line
+		(start -1.1 -1.5)
+		(end -1.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2ff0e4b-b889-46e9-99a6-0a22ee0aab87")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "569a1ad2-b7f0-4053-991a-ffa3c9698b05")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57f8abf7-ecf9-4a37-bdcc-a3bb01d94e8a")
+	)
+	(fp_text user ">Name"
+		(at 0 -2.032 180)
+		(layer "Cmts.User")
+		(uuid "495daaf4-a581-49ce-b89b-e56f9be6c424")
+		(effects
+			(font
+				(size 0.57912 0.57912)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2d56ea4c-ace6-4cdf-96d2-1e1beb16c2c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(fp_text user ">Value"
+		(at 0 1.905 180)
+		(layer "F.Fab")
+		(uuid "afa52f5b-98b6-43a9-b864-d5d2658fc974")
+		(effects
+			(font
+				(size 0.57912 0.57912)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 -1 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer bottom_right)
+		(uuid "ec30a37b-1aa3-476e-ad28-bf12da9937ec")
+	)
+	(pad "2" smd rect
+		(at -1.5 -0.6 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "95578373-d5bc-49db-a4c7-17e06d07cd5e")
+	)
+	(pad "3" smd rect
+		(at -1.5 -0.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2b9e313-3efc-4bf8-b9b6-51bce2245540")
+	)
+	(pad "4" smd rect
+		(at -1.5 0.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48f22597-7d4a-4ff1-8460-83ee3fb0a81e")
+	)
+	(pad "5" smd rect
+		(at -1.5 0.6 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4db93328-2368-4b61-ac41-42800577b92c")
+	)
+	(pad "6" smd roundrect
+		(at -1.5 1 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer bottom_left)
+		(uuid "a9c5abd4-7dd5-4303-a024-674c763aea83")
+	)
+	(pad "7" smd roundrect
+		(at -1 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer top_left)
+		(uuid "954ddc00-6270-4743-aad3-bb661ec2e09f")
+	)
+	(pad "8" smd rect
+		(at -0.6 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7082a33b-df27-4fdf-bed2-7f945666f5ae")
+	)
+	(pad "9" smd rect
+		(at -0.2 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "123bc0d1-b8e7-4f90-b61f-9516fec59e5b")
+	)
+	(pad "10" smd rect
+		(at 0.2 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "597e543a-1c5b-4121-8ce9-83af1f7e4520")
+	)
+	(pad "11" smd rect
+		(at 0.6 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "024c697e-c16a-46f2-9a6d-1ffc490ed5e4")
+	)
+	(pad "12" smd roundrect
+		(at 1 1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer top_right)
+		(uuid "5fb6b811-37a3-47f9-a461-b335627d4fe8")
+	)
+	(pad "13" smd roundrect
+		(at 1.5 1 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer top_left)
+		(uuid "c31911af-601b-4a65-ae30-1b375baaa671")
+	)
+	(pad "14" smd rect
+		(at 1.5 0.6 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "869b7da8-c9cf-4fae-b929-fcecb138c9e7")
+	)
+	(pad "15" smd rect
+		(at 1.5 0.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "278034bd-90f1-4888-8785-e1d2c513034e")
+	)
+	(pad "16" smd rect
+		(at 1.5 -0.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18cc8bc5-cc72-4027-89f9-45ee6ceb79c1")
+	)
+	(pad "17" smd rect
+		(at 1.5 -0.6 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d6248c6-4e0f-4e2f-adc0-e27baae6f9d1")
+	)
+	(pad "18" smd roundrect
+		(at 1.5 -1 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer top_right)
+		(uuid "c91d45ff-c4ab-4bb2-96e3-9091279ac758")
+	)
+	(pad "19" smd roundrect
+		(at 1 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer bottom_right)
+		(uuid "726736cb-b63e-439c-904a-9c69bcaaf1d2")
+	)
+	(pad "20" smd rect
+		(at 0.6 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "863c86e9-e100-438c-8f0e-5ac1380ffb6e")
+	)
+	(pad "21" smd rect
+		(at 0.2 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ca34937a-ef8a-4829-8d08-9878d147429e")
+	)
+	(pad "22" smd rect
+		(at -0.2 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d248915e-37ea-4dba-b04a-71c35eed7565")
+	)
+	(pad "23" smd rect
+		(at -0.6 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b00a3307-8d62-4a90-8a9b-4f63c6d94209")
+	)
+	(pad "24" smd roundrect
+		(at -1 -1.5)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer bottom_left)
+		(uuid "d24304c8-bdf6-4099-8790-0314b300a30c")
+	)
+	(model "C:\\Users\\sarah\\Documents\\Kicad libraries\\SamacSys_Parts.3dshapes\\ICM-20948.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

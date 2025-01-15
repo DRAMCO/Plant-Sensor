@@ -1,0 +1,45 @@
+### Module positions - created on Fri Jul 19 11:09:03 2024 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                            Package                                                   PosX       PosY       Rot  Side
+C1        100n                           C_0402_1005Metric                                     -24.6200    10.2500    0.0000  bottom
+C2        100n                           C_0402_1005Metric                                     -22.5800    13.1300   90.0000  bottom
+C6        100n                           C_0402_1005Metric                                     -24.9600    20.6600   90.0000  bottom
+C7        100n                           C_0402_1005Metric                                     -23.8700    20.6600   90.0000  bottom
+C26       GRM155R60J106ME15D             CAPC1005X55N                                           -2.3800    20.4900  180.0000  bottom
+C30       HV0810-2R7105-R                CAPPRD350W52D800H1350                                 -22.7550     4.7400    0.0000  bottom
+C31       470n                           C_0603_1608Metric                                     -18.4100    16.4400  -90.0000  bottom
+C32       10n                            C_0603_1608Metric                                     -12.4200    23.2004  180.0000  bottom
+C33       10n                            C_0603_1608Metric                                     -10.0700    22.2500   90.0000  bottom
+C34       100n                           C_0402_1005Metric                                     -17.6700    20.0200   90.0000  bottom
+C35       100n                           C_0402_1005Metric                                     -15.1245    15.6538    0.0000  bottom
+C44       56pF                           C_0402_1005Metric                                      -8.5500    20.1900   90.0000  bottom
+C45       1000pF                         C_0402_1005Metric                                      -5.9600    23.4800  -90.0000  bottom
+C46       1000pF                         C_0402_1005Metric                                      -7.2200    23.4800  -90.0000  bottom
+FL1       2450FM07D0034T                 2450FM07D0034T                                        -10.4910    19.7090  180.0000  bottom
+G***      LOGO                           KULeuven6000                                          -16.7900    29.7500  180.0000  bottom
+IC3       ICM-20948                      QFN40P300X300X105-25N-D_ICM20948                      -24.8800    17.2700    0.0000  bottom
+IC5       BME280                         Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering   -24.5900    12.3500   90.0000  bottom
+IC6       SX1280IMLTRT                   QFN50P400X400X100-25N-D_SX1280                        -13.9500    19.4600  -90.0000  bottom
+IC7       TPS63900DSKR                   SON50P250X250X80-11N-D                                 -3.6600    17.9300  -90.0000  bottom
+IC8       M24M01-DFDW6TP                 SOP65P640X120-8N                                       -9.5300    12.3600  180.0000  bottom
+IC10      NC7SZ04P5X                     SOT65P210X110-5N                                       -6.5700    20.7400   90.0000  bottom
+J1        91910-21515LF                  9191021515LF                                           -8.7900     3.6500  180.0000  bottom
+J4        22-04-1021                     SHDR2W64P0X250_1X2_450X580X1170P                      -18.9100     3.2500    0.0000  bottom
+L5        VLS3015CX-2R2M-H               VLS3015                                                -3.0900    13.8400    0.0000  bottom
+L6        15µ                           L_0603_1608Metric                                     -16.7845    16.4438  -90.0000  bottom
+LED1      APDA3020LSECK_J3-PF            APDA3020LSECKJ3PF                                      -1.0800     3.8700  -90.0000  bottom
+MP8       S0991-46R                      S099146R                                              -17.8800    25.0550  180.0000  bottom
+MP9       S0991-46R                      S099146R                                               -4.2900    25.0576  180.0000  bottom
+MP10      S0991-46R                      S099146R                                               -0.6752    17.0226  -90.0000  bottom
+MP11      S0991-46R                      S099146R                                              -15.3500     9.9550  180.0000  bottom
+MP12      S0991-46R                      S099146R                                              -21.3652    13.6476  -90.0000  bottom
+MP13      S0991-46R                      S099146R                                               -5.0252     9.9550  180.0000  bottom
+MP14      S0991-46R                      S099146R                                              -21.3700    20.9450  -90.0000  bottom
+R6        CRCW04025K11FKED               RESC1005X40N                                           -3.8700    21.1600   90.0000  bottom
+R7        CRCW0402511RFKED               RESC1005X40N                                           -2.1000    22.1000  180.0000  bottom
+R8        1R                             R_0805_2012Metric                                     -17.3375     7.7300  180.0000  bottom
+R14       500K                           R_0402_1005Metric                                     -18.7600    11.3300  180.0000  bottom
+X4        NX2016SA-52MHZ-EXS00A-CS07103  OSCCC200X160X50N                                      -15.5600    23.2850   90.0000  bottom
+## End

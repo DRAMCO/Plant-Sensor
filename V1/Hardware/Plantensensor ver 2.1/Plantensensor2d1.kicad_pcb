@@ -3512,7 +3512,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "C:/Users/Sarah/Documents/Kicad libraries/LS142503PFRP.stp" hide
+    (model "C:/Users/Sarah/Documents/Kicad libraries/LS142503PFRP.stp"
       (offset (xyz 7.5 -13 9.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 -90))

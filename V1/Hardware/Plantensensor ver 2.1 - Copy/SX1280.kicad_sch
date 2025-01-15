@@ -1,0 +1,26 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e5e5220d-5b7e-47da-a902-b997ec8d4d58")
+	(paper "A4")
+	(title_block
+		(title "Sensor node")
+		(date "2024-07-07")
+		(rev "2.1")
+		(company "KU Leuven")
+		(comment 1 "Dramco")
+		(comment 2 "Sarah Goossens")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 139.7 15.24) (xy 134.62 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92493da-0492-44dc-a1b1-ae25352e9d20")
+	)
+)
