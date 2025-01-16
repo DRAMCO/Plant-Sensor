@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS62840")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS62840/TPS62840.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS22960")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS22960/TPS22960.kicad_sym")(options "")(descr ""))
+  (lib (name "sparkfun-nrf52832-breakout-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Programming/sparkfun-nrf52832-breakout-eagle-import.lib")(options "")(descr ""))
+  (lib (name "WA-BCMC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Battery_holder/WA-BCMC.kicad_sym")(options "")(descr ""))
+)
