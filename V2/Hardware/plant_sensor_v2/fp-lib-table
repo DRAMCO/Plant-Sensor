@@ -5,4 +5,6 @@
   (lib (name "TPS22960")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS22960")(options "")(descr ""))
   (lib (name "Programming")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Programming")(options "")(descr ""))
   (lib (name "Battery_holder")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Battery_holder")(options "")(descr ""))
+  (lib (name "Antenna")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Antenna")(options "")(descr ""))
+  (lib (name "MLPF-WB-04D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-WB-04D3")(options "")(descr ""))
 )
