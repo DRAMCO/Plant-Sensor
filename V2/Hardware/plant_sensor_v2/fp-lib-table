@@ -7,4 +7,6 @@
   (lib (name "Battery_holder")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Battery_holder")(options "")(descr ""))
   (lib (name "Antenna")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Antenna")(options "")(descr ""))
   (lib (name "MLPF-WB-04D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-WB-04D3")(options "")(descr ""))
+  (lib (name "Crystal2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal2")(options "")(descr ""))
+  (lib (name "Crystal3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal3")(options "")(descr ""))
 )

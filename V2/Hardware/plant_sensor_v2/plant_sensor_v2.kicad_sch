@@ -4496,22 +4496,10 @@
 		(uuid "163668c5-34a7-4ef4-9e53-2dc103824ab4")
 	)
 	(junction
-		(at 171.45 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19439b75-a4f4-46e2-808f-07671ccbe195")
-	)
-	(junction
 		(at 153.67 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dacdaa5-6861-4e22-ac21-a368e89bef34")
-	)
-	(junction
-		(at 151.13 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22652676-4ae3-4fbd-b7c4-078e73b4a6bb")
 	)
 	(junction
 		(at 232.41 80.01)
@@ -4871,16 +4859,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 180.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29505856-eddc-403d-9778-668ba92003fd")
-	)
-	(wire
-		(pts
 			(xy 185.42 100.33) (xy 204.47 100.33)
 		)
 		(stroke
@@ -4898,16 +4876,6 @@
 			(type default)
 		)
 		(uuid "353af445-6c0e-4939-a946-015570764bc8")
-	)
-	(wire
-		(pts
-			(xy 144.78 54.61) (xy 151.13 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367ee4a8-5861-4e83-8a40-f262f85c87d1")
 	)
 	(polyline
 		(pts
@@ -5141,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 54.61) (xy 157.48 54.61)
+			(xy 144.78 54.61) (xy 157.48 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5981,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 171.45 54.61)
+			(xy 165.1 54.61) (xy 180.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6039,16 +6007,6 @@
 		)
 		(uuid "ff7dc6db-2888-42ea-b09c-1b58cd335ccb")
 	)
-	(text "ECS-.327-12:XTAL ECS-.327-12.5-16-TR"
-		(exclude_from_sim no)
-		(at 162.56 16.002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "015fb391-8e90-4ee1-8da3-998e082043cd")
-	)
 	(text "SPI"
 		(exclude_from_sim no)
 		(at 266.446 106.68 0)
@@ -6078,6 +6036,36 @@
 			)
 		)
 		(uuid "16daea37-0925-43dd-8a41-14b1c1894201")
+	)
+	(text "needed?"
+		(exclude_from_sim no)
+		(at 248.92 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19510aac-c317-445f-9dea-193dd4dfda22")
+	)
+	(text "Vin: 1V8 - 6V5"
+		(exclude_from_sim no)
+		(at 55.626 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "278387e6-73fa-4dd2-af17-bea170dbe35d")
+	)
+	(text "Caps needed?"
+		(exclude_from_sim no)
+		(at 140.462 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28c697a3-cd30-43e1-af6b-799074accb2d")
 	)
 	(text "GRM155R60G106ME44D"
 		(exclude_from_sim no)
@@ -6200,6 +6188,16 @@
 		)
 		(uuid "73181858-eea6-46d0-8ab4-2c1b95190904")
 	)
+	(text "Set pins to analog mode\nfor lowest power consumption"
+		(exclude_from_sim no)
+		(at 252.476 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92c0bf2e-d776-4116-8ba2-5fd321b4890c")
+	)
 	(text "VDD: 1.71 - 3.6V\nVDDIO: 1.71 - 1.95V\nMax current: (max) 10mA"
 		(exclude_from_sim no)
 		(at 31.75 76.962 0)
@@ -6209,6 +6207,16 @@
 			)
 		)
 		(uuid "94dfe6db-7307-48e7-ae9e-0295df78cc77")
+	)
+	(text "520-.327-6-1210-TR"
+		(exclude_from_sim no)
+		(at 161.036 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb05408d-c66d-42ed-bfc7-5a596bd90ca4")
 	)
 	(text "Batt: 1.8 - 3.4 V\nInternal Vref = +-1.2 V\nOutput: 0 - 1.084 V"
 		(exclude_from_sim no)
@@ -6222,7 +6230,7 @@
 	)
 	(text "NX1612SA-32.000MHZ-CHP-CIS-3"
 		(exclude_from_sim no)
-		(at 191.008 50.038 0)
+		(at 182.118 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6250,6 +6258,16 @@
 			)
 		)
 		(uuid "d83d184f-be91-4c72-86c0-aa60f1f9a0ca")
+	)
+	(text "needed?"
+		(exclude_from_sim no)
+		(at 206.756 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da2ad7e4-ece3-46f1-94e0-b9272c6714b0")
 	)
 	(text "Debugging"
 		(exclude_from_sim no)
@@ -7299,76 +7317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14f92b8e-5cd1-493d-85fd-b9ccea0d502e")
-		(property "Reference" "C7"
-			(at 154.94 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6p"
-			(at 154.94 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.0952 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 151.13 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e23cc7bf-6c34-44b9-8e48-2e7d53f133c6")
-		)
-		(pin "2"
-			(uuid "2742f245-4cf2-4d12-b8db-2dfa3717d3d7")
-		)
-		(instances
-			(project "plant_sensor_v2"
-				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 95.25 36.83 90)
 		(unit 1)
@@ -7835,75 +7783,6 @@
 			(project "plant_sensor_v2"
 				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b270637-1a52-47f3-8bb4-a5c816140948")
-		(property "Reference" "C21"
-			(at 175.26 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6p"
-			(at 177.292 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.4152 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e14045e-ee0d-4176-84e1-aa9d065d99bb")
-		)
-		(pin "2"
-			(uuid "ab360272-776b-4e24-bc36-268a2c2808a6")
-		)
-		(instances
-			(project "plant_sensor_v2"
-				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8463,72 +8342,6 @@
 			(project "plant_sensor_v2"
 				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "452c5738-9a48-4b08-9a90-17683585a1a4")
-		(property "Reference" "#PWR044"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e15eb33-8b6e-472f-a004-8766ce131288")
-		)
-		(instances
-			(project "plant_sensor_v2"
-				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10735,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(property "Footprint" "Crystal3:XTAL_ECS-.327-6-1210-TR"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -12004,72 +11817,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9bf18f1-a391-495f-a8ab-bc2f6ebe9984")
-		(property "Reference" "#PWR043"
-			(at 151.13 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32e3c205-2040-44b1-9d83-94b75026ec58")
-		)
-		(instances
-			(project "plant_sensor_v2"
-				(path "/c9121280-9a1a-4501-9500-0f7b1f2cf40e"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 238.76 26.67 0)
 		(unit 1)
@@ -12297,7 +12044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal2:OSCSC105P160X120X35-4N"
 			(at 161.29 54.61 0)
 			(effects
 				(font
