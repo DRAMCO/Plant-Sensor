@@ -1,0 +1,8 @@
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:125:22:AMM_Init	32	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:288:22:AMM_DeInit	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:322:22:AMM_Alloc	64	static,ignoring_inline_asm
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:473:22:AMM_Free	56	static,ignoring_inline_asm
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:579:6:AMM_BackgroundProcess	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:598:6:pushPending	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:607:6:passPendingToActive	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/MemoryManager/advanced_memory_manager.c:620:39:popActive	16	static

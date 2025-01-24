@@ -1,0 +1,6 @@
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:64:6:NVM_Init	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:87:5:NVM_Add	56	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:201:5:NVM_Get	32	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:302:5:NVM_Compare	24	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:333:6:NVM_Discard	32	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/test2/Projects/Common/WPAN/Modules/Nvm/nvm_emul.c:415:13:NVMCB_Store	16	static
