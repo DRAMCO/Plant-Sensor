@@ -1,0 +1,6 @@
+../STM32_WPAN/Target/ll_sys_if.c:158:6:request_temperature_measurement	1
+../STM32_WPAN/Target/ll_sys_if.c:80:6:ll_sys_bg_process_init	1
+../STM32_WPAN/Target/ll_sys_if.c:91:6:ll_sys_schedule_bg_process	1
+../STM32_WPAN/Target/ll_sys_if.c:101:6:ll_sys_schedule_bg_process_isr	1
+../STM32_WPAN/Target/ll_sys_if.c:111:6:ll_sys_config_params	1
+../STM32_WPAN/Target/ll_sys_if.c:148:6:ll_sys_bg_temperature_measurement	1

@@ -1,0 +1,4 @@
+../System/Modules/adc_ctrl.c:202:13:adc_ctrl_AdcDeactivate	8	static
+../System/Modules/adc_ctrl.c:231:6:adc_ctrl_init	0	static
+../System/Modules/adc_ctrl.c:243:6:adc_ctrl_req	16	static,ignoring_inline_asm
+../System/Modules/adc_ctrl.c:271:10:adc_ctrl_request_temperature	16	static

@@ -1,0 +1,7 @@
+../STM32_WPAN/Target/ll_sys_if.c:80:6:ll_sys_bg_process_init	8	static
+../STM32_WPAN/Target/ll_sys_if.c:91:6:ll_sys_schedule_bg_process	8	static
+../STM32_WPAN/Target/ll_sys_if.c:101:6:ll_sys_schedule_bg_process_isr	8	static
+../STM32_WPAN/Target/ll_sys_if.c:111:6:ll_sys_config_params	8	static
+../STM32_WPAN/Target/ll_sys_if.c:137:6:ll_sys_bg_temperature_measurement_init	8	static
+../STM32_WPAN/Target/ll_sys_if.c:148:6:ll_sys_bg_temperature_measurement	8	static
+../STM32_WPAN/Target/ll_sys_if.c:158:6:request_temperature_measurement	32	static,ignoring_inline_asm

@@ -1,0 +1,10 @@
+../System/Modules/Flash/simple_nvm_arbiter.c:1715:6:InvokeBufferCallback	48	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:1524:9:IsCrcOk	24	static
+../System/Modules/Flash/simple_nvm_arbiter.c:1611:9:EraseSector	24	static
+../System/Modules/Flash/simple_nvm_arbiter.c:1644:17:StartFlashWrite	24	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:765:6:SNVMA_FlashManagerCallback	32	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:1469:9:IsHeaderOk.constprop	8	static
+../System/Modules/Flash/simple_nvm_arbiter.c:230:20:SNVMA_Init	48	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:418:20:SNVMA_Register	24	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:529:20:SNVMA_Restore	24	static,ignoring_inline_asm
+../System/Modules/Flash/simple_nvm_arbiter.c:651:20:SNVMA_Write	24	static,ignoring_inline_asm
