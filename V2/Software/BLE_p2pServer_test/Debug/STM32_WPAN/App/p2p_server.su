@@ -1,3 +1,0 @@
-../STM32_WPAN/App/p2p_server.c:124:30:P2P_SERVER_EventHandler	72	static
-../STM32_WPAN/App/p2p_server.c:314:6:P2P_SERVER_Init	56	static
-../STM32_WPAN/App/p2p_server.c:432:12:P2P_SERVER_UpdateValue	32	static

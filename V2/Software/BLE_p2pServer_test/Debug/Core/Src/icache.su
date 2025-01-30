@@ -1,2 +1,0 @@
-../Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_pwr.h:567:22:LL_PWR_SetICacheRAMStopRetention	16	static
-../Core/Src/icache.c:28:6:MX_ICACHE_Init	8	static

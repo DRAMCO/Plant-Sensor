@@ -1,3 +1,0 @@
-../Core/Src/ramcfg.c:30:6:MX_RAMCFG_Init	2
-../Core/Src/ramcfg.c:54:6:HAL_RAMCFG_MspInit	1
-../Core/Src/ramcfg.c:67:6:HAL_RAMCFG_MspDeInit	1
