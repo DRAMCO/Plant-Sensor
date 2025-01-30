@@ -8,4 +8,5 @@
   (lib (name "MLPF-WB-04D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-WB-04D3/MLPF-WB-04D3.kicad_sym")(options "")(descr ""))
   (lib (name "NX1612SA-32.000MHZ-CHP-CIS-3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal2/NX1612SA-32.000MHZ-CHP-CIS-3.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-.327-6-1210-TR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal3/ECS-.327-6-1210-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MLPF-NRG-01D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-NRG-01D3/MLPF-NRG-01D3.kicad_sym")(options "")(descr ""))
 )

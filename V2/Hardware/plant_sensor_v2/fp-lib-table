@@ -9,4 +9,5 @@
   (lib (name "MLPF-WB-04D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-WB-04D3")(options "")(descr ""))
   (lib (name "Crystal2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal2")(options "")(descr ""))
   (lib (name "Crystal3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Crystal3")(options "")(descr ""))
+  (lib (name "MLPF-NRG-01D3")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MLPF-NRG-01D3")(options "")(descr ""))
 )

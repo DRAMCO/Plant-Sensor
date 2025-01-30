@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MLPF-NRG-01D3
+D 2.4 GHz Low Pass Filter matched to BLUENRG-LP-LPS (BLUENRG-3x5Vx, BLUENRG-3x5Ax, BLUENRG-332xx) in QFN & CSP packages
+K
+F https://www.st.com/resource/en/datasheet/mlpf-nrg-01d3.pdf
+$ENDCMP
+#
+#End Doc Library
