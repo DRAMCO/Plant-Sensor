@@ -3225,27 +3225,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "B"
-				(at 0 7.62 0)
+			(property "Reference" "B1"
+				(at -0.0254 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "79523141"
-				(at 0 0 0)
+			(property "Value" "WA-BCMC"
+				(at -0.0254 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "WA-BCMC:WA-BCMC_79523141"
-				(at 0 0 0)
+			(property "Footprint" "Battery_holder:WA-BCMC_79523211"
+				(at 0 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3273,7 +3270,7 @@
 				)
 			)
 			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
+				(at 0 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3312,6 +3309,16 @@
 					(hide yes)
 				)
 			)
+			(property "VALUE" "79523141"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
 			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(effects
@@ -3323,7 +3330,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/79523141/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3333,7 +3340,7 @@
 				)
 			)
 			(property "BATTERY-TYPE" "2016,2020,2025,2032"
-				(at 0 0 0)
+				(at 1.016 10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3363,7 +3370,7 @@
 				)
 			)
 			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/79523141?ae"
-				(at 0 0 0)
+				(at 1.524 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3383,7 +3390,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/79523141/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 0 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3604,7 +3611,7 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 0 0)
+					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -4457,6 +4464,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f473bbc5-e9aa-499a-9349-c970a77b84f6")
+	)
+	(no_connect
+		(at 26.67 25.4)
+		(uuid "0557880f-a9b1-4f94-8ac3-f61474a3e891")
 	)
 	(no_connect
 		(at 185.42 146.05)
@@ -5432,6 +5443,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 120.65) (xy 204.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace10d08-cdda-4757-b55a-786bb3655569")
+	)
+	(wire
+		(pts
 			(xy 130.81 113.03) (xy 149.86 113.03)
 		)
 		(stroke
@@ -5702,16 +5723,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 125.73) (xy 204.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f698e4-6573-44bf-9b69-bf46f345c6f4")
-	)
-	(wire
-		(pts
 			(xy 48.26 115.57) (xy 48.26 114.3)
 		)
 		(stroke
@@ -5802,16 +5813,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 204.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd80d153-918a-4d48-8ed2-1e1b0d14b418")
-	)
-	(wire
-		(pts
 			(xy 252.73 25.4) (xy 252.73 27.94)
 		)
 		(stroke
@@ -5889,6 +5890,16 @@
 			(type default)
 		)
 		(uuid "f0c0498a-96b9-4557-9396-32080bf4b1cb")
+	)
+	(wire
+		(pts
+			(xy 185.42 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7af77f1-d7f1-4645-aa64-959842dc053f")
 	)
 	(wire
 		(pts
@@ -6173,7 +6184,6 @@
 	)
 	(label "UART_TX"
 		(at 245.11 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6184,7 +6194,6 @@
 	)
 	(label "CRYSTAL1"
 		(at 208.28 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6195,7 +6204,6 @@
 	)
 	(label "BATT_EN"
 		(at 22.86 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6206,7 +6214,6 @@
 	)
 	(label "SW_IMU"
 		(at 46.99 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6217,7 +6224,6 @@
 	)
 	(label "SW_BATT"
 		(at 92.71 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6228,7 +6234,6 @@
 	)
 	(label "CRYSTAL2"
 		(at 160.02 20.32 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6239,7 +6244,6 @@
 	)
 	(label "~{RESET}"
 		(at 130.81 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6250,7 +6254,6 @@
 	)
 	(label "LED"
 		(at 162.56 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6261,7 +6264,6 @@
 	)
 	(label "OSC_OUT"
 		(at 130.81 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6272,7 +6274,6 @@
 	)
 	(label "IMU_INT"
 		(at 82.55 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6283,7 +6284,6 @@
 	)
 	(label "SWCLK"
 		(at 204.47 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6294,7 +6294,6 @@
 	)
 	(label "VDD_CAP"
 		(at 176.53 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6305,7 +6304,6 @@
 	)
 	(label "~{RESET}"
 		(at 245.11 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6316,7 +6314,6 @@
 	)
 	(label "RF"
 		(at 115.57 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6325,20 +6322,8 @@
 		)
 		(uuid "50d5d07a-0e20-40da-8a35-9cbb812aaa01")
 	)
-	(label "BATT_EN"
-		(at 204.47 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5297e55e-8e94-4699-8384-0acfa1bb25e7")
-	)
 	(label "SW_IMU"
 		(at 73.66 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6349,7 +6334,6 @@
 	)
 	(label "SWDIO"
 		(at 204.47 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6360,7 +6344,6 @@
 	)
 	(label "UART_TX"
 		(at 204.47 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6371,7 +6354,6 @@
 	)
 	(label "BATT_ADC"
 		(at 80.01 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6382,7 +6364,6 @@
 	)
 	(label "~{RESET}"
 		(at 231.14 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6391,9 +6372,18 @@
 		)
 		(uuid "72f9e3bc-fe75-433e-b386-117d76504534")
 	)
+	(label "IMU_INT"
+		(at 204.47 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77b88590-d1ac-4bad-92f5-b340ce505d79")
+	)
 	(label "SCLK"
 		(at 19.05 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6404,7 +6394,6 @@
 	)
 	(label "LED"
 		(at 60.96 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6415,7 +6404,6 @@
 	)
 	(label "SWDIO"
 		(at 245.11 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6426,7 +6414,6 @@
 	)
 	(label "SWCLK"
 		(at 245.11 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6437,7 +6424,6 @@
 	)
 	(label "OSC_OUT"
 		(at 201.93 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6448,7 +6434,6 @@
 	)
 	(label "VDD_CAP"
 		(at 212.09 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6459,7 +6444,6 @@
 	)
 	(label "MISO"
 		(at 19.05 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6470,7 +6454,6 @@
 	)
 	(label "BATT_ADC"
 		(at 204.47 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6479,9 +6462,18 @@
 		)
 		(uuid "91145cf5-e4bc-46ba-9c1a-2c296d57747f")
 	)
+	(label "BATT_EN"
+		(at 204.47 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93bdf262-b58f-4258-adc6-97e46e0d0ba1")
+	)
 	(label "OSC_IN"
 		(at 166.37 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6490,20 +6482,8 @@
 		)
 		(uuid "96ad3ca4-4669-44ed-8585-c22594907396")
 	)
-	(label "IMU_INT"
-		(at 204.47 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0345a5e-8569-47e5-8730-b3bf71c9fbe2")
-	)
 	(label "IMU_EN"
 		(at 162.56 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6514,7 +6494,6 @@
 	)
 	(label "~{SS}"
 		(at 19.05 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,7 +6504,6 @@
 	)
 	(label "VFBSD"
 		(at 130.81 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6536,7 +6514,6 @@
 	)
 	(label "IMU_EN"
 		(at 22.86 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6547,7 +6524,6 @@
 	)
 	(label "MISO"
 		(at 204.47 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6558,7 +6534,6 @@
 	)
 	(label "VLXSD"
 		(at 130.81 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6569,7 +6544,6 @@
 	)
 	(label "~{SS}"
 		(at 204.47 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6580,7 +6554,6 @@
 	)
 	(label "VFBSD"
 		(at 275.59 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6591,7 +6564,6 @@
 	)
 	(label "CRYSTAL2"
 		(at 208.28 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6602,7 +6574,6 @@
 	)
 	(label "OSC_IN"
 		(at 130.81 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6613,7 +6584,6 @@
 	)
 	(label "SCLK"
 		(at 204.47 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6624,7 +6594,6 @@
 	)
 	(label "SW_BATT"
 		(at 73.66 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6635,7 +6604,6 @@
 	)
 	(label "CRYSTAL1"
 		(at 144.78 20.32 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6646,7 +6614,6 @@
 	)
 	(label "VLXSD"
 		(at 275.59 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6657,7 +6624,6 @@
 	)
 	(label "MOSI"
 		(at 19.05 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6668,7 +6634,6 @@
 	)
 	(label "MOSI"
 		(at 204.47 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6679,7 +6644,6 @@
 	)
 	(label "RF"
 		(at 204.47 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12170,7 +12134,7 @@
 			)
 		)
 		(property "Footprint" "Battery_holder:WA-BCMC_79523211"
-			(at 39.37 22.86 0)
+			(at 39.37 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12162,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 39.37 22.86 0)
+			(at 39.37 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12222,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/79523141/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 39.37 22.86 0)
+			(at 39.37 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +12232,7 @@
 			)
 		)
 		(property "BATTERY-TYPE" "2016,2020,2025,2032"
-			(at 39.37 22.86 0)
+			(at 40.386 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12262,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/79523141?ae"
-			(at 39.37 22.86 0)
+			(at 40.894 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12282,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/79523141/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 39.37 22.86 0)
+			(at 39.37 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
