@@ -6269,6 +6269,16 @@
 		)
 		(uuid "16daea37-0925-43dd-8a41-14b1c1894201")
 	)
+	(text "79523211"
+		(exclude_from_sim no)
+		(at 50.8 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1df5a48e-993b-423e-b9d9-725ce869b22d")
+	)
 	(text "Vin: 1V8 - 6V5"
 		(exclude_from_sim no)
 		(at 55.626 34.798 0)
@@ -6459,6 +6469,16 @@
 			)
 		)
 		(uuid "dc18ee93-8bc4-4854-822d-3fb7e001334f")
+	)
+	(text "81-GRM155R60G106ME5D"
+		(exclude_from_sim no)
+		(at 118.364 37.846 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e266184a-95ab-4096-8e3e-9b8494e6694e")
 	)
 	(text "GJM1555C1H6R0CB01"
 		(exclude_from_sim no)
@@ -9212,7 +9232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32WB09KEVx"
+		(property "Value" "STM32WB09KEV6TR"
 			(at 169.8341 158.75 0)
 			(effects
 				(font
