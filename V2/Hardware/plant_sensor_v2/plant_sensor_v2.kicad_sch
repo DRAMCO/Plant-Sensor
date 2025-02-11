@@ -6460,6 +6460,17 @@
 		)
 		(uuid "d77accb4-4a37-4ab7-835b-e90f504b69d3")
 	)
+	(text "TODO:\nAdd TPL5010 as RTC + WDT\n"
+		(exclude_from_sim no)
+		(at 139.446 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9518a80-a932-4391-abe8-007ff5146d19")
+	)
 	(text "VDDRF (15)"
 		(exclude_from_sim no)
 		(at 179.324 52.07 0)
