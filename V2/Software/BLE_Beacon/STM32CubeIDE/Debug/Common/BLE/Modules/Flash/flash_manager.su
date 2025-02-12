@@ -1,0 +1,5 @@
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Projects/Common/BLE/Modules/Flash/flash_manager.c:110:17:FM_Write	40	static
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Projects/Common/BLE/Modules/Flash/flash_manager.c:150:17:FM_Erase	40	static
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Projects/Common/BLE/Modules/Flash/flash_manager.c:186:6:FM_BackgroundProcess	40	static,ignoring_inline_asm
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Projects/Common/BLE/Modules/Flash/flash_manager.c:307:24:FM_CheckFlashManagerState	56	static,ignoring_inline_asm
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Projects/Common/BLE/Modules/Flash/flash_manager.c:384:13:FM_ProcessRequest	16	static

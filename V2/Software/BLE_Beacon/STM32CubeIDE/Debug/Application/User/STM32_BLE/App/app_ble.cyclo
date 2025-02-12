@@ -1,0 +1,16 @@
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Drivers/CMSIS/Include/core_cm0plus.h:987:34:__NVIC_SystemReset	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:84:6:ModulesInit	2
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:93:6:BLE_Init	5
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:225:6:BLEStack_Process_Schedule	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:231:13:BLEStack_Process	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:239:6:VTimer_Process	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:244:6:VTimer_Process_Schedule	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:248:6:NVM_Process	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:253:6:NVM_Process_Schedule	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:259:6:HAL_RADIO_TIMER_TxRxWakeUpCallback	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:265:6:HAL_RADIO_TIMER_CpuWakeUpCallback	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:271:6:HAL_RADIO_TxRxCallback	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:279:6:BLE_STACK_ProcessRequest	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:285:6:APP_BLE_Init	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:326:6:BLEEVT_App_Notification	1
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/STM32_BLE/App/app_ble.c:333:6:hci_hardware_error_event	1

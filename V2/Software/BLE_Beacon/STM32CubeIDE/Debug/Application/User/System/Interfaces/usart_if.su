@@ -1,0 +1,4 @@
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Interfaces/usart_if.c:120:25:UART_Init	16	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Interfaces/usart_if.c:152:25:UART_DeInit	8	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Interfaces/usart_if.c:214:25:UART_StartRx	16	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Interfaces/usart_if.c:243:25:UART_TransmitDMA	24	static

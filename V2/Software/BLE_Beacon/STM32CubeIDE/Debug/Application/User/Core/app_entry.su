@@ -1,0 +1,11 @@
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Drivers/CMSIS/Include/core_cm0plus.h:741:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Drivers/CMSIS/Include/core_cm0plus.h:850:22:__NVIC_SetPriority	24	static
+C:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_usart.h:3508:22:LL_USART_EnableIT_RXNE_RXFNE	32	static,ignoring_inline_asm
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:98:10:MX_APPE_Init	32	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:160:24:App_PowerSaveLevel_Check	16	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:173:13:RxUART_Init	8	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:186:6:UartRxCpltCallback	16	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:209:13:UartCmdExecute	8	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:221:6:MX_APPE_Process	8	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:231:6:UTIL_SEQ_PreIdle	8	static
+C:/Users/jonac/STM32Cube/Example/BLE_Beacon/Core/Src/app_entry.c:241:6:UTIL_SEQ_Idle	96	static,ignoring_inline_asm
