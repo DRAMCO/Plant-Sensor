@@ -9,6 +9,7 @@
 "./Application/User/STM32_BLE/App/eddystone_uid_service.o"
 "./Application/User/STM32_BLE/App/eddystone_url_service.o"
 "./Application/User/STM32_BLE/App/ibeacon_service.o"
+"./Application/User/STM32_BLE/App/plant_sensor_service.o"
 "./Application/User/STM32_BLE/Target/blenvm.o"
 "./Application/User/STM32_BLE/Target/bleplat.o"
 "./Application/User/STM32_BLE/Target/bleplat_cntr.o"

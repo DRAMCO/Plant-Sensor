@@ -74,7 +74,9 @@ Application/User/STM32_BLE/App/app_ble.o: \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_url_service.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_tlm_service.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/ibeacon_service.h \
- C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/ibeacon.h
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/ibeacon.h \
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_beacon.h \
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal.h:
 ../../Core/Inc/stm32wb0x_hal_conf.h:
@@ -154,3 +156,5 @@ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/Ap
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_tlm_service.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/ibeacon_service.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/ibeacon.h:
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_beacon.h:
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.h:

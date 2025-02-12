@@ -1,6 +1,7 @@
-Application/User/Core/app_entry.o: \
- C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Core/Src/app_entry.c \
- ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
+Application/User/STM32_BLE/App/plant_sensor_service.o: \
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.c \
+ ../../Middlewares/ST/STM32_BLE/ble.h ../../STM32_BLE/App/ble_conf.h \
+ ../../Core/Inc/app_conf.h \
  ../../Drivers/CMSIS/Device/ST/STM32WB0X/Include/stm32wb0x.h \
  ../../Drivers/CMSIS/Device/ST/STM32WB0X/Include/stm32wb09.h \
  ../../Drivers/CMSIS/Include/core_cm0plus.h \
@@ -38,30 +39,21 @@ Application/User/Core/app_entry.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
- ../../Core/Inc/main.h ../../Core/Inc/app_entry.h \
- ../../Core/Inc/app_common.h ../../System/Config/Debug_GPIO/app_debug.h \
- ../../Projects/Common/BLE/Modules/RTDebug/RTDebug.h \
- ../../System/Config/Debug_GPIO/debug_config.h ../../Core/Inc/app_conf.h \
- ../../Projects/Common/BLE/Modules/RTDebug/debug_signals.h \
- ../../Projects/Common/BLE/Modules/compiler.h \
- ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h \
- ../../Core/Inc/stm32wb0x_nucleo_conf.h \
- ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h \
- ../../Utilities/sequencer/stm32_seq.h ../../STM32_BLE/App/app_ble.h \
- ../../Middlewares/ST/STM32_BLE/stack/include/ble_events.h \
- ../../Middlewares/ST/STM32_BLE/stack/include/ble_types.h \
- ../../Projects/Common/BLE/Interfaces/hw_rng.h \
- ../../Projects/Common/BLE/Interfaces/hw_aes.h \
- ../../Projects/Common/BLE/Interfaces/hw_pka.h \
- ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_usart.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_status.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack_user_cfg.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_api.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_gatt.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_api.h \
- ../../Middlewares/ST/STM32_BLE/stack/include/ble_events.h
-../../Core/Inc/app_common.h:
+ ../../Middlewares/ST/STM32_BLE/stack/include/ble_events.h \
+ ../../Projects/Common/BLE/Modules/compiler.h \
+ ../../Middlewares/ST/STM32_BLE/stack/include/ble_types.h \
+ ../../Middlewares/ST/STM32_BLE/stack/include/ble_const.h \
+ ../../Middlewares/ST/STM32_BLE/stack/include/uuid.h \
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_beacon.h \
+ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.h
+../../Middlewares/ST/STM32_BLE/ble.h:
+../../STM32_BLE/App/ble_conf.h:
 ../../Core/Inc/app_conf.h:
 ../../Drivers/CMSIS/Device/ST/STM32WB0X/Include/stm32wb0x.h:
 ../../Drivers/CMSIS/Device/ST/STM32WB0X/Include/stm32wb09.h:
@@ -100,26 +92,6 @@ Application/User/Core/app_entry.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
-../../Core/Inc/main.h:
-../../Core/Inc/app_entry.h:
-../../Core/Inc/app_common.h:
-../../System/Config/Debug_GPIO/app_debug.h:
-../../Projects/Common/BLE/Modules/RTDebug/RTDebug.h:
-../../System/Config/Debug_GPIO/debug_config.h:
-../../Core/Inc/app_conf.h:
-../../Projects/Common/BLE/Modules/RTDebug/debug_signals.h:
-../../Projects/Common/BLE/Modules/compiler.h:
-../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h:
-../../Core/Inc/stm32wb0x_nucleo_conf.h:
-../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h:
-../../Utilities/sequencer/stm32_seq.h:
-../../STM32_BLE/App/app_ble.h:
-../../Middlewares/ST/STM32_BLE/stack/include/ble_events.h:
-../../Middlewares/ST/STM32_BLE/stack/include/ble_types.h:
-../../Projects/Common/BLE/Interfaces/hw_rng.h:
-../../Projects/Common/BLE/Interfaces/hw_aes.h:
-../../Projects/Common/BLE/Interfaces/hw_pka.h:
-../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_usart.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_status.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack_user_cfg.h:
@@ -127,3 +99,9 @@ Application/User/Core/app_entry.o: \
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_gatt.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_api.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_events.h:
+../../Projects/Common/BLE/Modules/compiler.h:
+../../Middlewares/ST/STM32_BLE/stack/include/ble_types.h:
+../../Middlewares/ST/STM32_BLE/stack/include/ble_const.h:
+../../Middlewares/ST/STM32_BLE/stack/include/uuid.h:
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_beacon.h:
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.h:

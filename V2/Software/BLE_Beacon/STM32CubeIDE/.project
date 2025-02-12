@@ -282,6 +282,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/STM32_BLE/App/ibeacon_service.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/STM32_BLE/App/plant_sensor_service.c</name>
+			<type>1</type>
+			<location>C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/plant_sensor_service.c</location>
+		</link>
+		<link>
 			<name>Application/User/STM32_BLE/Target/blenvm.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/STM32_BLE/Target/blenvm.c</locationURI>

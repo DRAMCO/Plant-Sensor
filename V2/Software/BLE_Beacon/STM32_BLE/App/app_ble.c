@@ -41,6 +41,8 @@
 #include "eddystone_tlm_service.h"
 #include "ibeacon_service.h"
 #include "ibeacon.h"
+#include "plant_sensor_beacon.h"
+#include "plant_sensor_service.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -300,6 +302,9 @@ void APP_BLE_Init(void)
 
   /* Make the device discoverable  */
 
+  PlantSensor_Process();
+
+  /*
   if (CFG_BEACON_TYPE & CFG_EDDYSTONE_UID_BEACON_TYPE)
   {
     APP_DBG_MSG("Eddystone UID beacon advertise\n\r");
@@ -320,6 +325,7 @@ void APP_BLE_Init(void)
     APP_DBG_MSG("Ibeacon advertise\n\r");
     IBeacon_Process();
   }
+  */
   
 /* USER CODE END APP_BLE_Init_2 */
   return;
