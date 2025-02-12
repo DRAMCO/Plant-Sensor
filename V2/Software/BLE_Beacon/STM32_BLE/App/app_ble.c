@@ -296,8 +296,10 @@ void APP_BLE_Init(void)
   BLE_Init();
 
 /* USER CODE BEGIN APP_BLE_Init_2 */
-  
+
+
   /* Make the device discoverable  */
+
   if (CFG_BEACON_TYPE & CFG_EDDYSTONE_UID_BEACON_TYPE)
   {
     APP_DBG_MSG("Eddystone UID beacon advertise\n\r");

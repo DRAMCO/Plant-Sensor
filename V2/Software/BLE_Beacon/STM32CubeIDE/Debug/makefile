@@ -83,8 +83,8 @@ all: main-build
 main-build: BLE_Beacon.elf secondary-outputs
 
 # Tool invocations
-BLE_Beacon.elf BLE_Beacon.map: $(OBJS) $(USER_OBJS) C:\Users\jonac\STM32Cube\Example\BLE_Beacon\STM32CubeIDE\STM32WB09KEVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BLE_Beacon.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m0plus -T"C:\Users\jonac\STM32Cube\Example\BLE_Beacon\STM32CubeIDE\STM32WB09KEVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_Beacon.map" -Wl,--gc-sections -static -L../../Middlewares/ST/STM32_BLE/cryptolib -L../../Middlewares/ST/STM32_BLE/stack/lib -LC:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Middlewares/ST/STM32_BLE/cryptolib -LC:/Users/jonac/STM32Cube/Repository/STM32Cube_FW_WB0_V1.1.0/Middlewares/ST/STM32_BLE/stack/lib -z noexecstack --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BLE_Beacon.elf BLE_Beacon.map: $(OBJS) $(USER_OBJS) C:\Users\jonac\Documents\GitHub\Plant-Sensor\V2\Software\BLE_Beacon\STM32CubeIDE\STM32WB09KEVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BLE_Beacon.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m0plus -T"C:\Users\jonac\Documents\GitHub\Plant-Sensor\V2\Software\BLE_Beacon\STM32CubeIDE\STM32WB09KEVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_Beacon.map" -Wl,--gc-sections -static -L../../Middlewares/ST/STM32_BLE/cryptolib -L../../Middlewares/ST/STM32_BLE/stack/lib -z noexecstack --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

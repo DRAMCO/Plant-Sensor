@@ -1,4 +1,4 @@
-C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:27:6:APP_DEBUG_SIGNAL_SET	1
-C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:33:6:APP_DEBUG_SIGNAL_RESET	1
-C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:40:6:APP_DEBUG_SIGNAL_TOGGLE	1
-C:/Users/jonac/STM32Cube/Example/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:51:6:RT_DEBUG_GPIO_Init	1
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:27:6:APP_DEBUG_SIGNAL_SET	1
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:33:6:APP_DEBUG_SIGNAL_RESET	1
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:40:6:APP_DEBUG_SIGNAL_TOGGLE	1
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/System/Config/Debug_GPIO/app_debug.c:51:6:RT_DEBUG_GPIO_Init	1
