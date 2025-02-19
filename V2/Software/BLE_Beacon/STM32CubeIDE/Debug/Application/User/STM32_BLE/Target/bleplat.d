@@ -58,6 +58,8 @@ Application/User/STM32_BLE/Target/bleplat.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
  ../../Projects/Common/BLE/Modules/RADIO_utils/Inc/RADIO_utils.h \
@@ -122,6 +124,8 @@ Application/User/STM32_BLE/Target/bleplat.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
 ../../Projects/Common/BLE/Modules/RADIO_utils/Inc/RADIO_utils.h:

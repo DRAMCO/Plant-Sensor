@@ -36,6 +36,8 @@ Application/User/Core/stm32wb0x_it.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
  ../../Core/Inc/app_entry.h ../../Core/Inc/app_conf.h \
@@ -47,7 +49,7 @@ Application/User/Core/stm32wb0x_it.o: \
  ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h \
  ../../Core/Inc/stm32wb0x_nucleo_conf.h \
  ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h \
- ../../Core/Inc/stm32wb0x_it.h \
+ ../../Utilities/sequencer/stm32_seq.h ../../Core/Inc/stm32wb0x_it.h \
  ../../Projects/Common/BLE/Interfaces/hw_pka.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_status.h \
@@ -97,6 +99,8 @@ Application/User/Core/stm32wb0x_it.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
 ../../Core/Inc/app_entry.h:
@@ -111,6 +115,7 @@ Application/User/Core/stm32wb0x_it.o: \
 ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h:
 ../../Core/Inc/stm32wb0x_nucleo_conf.h:
 ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h:
+../../Utilities/sequencer/stm32_seq.h:
 ../../Core/Inc/stm32wb0x_it.h:
 ../../Projects/Common/BLE/Interfaces/hw_pka.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h:

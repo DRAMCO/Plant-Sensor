@@ -59,7 +59,7 @@ extern "C" {
 #define T_REG_OFF  0     /*!< Log without bitmask */
 
 /* USER CODE BEGIN EC */
-
+#define UTIL_SEQ_CONF_PRIO_NBR CFG_SEQ_PRIO_NBR
 /* USER CODE END EC */
 /* External variables --------------------------------------------------------*/
 /* USER CODE BEGIN EV */

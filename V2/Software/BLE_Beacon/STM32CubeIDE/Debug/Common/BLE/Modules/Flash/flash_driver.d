@@ -38,6 +38,8 @@ Common/BLE/Modules/Flash/flash_driver.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/Flash/flash_driver.h \
@@ -95,6 +97,8 @@ Common/BLE/Modules/Flash/flash_driver.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/Flash/flash_driver.h:

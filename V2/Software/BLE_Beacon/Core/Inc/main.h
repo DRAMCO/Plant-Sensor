@@ -36,6 +36,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stm32wb0x_nucleo.h"
+#include "stm32_seq.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -62,6 +63,12 @@ void MX_USART1_UART_Init(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BATT_EN_Pin GPIO_PIN_0
+#define BATT_EN_GPIO_Port GPIOB
+#define LED_Pin GPIO_PIN_0
+#define LED_GPIO_Port GPIOA
+#define IMU_EN_Pin GPIO_PIN_6
+#define IMU_EN_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

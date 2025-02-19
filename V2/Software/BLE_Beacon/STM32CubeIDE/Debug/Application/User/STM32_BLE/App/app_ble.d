@@ -36,6 +36,8 @@ Application/User/STM32_BLE/App/app_ble.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
  ../../Core/Inc/app_entry.h ../../Core/Inc/app_conf.h \
@@ -47,6 +49,7 @@ Application/User/STM32_BLE/App/app_ble.o: \
  ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h \
  ../../Core/Inc/stm32wb0x_nucleo_conf.h \
  ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h \
+ ../../Utilities/sequencer/stm32_seq.h \
  ../../Middlewares/ST/STM32_BLE/ble.h ../../STM32_BLE/App/ble_conf.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h \
  ../../Middlewares/ST/STM32_BLE/stack/include/ble_status.h \
@@ -68,7 +71,6 @@ Application/User/STM32_BLE/App/app_ble.o: \
  ../../Projects/Common/BLE/Modules/NVMDB/Inc/nvm_db.h \
  ../../STM32_BLE/Target/blenvm.h \
  ../../Projects/Common/BLE/Modules/PKAMGR/Inc/pka_manager.h \
- ../../Utilities/sequencer/stm32_seq.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_beacon.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_uid_service.h \
  C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_url_service.h \
@@ -113,6 +115,8 @@ Application/User/STM32_BLE/App/app_ble.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
 ../../Core/Inc/app_entry.h:
@@ -127,6 +131,7 @@ Application/User/STM32_BLE/App/app_ble.o: \
 ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.h:
 ../../Core/Inc/stm32wb0x_nucleo_conf.h:
 ../../Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo_errno.h:
+../../Utilities/sequencer/stm32_seq.h:
 ../../Middlewares/ST/STM32_BLE/ble.h:
 ../../STM32_BLE/App/ble_conf.h:
 ../../Middlewares/ST/STM32_BLE/stack/include/ble_stack.h:
@@ -149,7 +154,6 @@ C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/Ap
 ../../Projects/Common/BLE/Modules/NVMDB/Inc/nvm_db.h:
 ../../STM32_BLE/Target/blenvm.h:
 ../../Projects/Common/BLE/Modules/PKAMGR/Inc/pka_manager.h:
-../../Utilities/sequencer/stm32_seq.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_beacon.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_uid_service.h:
 C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/STM32_BLE/App/eddystone_url_service.h:

@@ -35,6 +35,8 @@ Common/BLE/Interface/hw_pka.o: \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h \
+ ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h \
  ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h \
  ../../Projects/Common/BLE/Modules/PKAMGR/Inc/pka_manager.h \
@@ -75,6 +77,8 @@ Common/BLE/Interface/hw_pka.o: \
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_ll_bus.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rcc_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_rng.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi.h:
+../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_spi_ex.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart.h:
 ../../Drivers/STM32WB0x_HAL_Driver/Inc/stm32wb0x_hal_uart_ex.h:
 ../../Projects/Common/BLE/Modules/PKAMGR/Inc/pka_manager.h:

@@ -457,6 +457,7 @@ typedef enum
   TASK_BUTTON_1,
   TASK_BUTTON_2,
   TASK_BUTTON_3,
+  TASK_LED,
   /* USER CODE END CFG_Task_Id_t */
   CFG_TASK_NBR,  /**< Shall be LAST in the list */
 } CFG_Task_Id_t;
@@ -474,7 +475,7 @@ typedef enum
   CFG_SEQ_PRIO_0,
   CFG_SEQ_PRIO_1,
   /* USER CODE BEGIN CFG_SEQ_Prio_Id_t */
-
+  CFG_SEQ_PRIO_LOW,
   /* USER CODE END CFG_SEQ_Prio_Id_t */
   CFG_SEQ_PRIO_NBR
 } CFG_SEQ_Prio_Id_t;

@@ -31,7 +31,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -42,6 +41,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 PKA_HandleTypeDef hpka;
+
+SPI_HandleTypeDef hspi3;
 
 UART_HandleTypeDef huart1;
 
@@ -56,8 +57,9 @@ static void MX_GPIO_Init(void);
 static void MX_RADIO_Init(void);
 static void MX_RADIO_TIMER_Init(void);
 static void MX_PKA_Init(void);
+static void MX_SPI3_Init(void);
 /* USER CODE BEGIN PFP */
-
+static void function_TASK_LED( void );
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -101,6 +103,7 @@ int main(void)
   MX_RADIO_TIMER_Init();
   MX_PKA_Init();
   MX_USART1_UART_Init();
+  MX_SPI3_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -110,12 +113,20 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  UTIL_SEQ_RegTask(1U << TASK_LED, UTIL_SEQ_RFU, function_TASK_LED);
+  UTIL_SEQ_SetTask(1U << TASK_LED, CFG_SEQ_PRIO_LOW);
+
+  HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_SET);
+
   while (1)
   {
     /* USER CODE END WHILE */
     MX_APPE_Process();
 
     /* USER CODE BEGIN 3 */
+
   }
   /* USER CODE END 3 */
 }
@@ -271,6 +282,46 @@ static void MX_RADIO_TIMER_Init(void)
 }
 
 /**
+  * @brief SPI3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SPI3_Init(void)
+{
+
+  /* USER CODE BEGIN SPI3_Init 0 */
+
+  /* USER CODE END SPI3_Init 0 */
+
+  /* USER CODE BEGIN SPI3_Init 1 */
+
+  /* USER CODE END SPI3_Init 1 */
+  /* SPI3 parameter configuration*/
+  hspi3.Instance = SPI3;
+  hspi3.Init.Mode = SPI_MODE_MASTER;
+  hspi3.Init.Direction = SPI_DIRECTION_2LINES;
+  hspi3.Init.DataSize = SPI_DATASIZE_4BIT;
+  hspi3.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi3.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi3.Init.NSS = SPI_NSS_HARD_OUTPUT;
+  hspi3.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi3.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi3.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi3.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi3.Init.CRCPolynomial = 7;
+  hspi3.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
+  hspi3.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
+  if (HAL_SPI_Init(&hspi3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SPI3_Init 2 */
+
+  /* USER CODE END SPI3_Init 2 */
+
+}
+
+/**
   * @brief USART1 Initialization Function
   * @param None
   * @retval None
@@ -325,6 +376,7 @@ void MX_USART1_UART_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 /* USER CODE BEGIN MX_GPIO_Init_1 */
 /* USER CODE END MX_GPIO_Init_1 */
 
@@ -332,15 +384,45 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : LED_Pin */
+  GPIO_InitStruct.Pin = LED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(LED_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : IMU_EN_Pin */
+  GPIO_InitStruct.Pin = IMU_EN_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(IMU_EN_GPIO_Port, &GPIO_InitStruct);
+
+  /**/
+  LL_PWR_SetNoPullA(LL_PWR_GPIO_BIT_0);
+
   /*RT DEBUG GPIO_Init */
   RT_DEBUG_GPIO_Init();
+
+  /**/
+  LL_PWR_SetNoPullB(LL_PWR_GPIO_BIT_6);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
-
+/* task definition */
+static void function_TASK_LED( void )
+{
+    HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+}
 /* USER CODE END 4 */
 
 /**
