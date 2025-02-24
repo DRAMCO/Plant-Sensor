@@ -86,8 +86,12 @@ tBleStatus PlantSensor_Init(void)
   for (uint8_t i = 0 ; i< 6; i++)
       sensor_service_data[i+BEACONID_OFFSET] = BeaconID[i];
 
+
+  /* We need to send a ADV_NONCONN_IND packet, which is non-connectable and non-scannable */
+  /* Then AUX_ADV_IND packet with upto 254 bytes of advertising data */
+
   /* Set advertising configuration for legacy advertising */  
-  ret = aci_gap_set_advertising_configuration(ADV_UID_HANDLE, 
+  ret = aci_gap_set_advertising_configuration(ADV_UID_HANDLE,
                                               GAP_MODE_GENERAL_DISCOVERABLE,
                                               HCI_ADV_EVENT_PROP_LEGACY,
                                               AdvertisingInterval, 
@@ -97,9 +101,9 @@ tBleStatus PlantSensor_Init(void)
                                               NULL, /* No peer address */
                                               HCI_ADV_FILTER_NONE,
                                               0, /* 0 dBm */
-                                              HCI_PHY_LE_1M, /* Primary advertising PHY */
+											  HCI_PHY_LE_CODED_S8, /* Primary advertising PHY */
                                               0, /* 0 skips */
-                                              HCI_PHY_LE_1M, /* Secondary advertising PHY. Not used with legacy advertising. */
+											  HCI_PHY_LE_CODED_S8, /* Secondary advertising PHY. Not used with legacy advertising. */
                                               0, /* SID */
                                               0 /* No scan request notifications */);
   if (ret != BLE_STATUS_SUCCESS)

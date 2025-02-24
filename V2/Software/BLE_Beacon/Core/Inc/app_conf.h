@@ -45,13 +45,13 @@
 /**
  * Define Tx Power
  */
-#define CFG_TX_POWER                        (0x18) /* 0x18 <=> 0 dBm */
+#define CFG_TX_POWER                        (0x1F) /* 0x1F <=> 6 dBm */
 
 /**
  * Define Advertising parameters
  */
 #define CFG_PUBLIC_BD_ADDRESS               (0x0280E1887766)
-#define CFG_BD_ADDRESS_TYPE                 HCI_ADDR_STATIC_RANDOM_ADDR
+#define CFG_BD_ADDRESS_TYPE                 HCI_ADDR_PUBLIC
 #define CFG_BLE_PRIVACY_ENABLED             (0)
 
 #define ADV_INTERVAL_MIN                    (0x0080)
@@ -332,8 +332,8 @@
 #define CFG_BLE_CONTROLLER_SCAN_ENABLED                   (0U)
 #define CFG_BLE_CONTROLLER_PRIVACY_ENABLED                (0U)
 #define CFG_BLE_SECURE_CONNECTIONS_ENABLED                (0U)
-#define CFG_BLE_CONTROLLER_DATA_LENGTH_EXTENSION_ENABLED  (0U)
-#define CFG_BLE_CONTROLLER_2M_CODED_PHY_ENABLED           (0U)
+#define CFG_BLE_CONTROLLER_DATA_LENGTH_EXTENSION_ENABLED  (1U)
+#define CFG_BLE_CONTROLLER_2M_CODED_PHY_ENABLED           (1U)
 #define CFG_BLE_CONTROLLER_EXT_ADV_SCAN_ENABLED           (0U)
 #define CFG_BLE_L2CAP_COS_ENABLED                         (0U)
 #define CFG_BLE_CONTROLLER_PERIODIC_ADV_ENABLED           (0U)

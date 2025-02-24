@@ -117,8 +117,8 @@ int main(void)
   UTIL_SEQ_RegTask(1U << TASK_LED, UTIL_SEQ_RFU, function_TASK_LED);
   UTIL_SEQ_SetTask(1U << TASK_LED, CFG_SEQ_PRIO_LOW);
 
-  HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_RESET);
 
   while (1)
   {
@@ -421,7 +421,7 @@ static void MX_GPIO_Init(void)
 /* task definition */
 static void function_TASK_LED( void )
 {
-    HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
 }
 /* USER CODE END 4 */
 

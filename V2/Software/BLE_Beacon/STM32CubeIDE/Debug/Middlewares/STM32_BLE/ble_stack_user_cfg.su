@@ -1,0 +1,7 @@
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:604:10:data_length_extension_csr_ucfg	8	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:620:10:phy_upd_csr_ucfg	8	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:2910:9:LL_phy_upd_pending_ucfg	16	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:3154:12:ll_write_supported_data_ucfg	24	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:5916:12:hci_le_set_default_phy	24	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:6300:12:hci_le_receiver_test_v2	24	static
+C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Middlewares/ST/STM32_BLE/stack/config/ble_stack_user_cfg.c:6332:12:hci_le_transmitter_test_v2	24	static
