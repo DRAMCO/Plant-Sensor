@@ -43,6 +43,7 @@
 #include "ibeacon.h"
 #include "plant_sensor_beacon.h"
 #include "plant_sensor_service.h"
+#include "adv_ext_app.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -302,7 +303,12 @@ void APP_BLE_Init(void)
 
   /* Make the device discoverable  */
 
-  PlantSensor_Process();
+
+  ADV_EXT_Config();
+
+  ADV_EXT_Start();
+
+  // PlantSensor_Process();
 
   /*
   if (CFG_BEACON_TYPE & CFG_EDDYSTONE_UID_BEACON_TYPE)

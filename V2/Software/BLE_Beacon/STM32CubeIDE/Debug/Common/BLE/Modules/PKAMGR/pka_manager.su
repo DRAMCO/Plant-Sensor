@@ -1,7 +1,0 @@
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:89:21:PKAMGR_Init	8	static
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:96:21:PKAMGR_Deinit	8	static
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:103:21:PKAMGR_SleepCheck	16	static
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:113:21:PKAMGR_Lock	24	static,ignoring_inline_asm
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:133:21:PKAMGR_Unlock	24	static,ignoring_inline_asm
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:153:21:PKAMGR_StartP256PublicKeyGeneration	16	static
-C:/Users/jonac/Documents/GitHub/Plant-Sensor/V2/Software/BLE_Beacon/Projects/Common/BLE/Modules/PKAMGR/Src/pka_manager.c:158:13:PKAMGR_IRQCallback	8	static

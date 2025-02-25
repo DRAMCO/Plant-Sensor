@@ -37,6 +37,7 @@ extern "C" {
 /* USER CODE BEGIN Includes */
 #include "stm32wb0x_nucleo.h"
 #include "stm32_seq.h"
+#include "SEGGER_RTT.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -56,7 +57,6 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
-void MX_USART1_UART_Init(void);
 
 /* USER CODE BEGIN EFP */
 

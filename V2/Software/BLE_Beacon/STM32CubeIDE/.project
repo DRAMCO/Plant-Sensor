@@ -187,9 +187,39 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/app_entry.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/Core/gpio.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/gpio.c</locationURI>
+		</link>
+		<link>
 			<name>Application/User/Core/main.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/main.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/memorymap.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/memorymap.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/pka.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/pka.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/radio.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/radio.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/radio_timer.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/radio_timer.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/spi.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/spi.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/stm32wb0x_hal_msp.c</name>
@@ -200,6 +230,26 @@
 			<name>Application/User/Core/stm32wb0x_it.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/stm32wb0x_it.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/usart.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/usart.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/RTT/SEGGER_RTT.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/SEGGER_RTT.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/RTT/SEGGER_RTT_Syscalls_GCC.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/SEGGER_RTT_Syscalls_GCC.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/RTT/SEGGER_RTT_printf.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/SEGGER_RTT_printf.c</locationURI>
 		</link>
 		<link>
 			<name>Common/BLE/Interface/cryptolib_hw_aes.c</name>
@@ -265,6 +315,11 @@
 			<name>Drivers/BSP/NUCLEO-WB09KE/stm32wb0x_nucleo.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/BSP/STM32WB0x-nucleo/stm32wb0x_nucleo.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_BLE/App/adv_ext_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_BLE/App/adv_ext_app.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/STM32_BLE/App/app_ble.c</name>

@@ -27,9 +27,6 @@
 /* Private types -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 
-static uint8_t NamespaceID[10] = { NAMESPACE_ID };
-static uint8_t BeaconID[6] = { BEACON_ID };
-
 uint8_t sensor_service_data[31] =   /* It also includes AD_TYPE_16_BIT_SERV_UUID_CMPLT_LIST and  AD_TYPE_FLAGS */
   {
     2,                                                                       /*< Length. */
@@ -37,7 +34,7 @@ uint8_t sensor_service_data[31] =   /* It also includes AD_TYPE_16_BIT_SERV_UUID
     (FLAG_BIT_LE_GENERAL_DISCOVERABLE_MODE | FLAG_BIT_BR_EDR_NOT_SUPPORTED),  /*< BLE general discoverable, without BR/EDR support. */
     3,                                                                       /*< Length. */
     AD_TYPE_16_BIT_SERV_UUID_CMPLT_LIST,                                     /*< Complete list of 16-bit Service UUIDs data type value. */
-    0xAA, 0xFE,    
+    0xAA, 0xFE,
     23,                                                                      /*< Length. */
 	AD_TYPE_16_BIT_UUID_SERVICE_DATA,                                        /*< Service Data data type value. */
     0xAA, 0xFE,                                                              /*< 16-bit Eddystone UUID. */
@@ -63,6 +60,12 @@ uint8_t sensor_service_data[31] =   /* It also includes AD_TYPE_16_BIT_SERV_UUID
     0x00                                                                    /*< Reserved. */
   };
   
+uint8_t a_AdvData[31] =
+{
+  //2, AD_TYPE_FLAGS, FLAG_BIT_LE_GENERAL_DISCOVERABLE_MODE|FLAG_BIT_BR_EDR_NOT_SUPPORTED,
+  6, AD_TYPE_COMPLETE_LOCAL_NAME, 'P', 'l', 'a', 'n', 't',  /* Complete name */
+  23, AD_TYPE_MANUFACTURER_SPECIFIC_DATA, 0x01, 0x02, 0x03, 0x04,
+};
    
 /* Private define ------------------------------------------------------------*/
 #define ADVERTISING_INTERVAL_INCREMENT (16)
@@ -76,23 +79,25 @@ uint8_t sensor_service_data[31] =   /* It also includes AD_TYPE_16_BIT_SERV_UUID
 /* Exported functions --------------------------------------------------------*/
 tBleStatus PlantSensor_Init(void)
 {
+  LOG("PlantSensor_Init\r\n");
+
   tBleStatus ret = BLE_STATUS_SUCCESS;
   uint16_t AdvertisingInterval = (ADVERTISING_INTERVAL_IN_MS * ADVERTISING_INTERVAL_INCREMENT / 10);
   Advertising_Set_Parameters_t Advertising_Set_Parameters;
 
 
-  for (uint8_t i = 0 ; i< 10; i++)
-      sensor_service_data[i+NAMESPACE_OFFSET] = NamespaceID[i];
-  for (uint8_t i = 0 ; i< 6; i++)
-      sensor_service_data[i+BEACONID_OFFSET] = BeaconID[i];
+  for(uint8_t i=0; i<sizeof(a_AdvData)-7; i++)
+  {
+	  a_AdvData[i+7] = i;
+  }
 
 
-  /* We need to send a ADV_NONCONN_IND packet, which is non-connectable and non-scannable */
+  /* We need to send a ADV_EXT_IND packet, which is non-connectable and non-scannable */
   /* Then AUX_ADV_IND packet with upto 254 bytes of advertising data */
 
   /* Set advertising configuration for legacy advertising */  
   ret = aci_gap_set_advertising_configuration(ADV_UID_HANDLE,
-                                              GAP_MODE_GENERAL_DISCOVERABLE,
+		  	  	  	  	  	  	  	  	  	  GAP_MODE_BROADCAST,
                                               HCI_ADV_EVENT_PROP_LEGACY,
                                               AdvertisingInterval, 
                                               AdvertisingInterval,
@@ -112,7 +117,7 @@ tBleStatus PlantSensor_Init(void)
     return ret;
   }
 
-  ret = aci_gap_set_advertising_data(ADV_UID_HANDLE, ADV_COMPLETE_DATA, sizeof(sensor_service_data), sensor_service_data);
+  ret = aci_gap_set_advertising_data(ADV_UID_HANDLE, ADV_COMPLETE_DATA, sizeof(a_AdvData), a_AdvData);
   if (ret != BLE_STATUS_SUCCESS)
   {
     APP_DBG_MSG("Error in aci_gap_set_advertising_data() 0x%02x\r\n", ret);
@@ -130,6 +135,8 @@ tBleStatus PlantSensor_Init(void)
     APP_DBG_MSG("Error in aci_gap_set_advertising_enable() 0x%02x\r\n", ret);
     return ret; 
   }
+
+  LOG("PlantSensor_Init ret: %d\r\n", ret);
 
   return ret;
 }

@@ -25,7 +25,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32wb0x.h"
 /* USER CODE BEGIN Includes */
-
+#include "SEGGER_RTT.h"
 /* USER CODE END Includes */
 
 /**
@@ -95,7 +95,7 @@
 #define CFG_GAP_APPEARANCE                  (GAP_APPEARANCE_UNKNOWN)
 
 /* USER CODE BEGIN Generic_Parameters */
-
+#define CFG_ADV_TX_POWER_DBM              (0)
 /* USER CODE END Generic_Parameters */
 
 /**< specific parameters */
@@ -188,7 +188,7 @@
  * Maximum number of Advertising Data Sets, if Advertising Extension Feature is
  * enabled.
  */
-#define CFG_BLE_NUM_ADV_SETS                            (3)
+#define CFG_BLE_NUM_ADV_SETS                            (1)
 
 /**
  * Maximum number of Periodic Advertising with Responses subevents.
@@ -334,7 +334,7 @@
 #define CFG_BLE_SECURE_CONNECTIONS_ENABLED                (0U)
 #define CFG_BLE_CONTROLLER_DATA_LENGTH_EXTENSION_ENABLED  (1U)
 #define CFG_BLE_CONTROLLER_2M_CODED_PHY_ENABLED           (1U)
-#define CFG_BLE_CONTROLLER_EXT_ADV_SCAN_ENABLED           (0U)
+#define CFG_BLE_CONTROLLER_EXT_ADV_SCAN_ENABLED           (1U)
 #define CFG_BLE_L2CAP_COS_ENABLED                         (0U)
 #define CFG_BLE_CONTROLLER_PERIODIC_ADV_ENABLED           (0U)
 #define CFG_BLE_CONTROLLER_PERIODIC_ADV_WR_ENABLED        (0U)
@@ -437,7 +437,12 @@ typedef enum
 #endif
 
 /* USER CODE BEGIN Traces */
-
+#define CUSTOM_DEBUG_ROUTING
+#ifdef CUSTOM_DEBUG_ROUTING
+#undef APP_DBG
+#define APP_DBG(...) SEGGER_RTT_printf(0, __VA_ARGS__)
+#define LOG(...) SEGGER_RTT_printf(0, __VA_ARGS__)
+#endif
 /* USER CODE END Traces */
 
 /******************************************************************************

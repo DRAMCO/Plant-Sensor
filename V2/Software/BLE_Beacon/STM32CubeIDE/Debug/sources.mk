@@ -25,6 +25,7 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Application/User/Core \
+Application/User/RTT \
 Application/User/STM32_BLE/App \
 Application/User/STM32_BLE/Target \
 Application/User/Startup \

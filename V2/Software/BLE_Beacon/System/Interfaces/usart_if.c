@@ -19,7 +19,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "usart.h"
 #include "stm32_adv_trace.h"
 #include "usart_if.h"
 

@@ -28,6 +28,7 @@ RM := rm -rf
 -include Application/User/Startup/subdir.mk
 -include Application/User/STM32_BLE/Target/subdir.mk
 -include Application/User/STM32_BLE/App/subdir.mk
+-include Application/User/RTT/subdir.mk
 -include Application/User/Core/subdir.mk
 -include objects.mk
 
