@@ -40,12 +40,12 @@
 /**
  * Define Tx Power Mode
  */
-#define CFG_TX_POWER_MODE                   (0) /* Tx normal power mode */
+#define CFG_TX_POWER_MODE                   (1) /* Tx high power mode */
 
 /**
  * Define Tx Power
  */
-#define CFG_TX_POWER                        (0x1F) /* 0x1F <=> 6 dBm */
+#define CFG_TX_POWER                        (0x20) /* 0x20 <=> 8 dBm */
 
 /**
  * Define Advertising parameters

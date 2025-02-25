@@ -110,9 +110,9 @@ uint8_t ADV_EXT_Config(void)
   adv_set_param[i].data_len = sizeof(a_ext_adv_data_2);
   strcpy(adv_set_param[i].username, "Plant Sensor x");
   adv_set_param[i].sid = i;
-  adv_set_param[i].interval_min = 1000;
-  adv_set_param[i].interval_max = 1000;
-  adv_set_param[i].tx_power = CFG_ADV_TX_POWER_DBM;
+  adv_set_param[i].interval_min = 100;
+  adv_set_param[i].interval_max = 200;
+  adv_set_param[i].tx_power = CFG_TX_POWER;
   adv_set_param[i].adv_channels = HCI_ADV_CH_ALL;
   adv_set_param[i].property = HCI_ADV_EVENT_PROP_NONE;
   adv_set_param[i].peer_address_type = HCI_ADDR_PUBLIC;
@@ -120,7 +120,7 @@ uint8_t ADV_EXT_Config(void)
   adv_set_param[i].adv_set.Advertising_Handle = i;
   adv_set_param[i].adv_set.Duration = 0;
   adv_set_param[i].adv_set.Max_Extended_Advertising_Events = 0;
-  
+
   status = ADV_EXT_Build_data(&adv_set_param[i]);
   if (status == BLE_STATUS_SUCCESS)
   {
@@ -217,7 +217,22 @@ uint8_t ADV_EXT_Start(void)
 }
 
 /* USER CODE BEGIN FD */
+uint8_t ADV_EXT_Stop(void)
+{
+	tBleStatus status = BLE_STATUS_INVALID_PARAMS;
 
+    status = aci_gap_set_advertising_enable(0, 0, &adv_set_param[0].adv_set);
+
+    if (status == BLE_STATUS_SUCCESS)
+    {
+      APP_DBG_MSG("  Success: aci_gap_set_advertising_enable\n");
+    }
+    else
+    {
+      APP_DBG_MSG("  Fail   : aci_gap_set_advertising_enable, result: 0x%02X\n", status);
+    }
+
+}
 /* USER CODE END FD */
 
 /*************************************************************

@@ -58,6 +58,7 @@ extern "C" {
 /* Exported functions ---------------------------------------------*/
 uint8_t ADV_EXT_Config(void);
 uint8_t ADV_EXT_Start(void);
+uint8_t ADV_EXT_Stop(void);
 /* USER CODE BEGIN EF */
 
 /* USER CODE END EF */
