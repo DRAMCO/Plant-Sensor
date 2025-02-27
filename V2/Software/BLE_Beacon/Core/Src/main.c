@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "memorymap.h"
 #include "pka.h"
 #include "radio.h"
@@ -38,6 +39,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -95,6 +97,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_RADIO_Init();
   MX_RADIO_TIMER_Init();
   MX_PKA_Init();
@@ -113,8 +116,16 @@ int main(void)
   UTIL_SEQ_RegTask(1U << TASK_LED, UTIL_SEQ_RFU, function_TASK_LED);
   UTIL_SEQ_SetTask(1U << TASK_LED, CFG_SEQ_PRIO_LOW);
 
-  HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_SET);
+
+  HAL_Delay(100);
+
+  uint8_t temp[2];
+  ICM_20948_registerWrite(ICM_20948_REG_USER_CTRL, (1 << 4));
+  ICM_20948_registerRead(ICM_20948_REG_WHO_AM_I, 1, temp);
+
+
 
   while (1)
   {

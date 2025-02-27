@@ -1,4 +1,5 @@
 "./Application/User/Core/app_entry.o"
+"./Application/User/Core/dma.o"
 "./Application/User/Core/gpio.o"
 "./Application/User/Core/main.o"
 "./Application/User/Core/memorymap.o"
@@ -11,6 +12,7 @@
 "./Application/User/Core/syscalls.o"
 "./Application/User/Core/sysmem.o"
 "./Application/User/Core/usart.o"
+"./Application/User/ICM20948/ICM20948.o"
 "./Application/User/RTT/SEGGER_RTT.o"
 "./Application/User/RTT/SEGGER_RTT_Syscalls_GCC.o"
 "./Application/User/RTT/SEGGER_RTT_printf.o"

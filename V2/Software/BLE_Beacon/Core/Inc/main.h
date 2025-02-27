@@ -38,6 +38,7 @@ extern "C" {
 #include "stm32wb0x_nucleo.h"
 #include "stm32_seq.h"
 #include "SEGGER_RTT.h"
+#include "ICM20948.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

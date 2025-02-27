@@ -64,6 +64,9 @@
 
 /* External variables --------------------------------------------------------*/
 extern PKA_HandleTypeDef hpka;
+extern DMA_HandleTypeDef hdma_spi3_tx;
+extern DMA_HandleTypeDef hdma_spi3_rx;
+extern SPI_HandleTypeDef hspi3;
 extern UART_HandleTypeDef huart1;
 /* USER CODE BEGIN EV */
 
@@ -148,6 +151,20 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles SPI3 global interrupt.
+  */
+void SPI3_IRQHandler(void)
+{
+  /* USER CODE BEGIN SPI3_IRQn 0 */
+
+  /* USER CODE END SPI3_IRQn 0 */
+  HAL_SPI_IRQHandler(&hspi3);
+  /* USER CODE BEGIN SPI3_IRQn 1 */
+
+  /* USER CODE END SPI3_IRQn 1 */
+}
+
+/**
   * @brief This function handles USART1 Interrupt.
   */
 void USART1_IRQHandler(void)
@@ -183,6 +200,21 @@ void PKA_IRQHandler(void)
   /* USER CODE BEGIN PKA_IRQn 1 */
 
   /* USER CODE END PKA_IRQn 1 */
+}
+
+/**
+  * @brief This function handles DMA global interrupt.
+  */
+void DMA_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA_IRQn 0 */
+
+  /* USER CODE END DMA_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_spi3_tx);
+  HAL_DMA_IRQHandler(&hdma_spi3_rx);
+  /* USER CODE BEGIN DMA_IRQn 1 */
+
+  /* USER CODE END DMA_IRQn 1 */
 }
 
 /**
