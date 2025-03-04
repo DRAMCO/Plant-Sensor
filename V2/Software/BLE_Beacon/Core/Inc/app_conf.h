@@ -463,6 +463,7 @@ typedef enum
   TASK_BUTTON_2,
   TASK_BUTTON_3,
   TASK_LED,
+  TASK_IMU,
   /* USER CODE END CFG_Task_Id_t */
   CFG_TASK_NBR,  /**< Shall be LAST in the list */
 } CFG_Task_Id_t;

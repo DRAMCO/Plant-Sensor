@@ -11,6 +11,11 @@ RM := rm -rf
 -include sources.mk
 -include Utilities/subdir.mk
 -include Middlewares/STM32_BLE/subdir.mk
+-include Invn/VSensor/subdir.mk
+-include Invn/EmbUtils/subdir.mk
+-include Invn/DynamicProtocol/subdir.mk
+-include Invn/Devices/Drivers/Icm20948/subdir.mk
+-include Invn/Devices/subdir.mk
 -include Drivers/STM32WB0x_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
 -include Drivers/BSP/NUCLEO-WB09KE/subdir.mk

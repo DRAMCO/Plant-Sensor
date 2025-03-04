@@ -15,8 +15,8 @@
 
 void ICM_20948_registerWrite(uint16_t addr, uint8_t data);
 void ICM_20948_registerRead(uint16_t addr, int numBytes, uint8_t *data);
-
-
+void poll_icm20948(void);
+void ICM20948_Init(void);
 
 
 #define ICM_20948_OK					0x0000				/**< IMU OK return value */

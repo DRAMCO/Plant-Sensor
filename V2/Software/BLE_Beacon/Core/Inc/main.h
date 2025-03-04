@@ -68,6 +68,10 @@ void Error_Handler(void);
 #define BATT_EN_GPIO_Port GPIOB
 #define LED_Pin GPIO_PIN_0
 #define LED_GPIO_Port GPIOA
+#define SPI3_CS_Pin GPIO_PIN_9
+#define SPI3_CS_GPIO_Port GPIOA
+#define IMU_INT_Pin GPIO_PIN_7
+#define IMU_INT_GPIO_Port GPIOB
 #define IMU_EN_Pin GPIO_PIN_6
 #define IMU_EN_GPIO_Port GPIOB
 

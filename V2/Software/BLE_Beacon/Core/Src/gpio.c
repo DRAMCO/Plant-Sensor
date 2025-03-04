@@ -20,6 +20,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "gpio.h"
+#include "app_conf.h"
 
 /* USER CODE BEGIN 0 */
 
@@ -54,7 +55,7 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_Pin|SPI3_CS_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(IMU_EN_GPIO_Port, IMU_EN_Pin, GPIO_PIN_RESET);
@@ -67,12 +68,18 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Alternate = GPIO_AF7_SWDIO;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : LED_Pin */
-  GPIO_InitStruct.Pin = LED_Pin;
+  /*Configure GPIO pins : LED_Pin SPI3_CS_Pin */
+  GPIO_InitStruct.Pin = LED_Pin|SPI3_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : IMU_INT_Pin */
+  GPIO_InitStruct.Pin = IMU_INT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(IMU_INT_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : IMU_EN_Pin */
   GPIO_InitStruct.Pin = IMU_EN_Pin;
@@ -85,7 +92,7 @@ void MX_GPIO_Init(void)
   LL_PWR_EnableGPIOPullUp(LL_PWR_GPIO_A, LL_PWR_GPIO_BIT_2);
 
   /**/
-  LL_PWR_SetNoPullA(LL_PWR_GPIO_BIT_0);
+  LL_PWR_SetNoPullA(LL_PWR_GPIO_BIT_0|LL_PWR_GPIO_BIT_9);
 
   /*RT DEBUG GPIO_Init */
   RT_DEBUG_GPIO_Init();
@@ -93,8 +100,18 @@ void MX_GPIO_Init(void)
   /**/
   LL_PWR_SetNoPullB(LL_PWR_GPIO_BIT_6);
 
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(GPIOB_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(GPIOB_IRQn);
+
 }
 
 /* USER CODE BEGIN 2 */
-
+void HAL_GPIO_EXTI_Callback(GPIO_TypeDef* GPIOx,uint16_t GPIO_Pin)
+{
+  if (GPIO_Pin == IMU_INT_Pin)
+  {
+	  UTIL_SEQ_SetTask(1U << TASK_IMU, CFG_SEQ_PRIO_LOW);
+  }
+}
 /* USER CODE END 2 */

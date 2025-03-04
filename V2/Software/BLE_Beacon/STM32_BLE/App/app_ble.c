@@ -304,9 +304,11 @@ void APP_BLE_Init(void)
   /* Make the device discoverable  */
 
 
-  ADV_EXT_Config();
+  /************************/
+  //ADV_EXT_Config();
+  //ADV_EXT_Start();
+  /************************/
 
-  ADV_EXT_Start();
 
   // PlantSensor_Process();
 

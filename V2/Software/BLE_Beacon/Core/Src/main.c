@@ -24,6 +24,7 @@
 #include "radio.h"
 #include "radio_timer.h"
 #include "spi.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -103,8 +104,14 @@ int main(void)
   MX_PKA_Init();
   MX_USART1_UART_Init();
   MX_SPI3_Init();
+  MX_TIM17_Init();
   /* USER CODE BEGIN 2 */
   SEGGER_RTT_ConfigUpBuffer(0, NULL, NULL, 0, SEGGER_RTT_MODE_NO_BLOCK_SKIP);
+
+  HAL_GPIO_WritePin(SPI3_CS_GPIO_Port, SPI3_CS_Pin, GPIO_PIN_SET);
+
+  HAL_TIM_Base_Start(&htim17);
+
   /* USER CODE END 2 */
 
   /* Init code for STM32_BLE */
@@ -114,6 +121,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   UTIL_SEQ_RegTask(1U << TASK_LED, UTIL_SEQ_RFU, function_TASK_LED);
+  UTIL_SEQ_RegTask(1U << TASK_IMU, UTIL_SEQ_RFU, poll_icm20948);
+
   UTIL_SEQ_SetTask(1U << TASK_LED, CFG_SEQ_PRIO_LOW);
 
   HAL_GPIO_WritePin(BATT_EN_GPIO_Port, BATT_EN_Pin, GPIO_PIN_SET);
@@ -121,11 +130,7 @@ int main(void)
 
   HAL_Delay(100);
 
-  uint8_t temp[2];
-  ICM_20948_registerWrite(ICM_20948_REG_USER_CTRL, (1 << 4));
-  ICM_20948_registerRead(ICM_20948_REG_WHO_AM_I, 1, temp);
-
-
+  ICM20948_Init();
 
   while (1)
   {
@@ -194,6 +199,7 @@ static void function_TASK_LED( void )
 {
     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
 }
+
 /* USER CODE END 4 */
 
 /**

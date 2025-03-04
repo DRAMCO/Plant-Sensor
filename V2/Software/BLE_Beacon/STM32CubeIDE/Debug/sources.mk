@@ -44,6 +44,11 @@ Common/BLE/Startup \
 Drivers/BSP/NUCLEO-WB09KE \
 Drivers/CMSIS \
 Drivers/STM32WB0x_HAL_Driver \
+Invn/Devices \
+Invn/Devices/Drivers/Icm20948 \
+Invn/DynamicProtocol \
+Invn/EmbUtils \
+Invn/VSensor \
 Middlewares/STM32_BLE \
 Utilities \
 

@@ -64,8 +64,8 @@
 
 /* External variables --------------------------------------------------------*/
 extern PKA_HandleTypeDef hpka;
-extern DMA_HandleTypeDef hdma_spi3_tx;
 extern DMA_HandleTypeDef hdma_spi3_rx;
+extern DMA_HandleTypeDef hdma_spi3_tx;
 extern SPI_HandleTypeDef hspi3;
 extern UART_HandleTypeDef huart1;
 /* USER CODE BEGIN EV */
@@ -210,11 +210,25 @@ void DMA_IRQHandler(void)
   /* USER CODE BEGIN DMA_IRQn 0 */
 
   /* USER CODE END DMA_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_spi3_tx);
   HAL_DMA_IRQHandler(&hdma_spi3_rx);
+  HAL_DMA_IRQHandler(&hdma_spi3_tx);
   /* USER CODE BEGIN DMA_IRQn 1 */
 
   /* USER CODE END DMA_IRQn 1 */
+}
+
+/**
+  * @brief This function handles GPIOB interrupt.
+  */
+void GPIOB_IRQHandler(void)
+{
+  /* USER CODE BEGIN GPIOB_IRQn 0 */
+
+  /* USER CODE END GPIOB_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(GPIOB,GPIO_PIN_7);
+  /* USER CODE BEGIN GPIOB_IRQn 1 */
+
+  /* USER CODE END GPIOB_IRQn 1 */
 }
 
 /**
