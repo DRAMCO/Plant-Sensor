@@ -305,8 +305,8 @@ void APP_BLE_Init(void)
 
 
   /************************/
-  //ADV_EXT_Config();
-  //ADV_EXT_Start();
+  ADV_EXT_Config();
+  ADV_EXT_Start();
   /************************/
 
 
