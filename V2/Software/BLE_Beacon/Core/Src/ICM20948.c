@@ -16,8 +16,8 @@
 #include "SensorConfig.h"
 
 
-#define GRYO_FSR	500 // 500dps
-#define ACCEL_FSR	4 //4G
+#define GRYO_FSR	250 // 250dps
+#define ACCEL_FSR	2 //2G
 #define IMU_DEFAULT_SAMPL_FREQ  10 // 225 Hz
 
 // forward declarations
@@ -29,7 +29,8 @@ int my_adapter_register_interrupt_callback(void (*interrupt_cb)(void * context, 
 static void sensor_event_cb(const inv_sensor_event_t * event, void * arg);
 static void imu_config_fsr_gyro(int fsr_in);
 static void imu_config_fsr_accel(int fsr_in);
-
+static void start_raw_sensors();
+static void stop_raw_sensors();
 
 
 enum
@@ -222,7 +223,7 @@ inv_sensor_listener_t sensor_listener = {
 
 
 // definition of the instance
-const inv_host_serif_t my_serif_instance = {
+const inv_host_serif_t serif_instance_spi = {
         my_serif_open_adapter,
         my_serif_close_adapter,
         my_serif_open_read_reg,
@@ -330,8 +331,7 @@ uint64_t inv_icm20948_get_time_us(void)
 				//uint32_t time_us = nrf_drv_timer_capture(&TIMER_MICROS, NRF_TIMER_CC_CHANNEL0);
 //				NRF_LOG_INFO("Timer value requested: %d", time_us);
 
-	uint32_t time_us = __HAL_TIM_GET_COUNTER(&htim17);
-
+	uint32_t time_us = __HAL_TIM_GET_COUNTER(&htim2);
 }
 
 /*
@@ -345,10 +345,12 @@ void inv_icm20948_sleep_us(int us)
          * execution for the specified amount of us
          */
 
-        (void)us;
-        uint32_t start = __HAL_TIM_GET_COUNTER(&htim17);;
-        uint32_t duration = us * 16;
-        while (__HAL_TIM_GET_COUNTER(&htim17) - start < duration);
+		// Timer 16 -> 0.1 ms resolution
+        //(void)us;
+		HAL_TIM_Base_Start(&htim16);
+		__HAL_TIM_SET_COUNTER(&htim16,0);  // set the counter value a 0
+		while (__HAL_TIM_GET_COUNTER(&htim16) < (uint16_t)(us/100));  // wait for the counter to reach the us input in the parameter
+		HAL_TIM_Base_Stop(&htim16);
 }
 
 
@@ -368,7 +370,10 @@ void HAL_SPI_ErrorCallback(SPI_HandleTypeDef *hspi)
   wTransferState = TRANSFER_ERROR;
 }
 
-
+const inv_host_serif_t * idd_io_hal_get_serif_instance_spi(void)
+{
+	return &serif_instance_spi;
+}
 
 
 void ICM20948_Init(void)
@@ -378,22 +383,28 @@ void ICM20948_Init(void)
 
 		uint8_t whoami;
 
+		rc += inv_host_serif_open(idd_io_hal_get_serif_instance_spi());
+
 		/*
 		 * Create ICM20948 Device
 		 * Pass to the driver:
 		 * - reference to serial interface object,
 		 * - reference to listener that will catch sensor events,
 		 */
-		inv_device_icm20948_init(&device_icm20948, &my_serif_instance, &sensor_listener, dmp3_image, sizeof(dmp3_image));
+		inv_device_icm20948_init(&device_icm20948, idd_io_hal_get_serif_instance_spi(), &sensor_listener, dmp3_image, sizeof(dmp3_image));
+		HAL_Delay(100);
 
 		/*
 		 * Simply get generic device handle from Icm20948 Device
 		 */
 		device = inv_device_icm20948_get_base(&device_icm20948);
+		HAL_Delay(100);
 
 		/* Just get the whoami */
 		rc += inv_device_whoami(device, &whoami);
 		check_rc(rc);
+		HAL_Delay(100);
+
 
 		// Reset to known state
 		rc += inv_device_reset(device);
@@ -402,38 +413,63 @@ void ICM20948_Init(void)
 		/* Configure and initialize the Icm20948 device */
 		rc += inv_device_setup(device);
 		check_rc(rc);
+		HAL_Delay(100);
 
-		rc += inv_device_load(device, (int) NULL, dmp3_image, sizeof(dmp3_image), true /* verify */, (int) NULL);
-		check_rc(rc);
+		//rc += inv_device_load(device, (int) NULL, dmp3_image, sizeof(dmp3_image), true /* verify */, (int) NULL);
+		//check_rc(rc);
+		//HAL_Delay(100);
 
-		//imu_config_fsr_gyro(GRYO_FSR);
-		//imu_config_fsr_accel(ACCEL_FSR);
+		//rc += inv_device_icm20948_setup(&device_icm20948);
+		//check_rc(rc);
 
-/*
-		rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_GYROSCOPE);
-		check_rc(rc);
-		rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_GYROSCOPE, IMU_DEFAULT_SAMPL_FREQ);
-		check_rc(rc);
-		rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_GYROSCOPE);
-		check_rc(rc);
+		imu_config_fsr_gyro(GRYO_FSR);
+		imu_config_fsr_accel(ACCEL_FSR);
 
-		rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_ACCELEROMETER);
-		check_rc(rc);
-		rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_ACCELEROMETER, IMU_DEFAULT_SAMPL_FREQ);
-		check_rc(rc);
-		rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_ACCELEROMETER);
-		check_rc(rc);
-*/
-		rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_RAW_MAGNETOMETER);
-		check_rc(rc);
-		rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_RAW_MAGNETOMETER, IMU_DEFAULT_SAMPL_FREQ);
-		check_rc(rc);
-		rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_RAW_MAGNETOMETER);
-		check_rc(rc);
+		start_raw_sensors();
+
 
 
 		// Apply stored IMU offsets from flash
 		//apply_stored_offsets();
+}
+
+static void start_raw_sensors()
+{
+	int rc = 0;
+
+	rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_GYROSCOPE);
+	check_rc(rc);
+	rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_GYROSCOPE, IMU_DEFAULT_SAMPL_FREQ);
+	check_rc(rc);
+	rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_GYROSCOPE);
+	check_rc(rc);
+
+	rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_ACCELEROMETER);
+	check_rc(rc);
+	rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_ACCELEROMETER, IMU_DEFAULT_SAMPL_FREQ);
+	check_rc(rc);
+	rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_ACCELEROMETER);
+	check_rc(rc);
+
+	rc += inv_device_ping_sensor(device, INV_SENSOR_TYPE_MAGNETOMETER);
+	check_rc(rc);
+	rc += inv_device_set_sensor_period(device, INV_SENSOR_TYPE_MAGNETOMETER, IMU_DEFAULT_SAMPL_FREQ);
+	check_rc(rc);
+	rc += inv_device_start_sensor(device, INV_SENSOR_TYPE_MAGNETOMETER);
+	check_rc(rc);
+}
+
+
+static void stop_raw_sensors()
+{
+	int rc = 0;
+
+    rc += inv_device_stop_sensor(device, INV_SENSOR_TYPE_GYROSCOPE);
+    check_rc(rc);
+    rc += inv_device_stop_sensor(device, INV_SENSOR_TYPE_ACCELEROMETER);
+    check_rc(rc);
+    rc += inv_device_stop_sensor(device, INV_SENSOR_TYPE_MAGNETOMETER);
+    check_rc(rc);
 }
 
 

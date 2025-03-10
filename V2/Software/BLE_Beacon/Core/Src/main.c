@@ -104,14 +104,14 @@ int main(void)
   MX_PKA_Init();
   MX_USART1_UART_Init();
   MX_SPI3_Init();
-  MX_TIM17_Init();
+  MX_TIM16_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   SEGGER_RTT_ConfigUpBuffer(0, NULL, NULL, 0, SEGGER_RTT_MODE_NO_BLOCK_SKIP);
 
   HAL_GPIO_WritePin(SPI3_CS_GPIO_Port, SPI3_CS_Pin, GPIO_PIN_SET);
 
-  HAL_TIM_Base_Start(&htim17);
-
+  HAL_TIM_Base_Start(&htim2);
   /* USER CODE END 2 */
 
   /* Init code for STM32_BLE */
