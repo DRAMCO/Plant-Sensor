@@ -1,0 +1,2914 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "NOMADe IMU v2.0"
+Date ""
+Rev ""
+Comp "Dramco - KU Leuven"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7000 12000 6900 12000
+Wire Wire Line
+	6900 12000 6900 11900
+Wire Wire Line
+	6500 11900 6700 11900
+Wire Wire Line
+	6700 11900 6700 12000
+Wire Wire Line
+	6700 11900 6900 11900
+Connection ~ 6700 11900
+Wire Wire Line
+	7000 12200 6900 12200
+Wire Wire Line
+	6900 12200 6900 12300
+Wire Wire Line
+	6500 12300 6700 12300
+Wire Wire Line
+	6700 12300 6700 12200
+Wire Wire Line
+	6700 12300 6900 12300
+Connection ~ 6700 12300
+Wire Wire Line
+	6200 12300 6100 12300
+Wire Wire Line
+	6200 11900 6100 11900
+Wire Wire Line
+	6100 11900 6100 12100
+Wire Wire Line
+	6100 12100 6100 12300
+Wire Wire Line
+	6100 12100 6000 12100
+Wire Wire Line
+	6000 12100 6000 12200
+Connection ~ 6100 12100
+Text Label 6200 12300 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 11200 6000 11200
+Wire Wire Line
+	6000 11200 6000 11400
+Wire Wire Line
+	6000 11400 6000 11600
+Wire Wire Line
+	6000 11600 6000 11700
+Wire Wire Line
+	6200 11000 6000 11000
+Wire Wire Line
+	6000 11000 6000 11200
+Wire Wire Line
+	6200 11400 6000 11400
+Wire Wire Line
+	6000 11600 6200 11600
+Connection ~ 6000 11200
+Connection ~ 6000 11400
+Connection ~ 6000 11600
+Text Label 6200 11200 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 13300 6300 13200
+Text Label 6300 13300 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 13300 5400 12400
+Wire Wire Line
+	7000 13800 6900 13800
+Wire Wire Line
+	6900 13800 6900 13900
+Text Label 7000 13800 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 13300 5700 13200
+Wire Wire Line
+	6300 8200 5700 8200
+Wire Wire Line
+	5700 8200 5700 8300
+Text Label 6300 8200 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 8300 6000 8300
+Text Label 6300 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 8100 7600 8100
+Wire Wire Line
+	7500 8200 7600 8200
+Wire Wire Line
+	7600 8100 7600 8200
+Wire Wire Line
+	7500 8300 7600 8300
+Wire Wire Line
+	7600 8200 7600 8300
+Wire Wire Line
+	7500 8400 7600 8400
+Wire Wire Line
+	7600 8300 7600 8400
+Wire Wire Line
+	7600 8300 8000 8300
+Connection ~ 7600 8200
+Connection ~ 7600 8300
+Text Label 7500 8100 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 8600 8600 8800
+Text Label 8600 8600 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 8600 9100 8800
+Text Label 9100 8600 0    10   ~ 0
+GND
+Wire Wire Line
+	11850 14200 11850 13800
+Wire Wire Line
+	11850 13800 11950 13800
+Wire Wire Line
+	11350 14100 11350 14200
+Wire Wire Line
+	11050 14100 11050 14200
+Wire Wire Line
+	2200 14200 2200 14400
+Text Label 2200 14200 0    10   ~ 0
+GND
+Wire Wire Line
+	10650 14100 10650 14200
+Wire Wire Line
+	9000 13400 9000 13500
+Text Label 9000 13400 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 13400 9400 13500
+Text Label 9400 13400 0    10   ~ 0
+GND
+Wire Wire Line
+	18700 13700 18700 13900
+Text Label 18700 13700 0    10   ~ 0
+GND
+Wire Wire Line
+	19500 13800 19500 13900
+Wire Wire Line
+	16700 10100 16900 10100
+Wire Wire Line
+	15000 8900 15500 8900
+Text Label 15100 8900 0    70   ~ 0
+GND
+Wire Wire Line
+	20150 10150 20150 10250
+Wire Wire Line
+	13500 7150 13500 7200
+Text Label 13500 7150 0    10   ~ 0
+GND
+Wire Wire Line
+	17350 7950 17350 8050
+Text Label 17350 7950 0    10   ~ 0
+GND
+Wire Wire Line
+	19750 8800 19750 8400
+Wire Wire Line
+	20250 8750 20250 8800
+Wire Wire Line
+	18650 10250 18650 10400
+Wire Wire Line
+	19050 10250 19050 10400
+Wire Wire Line
+	7000 12400 6900 12400
+Text Label 6900 12400 2    50   ~ 0
+P00
+Wire Wire Line
+	7000 12600 6900 12600
+Text Label 6900 12600 2    50   ~ 0
+P01
+Wire Wire Line
+	7000 10900 6800 10900
+Wire Wire Line
+	6800 10900 6800 10800
+Text Label 7000 10900 0    10   ~ 0
+VDD
+Wire Wire Line
+	7700 8900 7700 9000
+Text Label 7700 8900 0    10   ~ 0
+VDD
+Wire Wire Line
+	6200 8400 6200 8700
+Wire Wire Line
+	6200 8400 6300 8400
+Text Label 6200 8400 0    10   ~ 0
+VDD
+Wire Wire Line
+	4800 8100 4900 8100
+Wire Wire Line
+	4800 8100 4800 7900
+Text Label 4800 8100 0    10   ~ 0
+VDD
+Text Label 9100 8300 0    10   ~ 0
+VDD
+Wire Wire Line
+	3850 13900 3850 13800
+Text Label 3850 13900 0    10   ~ 0
+VDD
+Wire Wire Line
+	6500 11000 6700 11000
+Wire Wire Line
+	6700 11000 6700 11100
+Wire Wire Line
+	6700 11100 7000 11100
+Wire Wire Line
+	7000 11200 6500 11200
+Wire Wire Line
+	7000 11400 6800 11400
+Wire Wire Line
+	6800 11400 6800 11600
+Wire Wire Line
+	6800 11600 6500 11600
+Wire Wire Line
+	7000 11800 6900 11800
+Text Label 6900 11800 2    50   ~ 0
+~RESET~
+Wire Wire Line
+	2200 13900 2200 13800
+Text Label 2200 13700 1    50   ~ 0
+~RESET~
+Wire Wire Line
+	3850 14100 3750 14100
+Text Label 3750 14100 2    50   ~ 0
+~RESET~
+Wire Wire Line
+	6200 12800 6300 12800
+Wire Wire Line
+	6300 12800 7000 12800
+Wire Wire Line
+	6300 12900 6300 12800
+Connection ~ 6300 12800
+Wire Wire Line
+	5800 12800 5700 12800
+Wire Wire Line
+	5700 12800 5500 12800
+Wire Wire Line
+	5500 12800 5500 12400
+Wire Wire Line
+	5700 12900 5700 12800
+Connection ~ 5700 12800
+Wire Wire Line
+	6500 11400 6700 11400
+Wire Wire Line
+	6700 11400 6700 11300
+Wire Wire Line
+	6700 11300 7000 11300
+Wire Wire Line
+	7000 13000 6900 13000
+Wire Wire Line
+	7000 13100 6900 13100
+Wire Wire Line
+	8300 12800 8400 12800
+Text Label 8400 12800 0    50   ~ 0
+P24
+Wire Wire Line
+	8300 12300 8400 12300
+Text Label 8400 12300 0    50   ~ 0
+P18
+Wire Wire Line
+	3850 14300 3750 14300
+Text Label 3750 14300 2    50   ~ 0
+P18
+Text Label 16450 13300 0    50   ~ 0
+LED
+Wire Wire Line
+	8300 11800 8600 11800
+Text Label 8600 11800 0    50   ~ 0
+LED
+Wire Wire Line
+	8300 13700 8400 13700
+Text Label 8400 13700 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	3850 14000 3750 14000
+Text Label 3750 14000 2    50   ~ 0
+SWDIO
+Wire Wire Line
+	8300 13800 8400 13800
+Text Label 8400 13800 0    50   ~ 0
+SWDCLK
+Wire Wire Line
+	3850 14200 3750 14200
+Text Label 3750 14200 2    50   ~ 0
+SWDCLK
+Wire Wire Line
+	7000 13400 6900 13400
+Wire Wire Line
+	5700 8100 6300 8100
+Wire Wire Line
+	7500 8500 7700 8500
+Wire Wire Line
+	11950 13700 11650 13700
+Wire Wire Line
+	11650 13700 11650 13800
+Text Label 11850 13500 2    50   ~ 0
+INT
+Wire Wire Line
+	8300 12500 8700 12500
+Text Label 8700 12500 0    50   ~ 0
+INT
+Wire Wire Line
+	8300 12400 8600 12400
+Text Label 8600 12400 0    50   ~ 0
+FSYNC
+Wire Wire Line
+	13250 13700 13150 13700
+Text Label 13250 13700 0    50   ~ 0
+SDA/SDI
+Text Label 9250 12000 0    50   ~ 0
+SDA/SDI
+Wire Wire Line
+	13250 13600 13150 13600
+Text Label 13250 13600 0    50   ~ 0
+SCL/SCLK
+Text Label 9250 12100 0    50   ~ 0
+SCL/SCLK
+Text Label 8600 8300 0    10   ~ 0
+VIN
+Wire Wire Line
+	7500 8000 7600 8000
+Wire Wire Line
+	7600 8000 7600 7900
+Text Label 7500 8000 0    10   ~ 0
+VIN
+Wire Wire Line
+	6300 8000 6200 8000
+Wire Wire Line
+	6200 8000 6200 7900
+Text Label 6300 8000 0    10   ~ 0
+VIN
+Wire Wire Line
+	4200 8100 4200 7900
+Text Label 4200 8100 0    10   ~ 0
+VIN
+Wire Wire Line
+	18700 12700 18700 12400
+Text Label 18700 12700 0    10   ~ 0
+VIN
+Wire Wire Line
+	19050 9700 18650 9700
+Wire Wire Line
+	18650 9700 18650 9950
+Wire Wire Line
+	19050 9950 19050 9700
+Wire Wire Line
+	9000 13100 9000 13000
+Wire Wire Line
+	9000 13000 8300 13000
+Wire Wire Line
+	8300 12900 9400 12900
+Wire Wire Line
+	9400 12900 9400 13100
+Wire Wire Line
+	8300 11900 8500 11900
+Text Label 8500 11900 0    70   ~ 0
+IMU_VDD
+Wire Wire Line
+	11050 13300 11050 13800
+Wire Wire Line
+	11350 13300 11350 13800
+Wire Wire Line
+	11950 13400 11850 13400
+Wire Wire Line
+	11850 13400 11850 13300
+Wire Wire Line
+	11850 13300 11950 13300
+Wire Wire Line
+	11850 13300 11350 13300
+Wire Wire Line
+	11350 13300 11050 13300
+Wire Wire Line
+	13150 13500 13750 13500
+Wire Wire Line
+	13750 13500 13750 12800
+Wire Wire Line
+	13750 12800 11850 12800
+Wire Wire Line
+	11850 12800 11850 13300
+Wire Wire Line
+	10650 13300 10650 13800
+Wire Wire Line
+	10650 13300 10850 13300
+Wire Wire Line
+	13150 13800 13750 13800
+Wire Wire Line
+	13750 13800 13750 13500
+Connection ~ 11850 13300
+Connection ~ 11350 13300
+Connection ~ 11050 13300
+Connection ~ 13750 13500
+Text Label 10750 13300 1    70   ~ 0
+IMU_VDD
+Wire Wire Line
+	9500 12500 9500 12600
+Text Label 9500 12600 3    70   ~ 0
+IMU_VDD
+Wire Wire Line
+	9200 11600 9200 11500
+Text Label 9200 11500 1    70   ~ 0
+IMU_VDD
+Wire Wire Line
+	8300 11000 8700 11000
+Text Label 8700 11000 0    70   ~ 0
+V_BATT
+Wire Wire Line
+	18700 13100 18700 13200
+Wire Wire Line
+	18700 13200 18700 13300
+Wire Wire Line
+	18700 13200 19500 13200
+Wire Wire Line
+	19500 13200 19900 13200
+Wire Wire Line
+	19500 13500 19500 13200
+Connection ~ 18700 13200
+Text Label 19900 13200 0    70   ~ 0
+V_BATT
+Connection ~ 19500 13200
+Wire Wire Line
+	10750 8900 10750 8500
+Wire Wire Line
+	10750 8500 10750 8100
+Wire Wire Line
+	10750 8100 10950 8100
+Wire Wire Line
+	10750 8500 10950 8500
+Wire Wire Line
+	10750 8900 10950 8900
+Wire Wire Line
+	10750 8900 10650 8900
+Connection ~ 10750 8500
+Connection ~ 10750 8900
+Wire Wire Line
+	11250 8100 11450 8100
+Wire Wire Line
+	11450 8100 11450 8500
+Wire Wire Line
+	11250 8500 11450 8500
+Wire Wire Line
+	11250 8900 11450 8900
+Wire Wire Line
+	11450 8500 11450 8900
+Wire Wire Line
+	11450 8900 11750 8900
+Wire Wire Line
+	11750 8900 12050 8900
+Wire Wire Line
+	12050 8900 13150 8900
+Wire Wire Line
+	12250 8000 12050 8000
+Wire Wire Line
+	12050 8000 12050 8300
+Wire Wire Line
+	12050 8300 12050 8600
+Wire Wire Line
+	12050 8600 12050 8900
+Wire Wire Line
+	12250 8300 12050 8300
+Wire Wire Line
+	12250 8600 12050 8600
+Wire Wire Line
+	11750 9050 11750 8900
+Wire Wire Line
+	11450 9050 11450 8900
+Wire Wire Line
+	12050 9050 12050 8900
+Connection ~ 11450 8500
+Connection ~ 11450 8900
+Connection ~ 12050 8900
+Connection ~ 12050 8300
+Connection ~ 12050 8600
+Connection ~ 11750 8900
+Text Label 12700 8900 0    70   ~ 0
+AC1
+Wire Wire Line
+	15000 9400 15500 9400
+Text Label 15100 9400 0    70   ~ 0
+AC1
+Wire Wire Line
+	10650 9500 11450 9500
+Wire Wire Line
+	11450 9500 11750 9500
+Wire Wire Line
+	11750 9500 12050 9500
+Wire Wire Line
+	12050 9500 13150 9500
+Wire Wire Line
+	12250 10400 12050 10400
+Wire Wire Line
+	12050 10400 12050 10100
+Wire Wire Line
+	12050 10100 12050 9800
+Wire Wire Line
+	12050 9800 12050 9500
+Wire Wire Line
+	12250 9800 12050 9800
+Wire Wire Line
+	12250 10100 12050 10100
+Wire Wire Line
+	11750 9350 11750 9500
+Wire Wire Line
+	11450 9350 11450 9500
+Wire Wire Line
+	12050 9350 12050 9500
+Connection ~ 12050 9500
+Connection ~ 12050 9800
+Connection ~ 12050 10100
+Connection ~ 11750 9500
+Connection ~ 11450 9500
+Text Label 12700 9500 0    70   ~ 0
+AC2
+Wire Wire Line
+	15000 9500 15500 9500
+Text Label 15100 9500 0    70   ~ 0
+AC2
+Wire Wire Line
+	12550 8600 13150 8600
+Text Label 12700 8600 0    70   ~ 0
+BOOT1
+Wire Wire Line
+	16700 9100 17300 9100
+Text Label 16800 9100 0    70   ~ 0
+BOOT1
+Wire Wire Line
+	12550 8300 13150 8300
+Text Label 12700 8300 0    70   ~ 0
+CLAMP1
+Wire Wire Line
+	16700 9400 17300 9400
+Text Label 16800 9400 0    70   ~ 0
+CLAMP1
+Wire Wire Line
+	12550 8000 13150 8000
+Text Label 12700 8000 0    70   ~ 0
+COMM1
+Wire Wire Line
+	16700 9700 17300 9700
+Text Label 16800 9700 0    70   ~ 0
+COMM1
+Wire Wire Line
+	12550 9800 13150 9800
+Text Label 12700 9800 0    70   ~ 0
+BOOT2
+Wire Wire Line
+	16700 9200 17300 9200
+Text Label 16800 9200 0    70   ~ 0
+BOOT2
+Wire Wire Line
+	12550 10100 13150 10100
+Text Label 12700 10100 0    70   ~ 0
+CLAMP2
+Wire Wire Line
+	16700 9500 17300 9500
+Text Label 16800 9500 0    70   ~ 0
+CLAMP2
+Wire Wire Line
+	12550 10400 13150 10400
+Text Label 12700 10400 0    70   ~ 0
+COMM2
+Wire Wire Line
+	16700 9800 17300 9800
+Text Label 16800 9800 0    70   ~ 0
+COMM2
+Wire Wire Line
+	15000 8800 15500 8800
+Text Label 15100 8800 0    70   ~ 0
+TS/CTRL
+Wire Wire Line
+	19750 8100 19750 7700
+Wire Wire Line
+	19750 7700 19150 7700
+Wire Wire Line
+	19750 7700 20250 7700
+Wire Wire Line
+	20250 7700 20250 7850
+Text Label 19250 7700 0    70   ~ 0
+TS/CTRL
+Wire Wire Line
+	16700 8900 17300 8900
+Text Label 16800 8900 0    70   ~ 0
+AD-EN
+Wire Wire Line
+	16700 9900 17300 9900
+Text Label 16800 9900 0    70   ~ 0
+CHG
+Wire Wire Line
+	10450 7500 10450 7600
+Text Label 11250 7600 0    70   ~ 0
+CHG
+Wire Wire Line
+	15000 10300 15500 10300
+Text Label 15100 10300 0    70   ~ 0
+RECT
+Wire Wire Line
+	20150 9650 20450 9650
+Wire Wire Line
+	20450 9650 20950 9650
+Wire Wire Line
+	20450 9850 20450 9650
+Wire Wire Line
+	20150 9650 20150 9850
+Connection ~ 20450 9650
+Text Label 20650 9650 0    70   ~ 0
+RECT
+Wire Wire Line
+	15600 7450 15900 7450
+Text Label 15600 7450 0    70   ~ 0
+RECT
+Wire Wire Line
+	12200 6100 12300 6100
+Text Label 12300 6100 0    70   ~ 0
+RECT
+Wire Wire Line
+	15000 9800 15500 9800
+Text Label 15100 9800 0    70   ~ 0
+ILIM
+Wire Wire Line
+	12300 6700 12650 6700
+Text Label 12350 6700 0    70   ~ 0
+ILIM
+Wire Wire Line
+	15000 9200 15500 9200
+Text Label 15100 9200 0    70   ~ 0
+TERM
+Wire Wire Line
+	14550 7650 14150 7650
+Wire Wire Line
+	14550 7650 14550 7750
+Text Label 14200 7650 0    70   ~ 0
+TERM
+Wire Wire Line
+	15000 9100 15500 9100
+Text Label 15100 9100 0    70   ~ 0
+FOD
+Wire Wire Line
+	13150 6800 13150 6700
+Wire Wire Line
+	13050 6700 13150 6700
+Wire Wire Line
+	13150 6700 13500 6700
+Wire Wire Line
+	13500 6700 13950 6700
+Wire Wire Line
+	13500 6850 13500 6700
+Text Label 13650 6700 0    70   ~ 0
+FOD
+Connection ~ 13150 6700
+Connection ~ 13500 6700
+Wire Wire Line
+	11800 6100 11600 6100
+Text Label 11600 6100 0    70   ~ 0
+FOD
+Wire Wire Line
+	15000 9000 15500 9000
+Text Label 15100 9000 0    70   ~ 0
+EN2
+Wire Wire Line
+	17350 7450 17850 7450
+Wire Wire Line
+	17350 7450 17350 7650
+Text Label 17500 7450 0    70   ~ 0
+EN2
+Wire Wire Line
+	20250 8250 20250 8350
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:ANTENNA-GROUNDEDTRACE-15.2MM ANTENNA1
+U 1 1 F0067E5C
+P 5500 12300
+F 0 "ANTENNA1" H 5620 12100 70  0000 L BNN
+F 1 "ANT" H 5620 12010 70  0000 L BNN
+F 2 "sparkfun-nrf52832-breakout:TRACE_ANTENNA_2.4GHZ_15.2MM" H 5500 12300 50  0001 C CNN
+F 3 "" H 5500 12300 50  0001 C CNN
+	1    5500 12300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CRYSTAL-32MHZ-SMD-2.0X1.6MM Y1
+U 1 1 3F9AA66C
+P 6700 12100
+F 0 "Y1" H 6700 12020 70  0000 C TNN
+F 1 "32MHz" H 6700 12190 70  0000 C BNN
+F 2 "sparkfun-nrf52832-breakout:CRYSTAL-SMD-2.0X1.6MM" H 6700 12100 50  0001 C CNN
+F 3 "" H 6700 12100 50  0001 C CNN
+	1    6700 12100
+	0    1    -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:6PF-0402-50V-0.5% C9
+U 1 1 321FB40C
+P 6400 11900
+F 0 "C9" V 6415 11980 70  0000 L TNN
+F 1 "6p C0G" V 6415 11900 70  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 11900 50  0001 C CNN
+F 3 "" H 6400 11900 50  0001 C CNN
+	1    6400 11900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:6PF-0402-50V-0.5% C10
+U 1 1 A91D9ACB
+P 6300 12300
+F 0 "C10" V 6275 12320 70  0000 R BNN
+F 1 "6p C0G" V 6275 12400 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 12300 50  0001 C CNN
+F 3 "" H 6300 12300 50  0001 C CNN
+	1    6300 12300
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:GND #GND011
+U 1 1 5518330F
+P 6000 12300
+F 0 "#GND011" H 6000 12300 50  0001 C CNN
+F 1 "GND" H 6000 12290 59  0000 C TNN
+F 2 "" H 6000 12300 50  0001 C CNN
+F 3 "" H 6000 12300 50  0001 C CNN
+	1    6000 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY05
+U 1 1 20B1DDDE
+P 6800 10800
+F 0 "#SUPPLY05" H 6800 10800 50  0001 C CNN
+F 1 "VDD" H 6800 10910 59  0000 C BNN
+F 2 "" H 6800 10800 50  0001 C CNN
+F 3 "" H 6800 10800 50  0001 C CNN
+	1    6800 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0402-16V-10% C3
+U 1 1 88676885
+P 6400 11000
+F 0 "C3" V 6415 11080 70  0000 L TNN
+F 1 "100n" V 6415 11000 70  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 11000 50  0001 C CNN
+F 3 "" H 6400 11000 50  0001 C CNN
+	1    6400 11000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP0402 C4
+U 1 1 66E31612
+P 6400 11200
+F 0 "C4" V 6415 11280 59  0000 L TNN
+F 1 "DNP" V 6415 11200 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 11200 50  0001 C CNN
+F 3 "" H 6400 11200 50  0001 C CNN
+	1    6400 11200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:1.0UF-0402-16V-10% C6
+U 1 1 6E637DFA
+P 6400 11600
+F 0 "C6" V 6385 11680 70  0000 L BNN
+F 1 "1u" V 6375 11600 70  0000 R BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 11600 50  0001 C CNN
+F 3 "" H 6400 11600 50  0001 C CNN
+	1    6400 11600
+	0    -1   1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:GND #GND08
+U 1 1 E3161DBF
+P 6000 11800
+F 0 "#GND08" H 6000 11800 50  0001 C CNN
+F 1 "GND" H 6000 11790 59  0000 C TNN
+F 2 "" H 6000 11800 50  0001 C CNN
+F 3 "" H 6000 11800 50  0001 C CNN
+	1    6000 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:INDUCTOR-0402-3.9NH L1
+U 1 1 D070CBDD
+P 6000 12800
+F 0 "L1" H 6050 12900 70  0000 L BNN
+F 1 "1.6nH" H 6050 12700 70  0000 L TNN
+F 2 "sparkfun-nrf52832-breakout:0402" H 6000 12800 50  0001 C CNN
+F 3 "" H 6000 12800 50  0001 C CNN
+	1    6000 12800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.8PF-0402-50V-0.1PF C11
+U 1 1 07E4235B
+P 6300 13000
+F 0 "C11" H 6360 13115 70  0000 L BNN
+F 1 "1p" H 6360 12915 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 13000 50  0001 C CNN
+F 3 "" H 6300 13000 50  0001 C CNN
+	1    6300 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:100PF-0402-50V-5% C5
+U 1 1 F3DC86F2
+P 6400 11400
+F 0 "C5" V 6415 11480 70  0000 L TNN
+F 1 "100p" V 6415 11400 70  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 11400 50  0001 C CNN
+F 3 "" H 6400 11400 50  0001 C CNN
+	1    6400 11400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP0402 C12
+U 1 1 244BA7F9
+P 5700 13100
+F 0 "C12" H 5760 13215 59  0000 L BNN
+F 1 "DNP" H 5760 13015 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 13100 50  0001 C CNN
+F 3 "" H 5700 13100 50  0001 C CNN
+	1    5700 13100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CBC2012T2R2M L2
+U 1 1 849DDBC4
+P 4900 8100
+F 0 "L2" H 5050 8350 59  0000 L CNN
+F 1 "2.2u" H 5050 8250 59  0000 L CNN
+F 2 "sparkfun-nrf52832-breakout:INDC2012X145N" H 4900 8100 50  0001 C CNN
+F 3 "" H 4900 8100 50  0001 C CNN
+	1    4900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:TPS62740DSSR PS1
+U 1 1 48CCC9E0
+P 6300 8000
+F 0 "PS1" H 6550 8300 59  0000 L CNN
+F 1 "TPS62740DSSR" H 6550 8200 59  0000 L CNN
+F 2 "sparkfun-nrf52832-breakout:SON50P200X300X80-13N" H 6300 8000 50  0001 C CNN
+F 3 "" H 6300 8000 50  0001 C CNN
+	1    6300 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY04
+U 1 1 1C9152C2
+P 6200 7900
+F 0 "#SUPPLY04" H 6200 7900 50  0001 C CNN
+F 1 "VIN" H 6200 8010 59  0000 C BNN
+F 2 "" H 6200 7900 50  0001 C CNN
+F 3 "" H 6200 7900 50  0001 C CNN
+	1    6200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY06
+U 1 1 A7CD5EB6
+P 7600 7900
+F 0 "#SUPPLY06" H 7600 7900 50  0001 C CNN
+F 1 "VIN" H 7600 8010 59  0000 C BNN
+F 2 "" H 7600 7900 50  0001 C CNN
+F 3 "" H 7600 7900 50  0001 C CNN
+	1    7600 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:C-EUC0603 CIN1
+U 1 1 13A099C7
+P 8600 8400
+F 0 "CIN1" H 8660 8415 59  0000 L BNN
+F 1 "10u" H 8660 8215 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 8400 50  0001 C CNN
+F 3 "" H 8600 8400 50  0001 C CNN
+	1    8600 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:R-EU_R0603 RPG1
+U 1 1 66A504D3
+P 7700 8700
+F 0 "RPG1" H 7550 8759 59  0000 L BNN
+F 1 "1M" H 7550 8570 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7700 8700 50  0001 C CNN
+F 3 "" H 7700 8700 50  0001 C CNN
+	1    7700 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY08
+U 1 1 39566F8A
+P 7700 9000
+F 0 "#SUPPLY08" H 7700 9000 50  0001 C CNN
+F 1 "VDD" H 7700 9110 59  0000 C BNN
+F 2 "" H 7700 9000 50  0001 C CNN
+F 3 "" H 7700 9000 50  0001 C CNN
+	1    7700 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY015
+U 1 1 2739B52F
+P 6200 8700
+F 0 "#SUPPLY015" H 6200 8700 50  0001 C CNN
+F 1 "VDD" H 6200 8810 59  0000 C BNN
+F 2 "" H 6200 8700 50  0001 C CNN
+F 3 "" H 6200 8700 50  0001 C CNN
+	1    6200 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:C-EUC0603 COUT2
+U 1 1 61F1E000
+P 9100 8400
+F 0 "COUT2" H 9160 8415 59  0000 L BNN
+F 1 "10u" H 9160 8215 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9100 8400 50  0001 C CNN
+F 3 "" H 9100 8400 50  0001 C CNN
+	1    9100 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY07
+U 1 1 2907E397
+P 8600 8100
+F 0 "#SUPPLY07" H 8600 8100 50  0001 C CNN
+F 1 "VIN" H 8600 8210 59  0000 C BNN
+F 2 "" H 8600 8100 50  0001 C CNN
+F 3 "" H 8600 8100 50  0001 C CNN
+	1    8600 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY016
+U 1 1 86F85EE9
+P 9100 8100
+F 0 "#SUPPLY016" H 9100 8100 50  0001 C CNN
+F 1 "VDD" H 9100 8210 59  0000 C BNN
+F 2 "" H 9100 8100 50  0001 C CNN
+F 3 "" H 9100 8100 50  0001 C CNN
+	1    9100 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:ICM-20948 U1
+U 1 1 3D00F2D2
+P 12550 13600
+F 0 "U1" H 12050 14010 70  0000 L BNN
+F 1 "9DoF IMU" H 12050 13290 70  0000 L TNN
+F 2 "sparkfun-nrf52832-breakout:QFN24-3X3" H 12550 13600 50  0001 C CNN
+F 3 "" H 12550 13600 50  0001 C CNN
+	1    12550 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0603-25V-5% C2
+U 1 1 C8DDE19D
+P 11350 14000
+F 0 "C2" H 11410 14115 70  0000 L BNN
+F 1 "100n" H 11410 13915 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11350 14000 50  0001 C CNN
+F 3 "" H 11350 14000 50  0001 C CNN
+	1    11350 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:1.0UF-0603-16V-10%-X7R C7
+U 1 1 2B6F744E
+P 11050 14000
+F 0 "C7" H 11110 14115 70  0000 L BNN
+F 1 "1u" H 11110 13915 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11050 14000 50  0001 C CNN
+F 3 "" H 11050 14000 50  0001 C CNN
+	1    11050 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY02
+U 1 1 19032892
+P 15950 12900
+F 0 "#SUPPLY02" H 15950 12900 50  0001 C CNN
+F 1 "VIN" H 15950 13010 59  0000 C BNN
+F 2 "" H 15950 12900 50  0001 C CNN
+F 3 "" H 15950 12900 50  0001 C CNN
+	1    15950 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY09
+U 1 1 B8640D54
+P 4800 7900
+F 0 "#SUPPLY09" H 4800 7900 50  0001 C CNN
+F 1 "VDD" H 4800 8010 59  0000 C BNN
+F 2 "" H 4800 7900 50  0001 C CNN
+F 3 "" H 4800 7900 50  0001 C CNN
+	1    4800 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:C-EUC0603 CRST1
+U 1 1 22FDE00B
+P 2200 14000
+F 0 "CRST1" H 2260 14015 59  0000 L BNN
+F 1 "100n" H 2260 13815 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2200 14000 50  0001 C CNN
+F 3 "" H 2200 14000 50  0001 C CNN
+	1    2200 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:GND #GND07
+U 1 1 C2693486
+P 2200 14500
+F 0 "#GND07" H 2200 14500 50  0001 C CNN
+F 1 "GND" H 2200 14490 59  0000 C TNN
+F 2 "" H 2200 14500 50  0001 C CNN
+F 3 "" H 2200 14500 50  0001 C CNN
+	1    2200 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0603-25V-5% C8
+U 1 1 A7E76009
+P 10650 14000
+F 0 "C8" H 10710 14115 70  0000 L BNN
+F 1 "100n" H 10710 13915 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10650 14000 50  0001 C CNN
+F 3 "" H 10650 14000 50  0001 C CNN
+	1    10650 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:15PF-0402-50V-5% C18
+U 1 1 4AB3262A
+P 9000 13200
+F 0 "C18" H 9060 13315 70  0000 L BNN
+F 1 "12p" H 9060 13115 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9000 13200 50  0001 C CNN
+F 3 "" H 9000 13200 50  0001 C CNN
+	1    9000 13200
+	1    0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:15PF-0402-50V-5% C19
+U 1 1 E1EF53BF
+P 9400 13200
+F 0 "C19" H 9460 13315 70  0000 L BNN
+F 1 "12p" H 9460 13115 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9400 13200 50  0001 C CNN
+F 3 "" H 9400 13200 50  0001 C CNN
+	1    9400 13200
+	1    0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:220OHM-0603-1_10W-1% R1
+U 1 1 5FC72806
+P 9200 11800
+F 0 "R1" H 9200 11860 70  0000 C BNN
+F 1 "10k" H 9200 11740 70  0000 C TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9200 11800 50  0001 C CNN
+F 3 "" H 9200 11800 50  0001 C CNN
+	1    9200 11800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:220OHM-0603-1_10W-1% R2
+U 1 1 8EFFCFBB
+P 9500 12300
+F 0 "R2" H 9500 12360 70  0000 C BNN
+F 1 "10k" H 9500 12240 70  0000 C TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9500 12300 50  0001 C CNN
+F 3 "" H 9500 12300 50  0001 C CNN
+	1    9500 12300
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY01
+U 1 1 F54A36B8
+P 4200 7900
+F 0 "#SUPPLY01" H 4200 7900 50  0001 C CNN
+F 1 "VIN" H 4200 8010 59  0000 C BNN
+F 2 "" H 4200 7900 50  0001 C CNN
+F 3 "" H 4200 7900 50  0001 C CNN
+	1    4200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:220OHM-0603-1_10W-1% R3
+U 1 1 AB86A006
+P 18700 12900
+F 0 "R3" H 18700 12960 70  0000 C BNN
+F 1 "10M" H 18700 12840 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 18700 12900 50  0001 C CNN
+F 3 "" H 18700 12900 50  0001 C CNN
+	1    18700 12900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:220OHM-0603-1_10W-1% R4
+U 1 1 B1122BDA
+P 18700 13500
+F 0 "R4" H 18700 13560 70  0000 C BNN
+F 1 "5.6M" H 18700 13440 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 18700 13500 50  0001 C CNN
+F 3 "" H 18700 13500 50  0001 C CNN
+	1    18700 13500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY03
+U 1 1 4F8E092B
+P 18700 12400
+F 0 "#SUPPLY03" H 18700 12400 50  0001 C CNN
+F 1 "VIN" H 18700 12510 59  0000 C BNN
+F 2 "" H 18700 12400 50  0001 C CNN
+F 3 "" H 18700 12400 50  0001 C CNN
+	1    18700 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:C-EUC0603 COUT1
+U 1 1 73BC9D02
+P 19500 13600
+F 0 "COUT1" H 19560 13615 59  0000 L BNN
+F 1 "100n" H 19560 13415 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 19500 13600 50  0001 C CNN
+F 3 "" H 19500 13600 50  0001 C CNN
+	1    19500 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C20
+U 1 1 2F533A81
+P 12450 8000
+F 0 "C20" H 12550 8100 50  0000 L BNN
+F 1 "47n 25V" H 12550 8000 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 8000 50  0001 C CNN
+F 3 "" H 12450 8000 50  0001 C CNN
+	1    12450 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C21
+U 1 1 BDDC84B3
+P 12450 8300
+F 0 "C21" H 12550 8400 50  0000 L BNN
+F 1 "470n 25V" H 12550 8300 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 8300 50  0001 C CNN
+F 3 "" H 12450 8300 50  0001 C CNN
+	1    12450 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C22
+U 1 1 729420DA
+P 12450 8600
+F 0 "C22" H 12550 8700 50  0000 L BNN
+F 1 "10n" H 12550 8600 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 8600 50  0001 C CNN
+F 3 "" H 12450 8600 50  0001 C CNN
+	1    12450 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C23
+U 1 1 41623FC1
+P 12450 9800
+F 0 "C23" H 12550 9900 50  0000 L BNN
+F 1 "10n" H 12550 9800 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 9800 50  0001 C CNN
+F 3 "" H 12450 9800 50  0001 C CNN
+	1    12450 9800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C24
+U 1 1 47EA758B
+P 12450 10100
+F 0 "C24" H 12550 10200 50  0000 L BNN
+F 1 "470n 25V" H 12550 10100 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 10100 50  0001 C CNN
+F 3 "" H 12450 10100 50  0001 C CNN
+	1    12450 10100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C25
+U 1 1 A15F7EB9
+P 12450 10400
+F 0 "C25" H 12550 10500 50  0000 L BNN
+F 1 "47n 25V" H 12550 10400 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12450 10400 50  0001 C CNN
+F 3 "" H 12450 10400 50  0001 C CNN
+	1    12450 10400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C26
+U 1 1 68139AAB
+P 11750 9250
+F 0 "C26" H 11850 9350 50  0000 L BNN
+F 1 "1n 50V" H 11850 9250 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11750 9250 50  0001 C CNN
+F 3 "" H 11750 9250 50  0001 C CNN
+	1    11750 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C27
+U 1 1 AFE86AB6
+P 11450 9250
+F 0 "C27" H 11550 9350 50  0000 L BNN
+F 1 "1n 50V" H 11550 9250 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11450 9250 50  0001 C CNN
+F 3 "" H 11450 9250 50  0001 C CNN
+	1    11450 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C28
+U 1 1 29455B63
+P 11150 8900
+F 0 "C28" H 11250 9000 50  0000 L BNN
+F 1 "100n 50V" H 11250 8900 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11150 8900 50  0001 C CNN
+F 3 "" H 11150 8900 50  0001 C CNN
+	1    11150 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C29
+U 1 1 3E7D66C0
+P 11150 8500
+F 0 "C29" H 11250 8600 50  0000 L BNN
+F 1 "100n 50V" H 11250 8500 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11150 8500 50  0001 C CNN
+F 3 "" H 11150 8500 50  0001 C CNN
+	1    11150 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C30
+U 1 1 92A6C8AA
+P 11150 8100
+F 0 "C30" H 11250 8200 50  0000 L BNN
+F 1 "100n 50V" H 11250 8100 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11150 8100 50  0001 C CNN
+F 3 "" H 11150 8100 50  0001 C CNN
+	1    11150 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C31
+U 1 1 6114CCF3
+P 12050 9250
+F 0 "C31" H 12150 9350 50  0000 L BNN
+F 1 "1n 50V" H 12150 9250 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12050 9250 50  0001 C CNN
+F 3 "" H 12050 9250 50  0001 C CNN
+	1    12050 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:TPTP10SQ COIL11
+U 1 1 83E56406
+P 10550 8900
+F 0 "COIL11" V 10400 9000 59  0000 R TNN
+F 1 "TPTP10SQ" H 10550 8900 50  0001 C CNN
+F 2 "sparkfun-nrf52832-breakout:TP10SQ" H 10550 8900 50  0001 C CNN
+F 3 "" H 10550 8900 50  0001 C CNN
+	1    10550 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:TPTP10SQ COIL12
+U 1 1 4ABA47A7
+P 10550 9500
+F 0 "COIL12" V 10400 9600 59  0000 R TNN
+F 1 "TPTP10SQ" H 10550 9500 50  0001 C CNN
+F 2 "sparkfun-nrf52832-breakout:TP10SQ" H 10550 9500 50  0001 C CNN
+F 3 "" H 10550 9500 50  0001 C CNN
+	1    10550 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:BQ51050BRHLR IC3
+U 1 1 B686635D
+P 16100 9600
+F 0 "IC3" H 15699 10500 42  0000 L BNN
+F 1 "BQ51050BRHLR" H 15699 8599 42  0000 L BNN
+F 2 "sparkfun-nrf52832-breakout:QFN50P450X350X100-21N" H 16100 9600 50  0001 C CNN
+F 3 "" H 16100 9600 50  0001 C CNN
+	1    16100 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R8
+U 1 1 9574A03C
+P 14550 7950
+F 0 "R8" H 14450 8030 50  0000 L BNN
+F 1 "2k2" H 14450 7825 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14550 7950 50  0001 C CNN
+F 3 "" H 14550 7950 50  0001 C CNN
+	1    14550 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 RFOD1
+U 1 1 1A3B896D
+P 13150 7000
+F 0 "RFOD1" H 13050 7080 50  0000 L BNN
+F 1 "220" H 13050 6875 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13150 7000 50  0001 C CNN
+F 3 "" H 13150 7000 50  0001 C CNN
+	1    13150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R10
+U 1 1 4285394A
+P 12850 6700
+F 0 "R10" H 12750 6780 50  0000 L BNN
+F 1 "1k" H 12750 6575 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12850 6700 50  0001 C CNN
+F 3 "" H 12850 6700 50  0001 C CNN
+	1    12850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0805 C32
+U 1 1 79FC87FF
+P 20150 10050
+F 0 "C32" H 20250 10150 50  0000 L BNN
+F 1 "22u 25V" H 20250 10050 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 20150 10050 50  0001 C CNN
+F 3 "" H 20150 10050 50  0001 C CNN
+	1    20150 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C33
+U 1 1 089E54E8
+P 20450 10050
+F 0 "C33" H 20550 10150 50  0000 L BNN
+F 1 "100n 25V" H 20550 10050 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 20450 10050 50  0001 C CNN
+F 3 "" H 20450 10050 50  0001 C CNN
+	1    20450 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C34
+U 1 1 9D5CDE75
+P 13500 7050
+F 0 "C34" H 13600 7150 50  0000 L BNN
+F 1 "100n" H 13600 7050 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13500 7050 50  0001 C CNN
+F 3 "" H 13500 7050 50  0001 C CNN
+	1    13500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R11
+U 1 1 B4AB49B7
+P 16100 7450
+F 0 "R11" H 16000 7530 50  0000 L BNN
+F 1 "1k" H 16000 7325 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 16100 7450 50  0001 C CNN
+F 3 "" H 16100 7450 50  0001 C CNN
+	1    16100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C35
+U 1 1 F2675003
+P 17350 7850
+F 0 "C35" H 17450 7950 50  0000 L BNN
+F 1 "100n" H 17450 7850 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17350 7850 50  0001 C CNN
+F 3 "" H 17350 7850 50  0001 C CNN
+	1    17350 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0402 C36
+U 1 1 9A90D0E7
+P 19750 8300
+F 0 "C36" H 19850 8400 50  0000 L BNN
+F 1 "100n" H 19850 8300 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 19750 8300 50  0001 C CNN
+F 3 "" H 19750 8300 50  0001 C CNN
+	1    19750 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R5
+U 1 1 1A59B195
+P 10450 7300
+F 0 "R5" H 10350 7380 50  0000 L BNN
+F 1 "10k" H 10350 7175 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10450 7300 50  0001 C CNN
+F 3 "" H 10450 7300 50  0001 C CNN
+	1    10450 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 ROS1
+U 1 1 3BA2A2DD
+P 12000 6100
+F 0 "ROS1" H 11900 6180 50  0000 L BNN
+F 1 "42k2" H 11900 5975 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12000 6100 50  0001 C CNN
+F 3 "" H 12000 6100 50  0001 C CNN
+	1    12000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0402 R7
+U 1 1 788C04B3
+P 20250 8050
+F 0 "R7" H 20150 8130 50  0000 L BNN
+F 1 "1k8" H 20150 7925 50  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 20250 8050 50  0001 C CNN
+F 3 "" H 20250 8050 50  0001 C CNN
+	1    20250 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0402 RNTC1
+U 1 1 6A8E892D
+P 20250 8550
+F 0 "RNTC1" H 20150 8630 50  0000 L BNN
+F 1 "4k7" H 20150 8425 50  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 20250 8550 50  0001 C CNN
+F 3 "" H 20250 8550 50  0001 C CNN
+	1    20250 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C37
+U 1 1 E29064E0
+P 19050 10150
+F 0 "C37" H 19150 10250 50  0000 L BNN
+F 1 "100n" H 19150 10150 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 19050 10150 50  0001 C CNN
+F 3 "" H 19050 10150 50  0001 C CNN
+	1    19050 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:TC2030_SWD-MCP-NL J1
+U 1 1 449C7C68
+P 4350 14200
+F 0 "J1" H 4350 14200 50  0001 C CNN
+F 1 "TC2030_SWD-MCP-NL" H 4350 14200 50  0001 C CNN
+F 2 "sparkfun-nrf52832-breakout:TC2030-MCP-NL" H 4350 14200 50  0001 C CNN
+F 3 "" H 4350 14200 50  0001 C CNN
+	1    4350 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:GND #GND039
+U 1 1 76CA36D4
+P 3850 14500
+F 0 "#GND039" H 3850 14500 50  0001 C CNN
+F 1 "GND" H 3850 14490 59  0000 C TNN
+F 2 "" H 3850 14500 50  0001 C CNN
+F 3 "" H 3850 14500 50  0001 C CNN
+	1    3850 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY018
+U 1 1 C00D883A
+P 3850 13800
+F 0 "#SUPPLY018" H 3850 13800 50  0001 C CNN
+F 1 "VDD" H 3850 13910 59  0000 C BNN
+F 2 "" H 3850 13800 50  0001 C CNN
+F 3 "" H 3850 13800 50  0001 C CNN
+	1    3850 13800
+	1    0    0    -1  
+$EndComp
+Text Notes 5150 10050 0    85   ~ 0
+nRF52832
+Text Notes 3250 13500 0    85   ~ 0
+TagConnect Debug Connector
+Text Notes 7700 10600 0    59   ~ 0
+nRF52832 Supply Range\n~1.7 - 3.6V DC~
+Text Notes 4650 7550 0    59   ~ 0
+74479774222 mouser: 710-74479774222
+Text Notes 8600 7700 0    59   ~ 0
+Decoupling
+Text Notes 7700 8200 0    59   ~ 0
+Set to 1V8
+Text Notes 7500 9200 0    59   ~ 0
+PG feedback
+Wire Notes Line
+	3100 7300 3100 9600
+Wire Notes Line
+	3100 9600 9800 9600
+Wire Notes Line
+	9800 9600 9800 7300
+Wire Notes Line
+	9800 7300 3100 7300
+Text Notes 6400 7100 0    85   ~ 0
+Voltage Regulator (Buck)
+Wire Notes Line
+	10150 11250 10150 14850
+Wire Notes Line
+	10150 14850 17250 14850
+Wire Notes Line
+	17250 14850 17250 11250
+Wire Notes Line
+	17250 11250 10150 11250
+Text Notes 13050 11500 0    85   ~ 0
+IMU: ICM-20948
+Text Notes 15700 12650 0    59   ~ 0
+3V - 4V2
+Text Notes 15850 14200 0    59   ~ 0
+RE1C002UNTCL
+Wire Notes Line
+	9700 9800 9700 14800
+Wire Notes Line
+	9700 14800 1800 14800
+Wire Notes Line
+	1800 14800 1800 9800
+Text Notes 10950 12500 0    59   ~ 0
+Add pulldown / pullup resistor\non INT pin - INT goes high when interrupt
+Text Notes 6200 10300 0    59   ~ 0
+Add DC/DC converter as power supply for nRF52\nnRF will automatically switch between DC/DC and LDO\nto ensure minimal power consumption
+Text Notes 4500 8400 0    59   ~ 0
+Use shielded inductor~~
+Text Notes 8000 14100 0    59   ~ 0
+add pull-down to swd-clk to \nprevent entering debug mode
+Text Notes 18900 13500 0    59   ~ 0
+4.75M
+Text Notes 18900 12900 0    59   ~ 0
+8.25M
+Text Notes 18400 13900 0    17   ~ 0
+https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/measuring-lithium-battery-voltage-with-nrf52
+Text Notes 10950 12600 0    59   ~ 0
+Now using internal pulldown on nRF
+Text Notes 5400 14200 0    59   ~ 0
+Antenna impedance:\n52+22j\n\nCalculated L1 & C11:\nL1 -> 1.577 nH\nC1 -> 972.023 fF
+Text Notes 12550 8500 0    42   ~ 0
+10V
+Text Notes 12550 9700 0    42   ~ 0
+10V
+Text Notes 12550 8200 0    42   ~ 0
+25V
+Text Notes 12550 7900 0    42   ~ 0
+25V
+Text Notes 12550 10000 0    42   ~ 0
+25V
+Text Notes 12550 10300 0    42   ~ 0
+25V
+Text Notes 12050 7750 0    42   ~ 0
+COMM kan ook eventueel 22n gekozen worden
+Text Notes 11250 8000 0    42   ~ 0
+50V
+Text Notes 11250 8400 0    42   ~ 0
+50V
+Text Notes 11250 8800 0    42   ~ 0
+50V
+Text Notes 11350 8000 0    42   ~ 0
+X7R
+Text Notes 11350 8400 0    42   ~ 0
+X7R
+Text Notes 11350 8800 0    42   ~ 0
+X7R
+Text Notes 12650 7900 0    42   ~ 0
+X7R
+Text Notes 12650 8200 0    42   ~ 0
+X7R
+Text Notes 12650 8500 0    42   ~ 0
+X7R
+Text Notes 12650 9700 0    42   ~ 0
+X7R
+Text Notes 12650 10000 0    42   ~ 0
+X7R
+Text Notes 12650 10300 0    42   ~ 0
+X7R
+Text Notes 11550 9350 0    42   ~ 0
+50V
+Text Notes 11850 9350 0    42   ~ 0
+50V
+Text Notes 12150 9350 0    42   ~ 0
+50V
+Text Notes 11550 9450 0    42   ~ 0
+X7R
+Text Notes 11850 9450 0    42   ~ 0
+X7R
+Text Notes 12150 9450 0    42   ~ 0
+X7R
+Text Notes 20250 10150 0    42   ~ 0
+25V
+Text Notes 20550 10150 0    42   ~ 0
+25V
+Text Notes 12200 6500 0    59   ~ 0
+314/(1k + 330) = 236 mA (max charge current)
+Text Notes 14000 5100 0    85   ~ 0
+Wurth Elektronik Coil 760308103206 of 760308101220
+Text Notes 14000 4900 0    85   ~ 0
+Battery charge current 236mA
+Wire Notes Line
+	13800 4650 16500 4650
+Wire Notes Line
+	16500 4650 16500 5250
+Wire Notes Line
+	16500 5250 13800 5250
+Wire Notes Line
+	13800 5250 13800 4650
+Text Notes 13100 5700 0    85   ~ 0
+Wireless Charger: BQ51050
+Wire Notes Line
+	10000 5400 10000 10900
+Text Notes 10150 6550 0    59   ~ 0
+Connection to uc to monitor charging
+Text Notes 19450 9400 0    59   ~ 0
+Decoupling
+Text Notes 14700 7800 0    59   ~ 0
+OK -> +-10% of Ichg
+Text Notes 12550 6800 0    59   ~ 0
+R1
+Text Notes 20550 9000 1    59   ~ 0
+810-NTCG104BH472JT1 0402
+Wire Wire Line
+	8600 8100 8600 8300
+$Comp
+L power:GND #PWR023
+U 1 1 60CDB155
+P 14850 14150
+F 0 "#PWR023" H 14850 13900 50  0001 C CNN
+F 1 "GND" H 14855 13977 50  0000 C CNN
+F 2 "" H 14850 14150 50  0001 C CNN
+F 3 "" H 14850 14150 50  0001 C CNN
+	1    14850 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 60D1C7B9
+P 11850 14200
+F 0 "#PWR022" H 11850 13950 50  0001 C CNN
+F 1 "GND" H 11855 14027 50  0000 C CNN
+F 2 "" H 11850 14200 50  0001 C CNN
+F 3 "" H 11850 14200 50  0001 C CNN
+	1    11850 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 60D30E2F
+P 11650 14200
+F 0 "#PWR021" H 11650 13950 50  0001 C CNN
+F 1 "GND" H 11655 14027 50  0000 C CNN
+F 2 "" H 11650 14200 50  0001 C CNN
+F 3 "" H 11650 14200 50  0001 C CNN
+	1    11650 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60D5A4C8
+P 11350 14200
+F 0 "#PWR020" H 11350 13950 50  0001 C CNN
+F 1 "GND" H 11355 14027 50  0000 C CNN
+F 2 "" H 11350 14200 50  0001 C CNN
+F 3 "" H 11350 14200 50  0001 C CNN
+	1    11350 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 60D6EAE3
+P 11050 14200
+F 0 "#PWR019" H 11050 13950 50  0001 C CNN
+F 1 "GND" H 11055 14027 50  0000 C CNN
+F 2 "" H 11050 14200 50  0001 C CNN
+F 3 "" H 11050 14200 50  0001 C CNN
+	1    11050 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 60D831FC
+P 10650 14200
+F 0 "#PWR018" H 10650 13950 50  0001 C CNN
+F 1 "GND" H 10655 14027 50  0000 C CNN
+F 2 "" H 10650 14200 50  0001 C CNN
+F 3 "" H 10650 14200 50  0001 C CNN
+	1    10650 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 60DABFCC
+P 6900 13900
+F 0 "#PWR012" H 6900 13650 50  0001 C CNN
+F 1 "GND" H 6905 13727 50  0000 C CNN
+F 2 "" H 6900 13900 50  0001 C CNN
+F 3 "" H 6900 13900 50  0001 C CNN
+	1    6900 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 60DD4C77
+P 9000 13500
+F 0 "#PWR015" H 9000 13250 50  0001 C CNN
+F 1 "GND" H 9005 13327 50  0000 C CNN
+F 2 "" H 9000 13500 50  0001 C CNN
+F 3 "" H 9000 13500 50  0001 C CNN
+	1    9000 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 60DE935B
+P 9400 13500
+F 0 "#PWR017" H 9400 13250 50  0001 C CNN
+F 1 "GND" H 9405 13327 50  0000 C CNN
+F 2 "" H 9400 13500 50  0001 C CNN
+F 3 "" H 9400 13500 50  0001 C CNN
+	1    9400 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 60E124B9
+P 5400 13300
+F 0 "#PWR06" H 5400 13050 50  0001 C CNN
+F 1 "GND" H 5405 13127 50  0000 C CNN
+F 2 "" H 5400 13300 50  0001 C CNN
+F 3 "" H 5400 13300 50  0001 C CNN
+	1    5400 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60E26C2B
+P 5700 13300
+F 0 "#PWR08" H 5700 13050 50  0001 C CNN
+F 1 "GND" H 5705 13127 50  0000 C CNN
+F 2 "" H 5700 13300 50  0001 C CNN
+F 3 "" H 5700 13300 50  0001 C CNN
+	1    5700 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 60E3B379
+P 6300 13300
+F 0 "#PWR010" H 6300 13050 50  0001 C CNN
+F 1 "GND" H 6305 13127 50  0000 C CNN
+F 2 "" H 6300 13300 50  0001 C CNN
+F 3 "" H 6300 13300 50  0001 C CNN
+	1    6300 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60ECAC58
+P 18700 13900
+F 0 "#PWR01" H 18700 13650 50  0001 C CNN
+F 1 "GND" H 18705 13727 50  0000 C CNN
+F 2 "" H 18700 13900 50  0001 C CNN
+F 3 "" H 18700 13900 50  0001 C CNN
+	1    18700 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60EDF2F8
+P 19500 13900
+F 0 "#PWR02" H 19500 13650 50  0001 C CNN
+F 1 "GND" H 19505 13727 50  0000 C CNN
+F 2 "" H 19500 13900 50  0001 C CNN
+F 3 "" H 19500 13900 50  0001 C CNN
+	1    19500 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60F48A03
+P 3600 8600
+F 0 "#PWR03" H 3600 8350 50  0001 C CNN
+F 1 "GND" H 3605 8427 50  0000 C CNN
+F 2 "" H 3600 8600 50  0001 C CNN
+F 3 "" H 3600 8600 50  0001 C CNN
+	1    3600 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 60F71672
+P 5700 8300
+F 0 "#PWR07" H 5700 8050 50  0001 C CNN
+F 1 "GND" H 5705 8127 50  0000 C CNN
+F 2 "" H 5700 8300 50  0001 C CNN
+F 3 "" H 5700 8300 50  0001 C CNN
+	1    5700 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 60F85DDE
+P 6000 8300
+F 0 "#PWR09" H 6000 8050 50  0001 C CNN
+F 1 "GND" H 6005 8127 50  0000 C CNN
+F 2 "" H 6000 8300 50  0001 C CNN
+F 3 "" H 6000 8300 50  0001 C CNN
+	1    6000 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 60FAEB55
+P 6900 9000
+F 0 "#PWR011" H 6900 8750 50  0001 C CNN
+F 1 "GND" H 6905 8827 50  0000 C CNN
+F 2 "" H 6900 9000 50  0001 C CNN
+F 3 "" H 6900 9000 50  0001 C CNN
+	1    6900 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60FD7802
+P 8000 8300
+F 0 "#PWR013" H 8000 8050 50  0001 C CNN
+F 1 "GND" H 8005 8127 50  0000 C CNN
+F 2 "" H 8000 8300 50  0001 C CNN
+F 3 "" H 8000 8300 50  0001 C CNN
+	1    8000 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 610004F3
+P 8600 8800
+F 0 "#PWR014" H 8600 8550 50  0001 C CNN
+F 1 "GND" H 8605 8627 50  0000 C CNN
+F 2 "" H 8600 8800 50  0001 C CNN
+F 3 "" H 8600 8800 50  0001 C CNN
+	1    8600 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 61014B7B
+P 9100 8800
+F 0 "#PWR016" H 9100 8550 50  0001 C CNN
+F 1 "GND" H 9105 8627 50  0000 C CNN
+F 2 "" H 9100 8800 50  0001 C CNN
+F 3 "" H 9100 8800 50  0001 C CNN
+	1    9100 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 6103D7E1
+P 16900 10500
+F 0 "#PWR027" H 16900 10250 50  0001 C CNN
+F 1 "GND" H 16905 10327 50  0000 C CNN
+F 2 "" H 16900 10500 50  0001 C CNN
+F 3 "" H 16900 10500 50  0001 C CNN
+	1    16900 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 61066573
+P 14550 8150
+F 0 "#PWR024" H 14550 7900 50  0001 C CNN
+F 1 "GND" H 14555 7977 50  0000 C CNN
+F 2 "" H 14550 8150 50  0001 C CNN
+F 3 "" H 14550 8150 50  0001 C CNN
+	1    14550 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 6108F31D
+P 13150 7200
+F 0 "#PWR025" H 13150 6950 50  0001 C CNN
+F 1 "GND" H 13155 7027 50  0000 C CNN
+F 2 "" H 13150 7200 50  0001 C CNN
+F 3 "" H 13150 7200 50  0001 C CNN
+	1    13150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 610A3A19
+P 13500 7200
+F 0 "#PWR026" H 13500 6950 50  0001 C CNN
+F 1 "GND" H 13505 7027 50  0000 C CNN
+F 2 "" H 13500 7200 50  0001 C CNN
+F 3 "" H 13500 7200 50  0001 C CNN
+	1    13500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 610E0D2F
+P 17350 8050
+F 0 "#PWR029" H 17350 7800 50  0001 C CNN
+F 1 "GND" H 17355 7877 50  0000 C CNN
+F 2 "" H 17350 8050 50  0001 C CNN
+F 3 "" H 17350 8050 50  0001 C CNN
+	1    17350 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 611099FB
+P 19750 8800
+F 0 "#PWR032" H 19750 8550 50  0001 C CNN
+F 1 "GND" H 19755 8627 50  0000 C CNN
+F 2 "" H 19750 8800 50  0001 C CNN
+F 3 "" H 19750 8800 50  0001 C CNN
+	1    19750 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 61133215
+P 20250 8800
+F 0 "#PWR033" H 20250 8550 50  0001 C CNN
+F 1 "GND" H 20255 8627 50  0000 C CNN
+F 2 "" H 20250 8800 50  0001 C CNN
+F 3 "" H 20250 8800 50  0001 C CNN
+	1    20250 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 6115BE88
+P 20150 10250
+F 0 "#PWR034" H 20150 10000 50  0001 C CNN
+F 1 "GND" H 20155 10077 50  0000 C CNN
+F 2 "" H 20150 10250 50  0001 C CNN
+F 3 "" H 20150 10250 50  0001 C CNN
+	1    20150 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 61199152
+P 18650 10400
+F 0 "#PWR030" H 18650 10150 50  0001 C CNN
+F 1 "GND" H 18655 10227 50  0000 C CNN
+F 2 "" H 18650 10400 50  0001 C CNN
+F 3 "" H 18650 10400 50  0001 C CNN
+	1    18650 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 611AD845
+P 19050 10400
+F 0 "#PWR031" H 19050 10150 50  0001 C CNN
+F 1 "GND" H 19055 10227 50  0000 C CNN
+F 2 "" H 19050 10400 50  0001 C CNN
+F 3 "" H 19050 10400 50  0001 C CNN
+	1    19050 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0603-25V-5% C1
+U 1 1 AC59532D
+P 11650 14000
+F 0 "C1" H 11710 14115 70  0000 L BNN
+F 1 "100n" H 11710 13915 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11650 14000 50  0001 C CNN
+F 3 "" H 11650 14000 50  0001 C CNN
+	1    11650 14000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 14100 11650 14200
+NoConn ~ 6300 8500
+Wire Wire Line
+	16900 10100 16900 10200
+Wire Wire Line
+	16700 10200 16900 10200
+Connection ~ 16900 10200
+Wire Wire Line
+	16900 10200 16900 10400
+Wire Wire Line
+	16700 10400 16900 10400
+Connection ~ 16900 10400
+Wire Wire Line
+	16900 10400 16900 10500
+NoConn ~ 6900 13000
+NoConn ~ 6900 13100
+NoConn ~ 6900 13400
+NoConn ~ 8300 11500
+NoConn ~ 8300 11600
+NoConn ~ 8300 11700
+NoConn ~ 8300 12700
+NoConn ~ 8300 13100
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C38
+U 1 1 1CE3E050
+P 18650 10150
+F 0 "C38" H 18750 10250 50  0000 L BNN
+F 1 "1u" H 18750 10150 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 18650 10150 50  0001 C CNN
+F 3 "" H 18650 10150 50  0001 C CNN
+	1    18650 10150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8300 12200
+NoConn ~ 8300 13200
+NoConn ~ 8300 13300
+NoConn ~ 8300 13500
+NoConn ~ 8300 11100
+NoConn ~ 8300 11200
+NoConn ~ 8300 11300
+NoConn ~ 17300 8900
+NoConn ~ 13150 13300
+NoConn ~ 13150 13400
+NoConn ~ 8300 10900
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6151A07E
+P 11650 13500
+F 0 "TP1" V 11845 13572 50  0000 C CNN
+F 1 "TestPoint" V 11754 13572 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11850 13500 50  0001 C CNN
+F 3 "~" H 11850 13500 50  0001 C CNN
+	1    11650 13500
+	0    -1   -1   0   
+$EndComp
+Text Label 11850 13600 2    50   ~ 0
+FSYNC
+Wire Wire Line
+	11650 13600 11950 13600
+Wire Wire Line
+	11650 13500 11950 13500
+$Comp
+L Connector:TestPoint TP3
+U 1 1 615A00AD
+P 8400 12800
+F 0 "TP3" V 8595 12872 50  0000 C CNN
+F 1 "TestPoint" V 8504 12872 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8600 12800 50  0001 C CNN
+F 3 "~" H 8600 12800 50  0001 C CNN
+	1    8400 12800
+	0    1    1    0   
+$EndComp
+NoConn ~ 8300 12600
+Wire Wire Line
+	9200 12000 9250 12000
+Connection ~ 9200 12000
+Wire Wire Line
+	20450 10150 20450 10250
+$Comp
+L power:GND #PWR0101
+U 1 1 6164DD36
+P 20450 10250
+F 0 "#PWR0101" H 20450 10000 50  0001 C CNN
+F 1 "GND" H 20455 10077 50  0000 C CNN
+F 2 "" H 20450 10250 50  0001 C CNN
+F 3 "" H 20450 10250 50  0001 C CNN
+	1    20450 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15950 12900 15950 13200
+$Comp
+L power:GND #PWR0102
+U 1 1 618BB9DA
+P 16450 8050
+F 0 "#PWR0102" H 16450 7800 50  0001 C CNN
+F 1 "GND" H 16455 7877 50  0000 C CNN
+F 2 "" H 16450 8050 50  0001 C CNN
+F 3 "" H 16450 8050 50  0001 C CNN
+	1    16450 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 17350 7450
+Connection ~ 19750 7700
+Wire Wire Line
+	10450 7100 10450 6750
+Text Label 10450 6750 0    50   ~ 0
+CHG_MCU
+$Comp
+L Connector:TestPoint TPVIN1
+U 1 1 60C6D9DF
+P 4200 8100
+F 0 "TPVIN1" H 4258 8218 50  0000 L CNN
+F 1 "VIN" H 4258 8127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4400 8100 50  0001 C CNN
+F 3 "~" H 4400 8100 50  0001 C CNN
+	1    4200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TPGND1
+U 1 1 60C247A6
+P 3600 8600
+F 0 "TPGND1" H 3658 8718 50  0000 L CNN
+F 1 "GND" H 3658 8627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3800 8600 50  0001 C CNN
+F 3 "~" H 3800 8600 50  0001 C CNN
+	1    3600 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 8100 9100 8300
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CBC2012T2R2M L4
+U 1 1 60C42A74
+P 2600 11950
+F 0 "L4" H 2750 12200 59  0000 L CNN
+F 1 "10uH" H 2750 12100 59  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2600 11950 50  0001 C CNN
+F 3 "" H 2600 11950 50  0001 C CNN
+	1    2600 11950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CBC2012T2R2M L3
+U 1 1 60C54937
+P 2600 11050
+F 0 "L3" H 2750 11300 59  0000 L CNN
+F 1 "15nH" H 2750 11200 59  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 2600 11050 50  0001 C CNN
+F 3 "" H 2600 11050 50  0001 C CNN
+	1    2600 11050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 11050 2600 11150
+Wire Wire Line
+	2600 11950 2600 12100
+Text Label 6800 11400 0    50   ~ 0
+DEC4
+Wire Wire Line
+	7000 11600 6900 11600
+Text Label 6900 11600 0    50   ~ 0
+DCC
+Wire Wire Line
+	2600 10250 2600 10100
+Text Label 2600 10100 0    50   ~ 0
+DEC4
+Text Label 2600 12100 0    50   ~ 0
+DCC
+$Comp
+L SamacSys_Parts:2337019-1 J2
+U 1 1 60EE29BE
+P 2300 12900
+F 0 "J2" H 2950 13165 50  0000 C CNN
+F 1 "2337019-1" H 2950 13074 50  0000 C CNN
+F 2 "nRF52832 board v2:23370191" H 3450 13000 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FC-2337019%7FA3%7Fpdf%7FEnglish%7FENG_CD_C-2337019_A3.pdf%7F2337019-1" H 3450 12900 50  0001 L CNN
+F 4 "RF Connectors / Coaxial Connectors MicroCoax receptacle UMCC Gen 1" H 3450 12800 50  0001 L CNN "Description"
+F 5 "1.4" H 3450 12700 50  0001 L CNN "Height"
+F 6 "571-2337019-1" H 3450 12600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2337019-1?qs=l4Gc20tDgJIuN7nS9rJkJw%3D%3D" H 3450 12500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 3450 12400 50  0001 L CNN "Manufacturer_Name"
+F 9 "2337019-1" H 3450 12300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2300 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 60EE477D
+P 3600 13000
+F 0 "#PWR035" H 3600 12750 50  0001 C CNN
+F 1 "GND" V 3605 12827 50  0000 C CNN
+F 2 "" H 3600 13000 50  0001 C CNN
+F 3 "" H 3600 13000 50  0001 C CNN
+	1    3600 13000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 60EF706A
+P 3600 12900
+F 0 "#PWR028" H 3600 12650 50  0001 C CNN
+F 1 "GND" V 3605 12727 50  0000 C CNN
+F 2 "" H 3600 12900 50  0001 C CNN
+F 3 "" H 3600 12900 50  0001 C CNN
+	1    3600 12900
+	0    -1   -1   0   
+$EndComp
+Text Label 5500 12550 0    50   ~ 0
+ANTENNA
+Text Label 2300 12500 2    50   ~ 0
+ANTENNA
+$Comp
+L SamacSys_Parts:BZT52C5V1T-7 Z2
+U 1 1 61057FE9
+P 16450 7450
+F 0 "Z2" V 16704 7580 50  0000 L CNN
+F 1 "BZT52C5V1T-7" V 16795 7580 50  0000 L CNN
+F 2 "nRF52832 board v2:SODFL1608X65N" H 16850 7600 50  0001 L CNN
+F 3 "" H 16850 7500 50  0001 L CNN
+F 4 "Zener Diode SOD-523 Diodes Inc BZT52C5V1T-7 Zener Diode, 5.1V 6% 300 mW SMT 2-Pin SOD-523" H 16850 7400 50  0001 L CNN "Description"
+F 5 "0.65" H 16850 7300 50  0001 L CNN "Height"
+F 6 "621-BZT52C5V1T-7" H 16850 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BZT52C5V1T-7/?qs=zLeapIUCO8T63JXOY3IF3g%3D%3D" H 16850 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 16850 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZT52C5V1T-7" H 16850 6900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    16450 7450
+	0    1    1    0   
+$EndComp
+Connection ~ 16450 7450
+Wire Wire Line
+	16450 7450 17350 7450
+Wire Wire Line
+	16300 7450 16450 7450
+Text Notes 20300 5800 2    50   ~ 0
+Output high when charging\nhas to be enabled
+Wire Wire Line
+	16700 9600 17300 9600
+Text Label 17300 9600 0    50   ~ 0
+QI_VDD
+Text Label 17200 6150 0    50   ~ 0
+QI_SENS
+Text Label 18650 9550 0    50   ~ 0
+QI_VDD
+Wire Wire Line
+	18650 9700 18650 9550
+Connection ~ 18650 9700
+Text Notes 11450 9700 0    50   ~ 0
+2nF total\n
+Text Notes 10900 7750 0    50   ~ 0
++- 200 nF total
+Wire Notes Line
+	9700 9800 1800 9800
+Text Notes 2500 5200 0    50   ~ 0
+TODO\n- Add jumper to disconnect UFL connector -> OK\n- Load switch wireless charger enable not working -> OK\n- Monitor charging state with microcontroller -> OK\n- Pullup R to VDD on RESET pin -> OK\n- Possibility to control qi charger via uC -> OK\n- GND planes - layer stackup? -> OK filled with GND\n- Nomade LOGO -> OK\n- Reduce trace resistance on VBAT!\n
+Wire Wire Line
+	17000 6800 17000 6900
+Text Label 17000 6800 0    10   ~ 0
+GND
+$Comp
+L power:GND #PWR039
+U 1 1 615C72FD
+P 17000 6900
+F 0 "#PWR039" H 17000 6650 50  0001 C CNN
+F 1 "GND" H 17005 6727 50  0000 C CNN
+F 2 "" H 17000 6900 50  0001 C CNN
+F 3 "" H 17000 6900 50  0001 C CNN
+	1    17000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17000 6150 17000 6500
+Wire Wire Line
+	17000 6150 17200 6150
+$Comp
+L MIC94081:MIC94081YFT-TR IC2
+U 1 1 616259E7
+P 19250 6250
+F 0 "IC2" H 19800 6515 50  0000 C CNN
+F 1 "MIC94081YFT-TR" H 19800 6424 50  0000 C CNN
+F 2 "footprints:MIC94081YFT-TR" H 20200 6350 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC9408x-67mOhm-RDSON-2A-High-Side-Load-Switch-DS20006118A.pdf" H 20200 6250 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution High-side Load Switch, 1.5A, 67mOhm" H 20200 6150 50  0001 L CNN "Description"
+F 5 "0.6" H 20200 6050 50  0001 L CNN "Height"
+F 6 "998-MIC94081YFTTR" H 20200 5950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC94081YFT-TR?qs=Y3Q3JoKAO1TbFXUjSUpauA%3D%3D" H 20200 5850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 20200 5750 50  0001 L CNN "Manufacturer_Name"
+F 9 "MIC94081YFT-TR" H 20200 5650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC94081:MIC94081YFT-TR IC4
+U 1 1 61626807
+P 19250 7050
+F 0 "IC4" H 19800 7315 50  0000 C CNN
+F 1 "MIC94081YFT-TR" H 19800 7224 50  0000 C CNN
+F 2 "footprints:MIC94081YFT-TR" H 20200 7150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC9408x-67mOhm-RDSON-2A-High-Side-Load-Switch-DS20006118A.pdf" H 20200 7050 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution High-side Load Switch, 1.5A, 67mOhm" H 20200 6950 50  0001 L CNN "Description"
+F 5 "0.6" H 20200 6850 50  0001 L CNN "Height"
+F 6 "998-MIC94081YFTTR" H 20200 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC94081YFT-TR?qs=Y3Q3JoKAO1TbFXUjSUpauA%3D%3D" H 20200 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 20200 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "MIC94081YFT-TR" H 20200 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19250 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC94081:MIC94081YFT-TR IC1
+U 1 1 61667602
+P 14850 13200
+F 0 "IC1" H 15400 13465 50  0000 C CNN
+F 1 "MIC94081YFT-TR" H 15400 13374 50  0000 C CNN
+F 2 "footprints:MIC94081YFT-TR" H 15800 13300 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC9408x-67mOhm-RDSON-2A-High-Side-Load-Switch-DS20006118A.pdf" H 15800 13200 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution High-side Load Switch, 1.5A, 67mOhm" H 15800 13100 50  0001 L CNN "Description"
+F 5 "0.6" H 15800 13000 50  0001 L CNN "Height"
+F 6 "998-MIC94081YFTTR" H 15800 12900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC94081YFT-TR?qs=Y3Q3JoKAO1TbFXUjSUpauA%3D%3D" H 15800 12800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 15800 12700 50  0001 L CNN "Manufacturer_Name"
+F 9 "MIC94081YFT-TR" H 15800 12600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14850 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 13300 14850 13450
+$Comp
+L power:GND #PWR036
+U 1 1 617555B4
+P 14650 13200
+F 0 "#PWR036" H 14650 12950 50  0001 C CNN
+F 1 "GND" H 14655 13027 50  0000 C CNN
+F 2 "" H 14650 13200 50  0001 C CNN
+F 3 "" H 14650 13200 50  0001 C CNN
+	1    14650 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 13200 14650 13200
+Wire Wire Line
+	19250 6350 19050 6350
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY010
+U 1 1 61797A2C
+P 19050 6350
+F 0 "#SUPPLY010" H 19050 6350 50  0001 C CNN
+F 1 "VIN" H 19050 6460 59  0000 C BNN
+F 2 "" H 19050 6350 50  0001 C CNN
+F 3 "" H 19050 6350 50  0001 C CNN
+	1    19050 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 617AD913
+P 19250 6250
+F 0 "#PWR037" H 19250 6000 50  0001 C CNN
+F 1 "GND" H 19255 6077 50  0000 C CNN
+F 2 "" H 19250 6250 50  0001 C CNN
+F 3 "" H 19250 6250 50  0001 C CNN
+	1    19250 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 617C317B
+P 18650 7050
+F 0 "#PWR038" H 18650 6800 50  0001 C CNN
+F 1 "GND" H 18655 6877 50  0000 C CNN
+F 2 "" H 18650 7050 50  0001 C CNN
+F 3 "" H 18650 7050 50  0001 C CNN
+	1    18650 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20350 6350 20750 6350
+Wire Wire Line
+	20750 7150 20350 7150
+Wire Wire Line
+	20350 6250 20500 6250
+Wire Wire Line
+	20500 6250 20500 7050
+Wire Wire Line
+	20500 7050 20350 7050
+Text Label 18650 7150 0    50   ~ 0
+QI_VDD
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 618FB34F
+P 2500 12500
+F 0 "JP2" H 2500 12735 50  0000 C CNN
+F 1 "Jumper_2_Open" H 2500 12644 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2500 12500 50  0001 C CNN
+F 3 "~" H 2500 12500 50  0001 C CNN
+	1    2500 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 60E640B4
+P 4400 13000
+F 0 "#PWR05" H 4400 12750 50  0001 C CNN
+F 1 "GND" H 4405 12827 50  0000 C CNN
+F 2 "" H 4400 13000 50  0001 C CNN
+F 3 "" H 4400 13000 50  0001 C CNN
+	1    4400 13000
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 11900 0    85   ~ 0
+32.768kHz Crystal (RTC) 9pF
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:15PF-0402-50V-5% C14
+U 1 1 44835129
+P 4600 12600
+F 0 "C14" H 4660 12715 70  0000 L BNN
+F 1 "12pF C0G" H 4660 12515 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4600 12600 50  0001 C CNN
+F 3 "" H 4600 12600 50  0001 C CNN
+	1    4600 12600
+	1    0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:15PF-0402-50V-5% C13
+U 1 1 3886DF19
+P 4200 12600
+F 0 "C13" H 4260 12715 70  0000 L BNN
+F 1 "12pF C0G" H 4260 12515 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4200 12600 50  0001 C CNN
+F 3 "" H 4200 12600 50  0001 C CNN
+	1    4200 12600
+	-1   0    0    1   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CRYSTAL-32.768KHZSMD-3.2X1.5 Y2
+U 1 1 DFC69C6C
+P 4400 12300
+F 0 "Y2" H 4400 12380 70  0000 C BNN
+F 1 "32.768kHz" H 4400 12220 70  0000 C TNN
+F 2 "sparkfun-nrf52832-breakout:CRYSTAL-SMD-3.2X1.5MM" H 4400 12300 50  0001 C CNN
+F 3 "" H 4400 12300 50  0001 C CNN
+	1    4400 12300
+	-1   0    0    1   
+$EndComp
+Connection ~ 4600 12300
+Text Label 4700 12000 0    50   ~ 0
+P01
+Wire Wire Line
+	4600 12000 4600 12300
+Wire Wire Line
+	4600 12300 4500 12300
+Wire Wire Line
+	4600 12500 4600 12300
+Wire Wire Line
+	4600 12000 4700 12000
+Connection ~ 4200 12300
+Text Label 4100 12000 2    50   ~ 0
+P00
+Wire Wire Line
+	4200 12000 4200 12300
+Wire Wire Line
+	4200 12300 4300 12300
+Wire Wire Line
+	4200 12500 4200 12300
+Wire Wire Line
+	4200 12000 4100 12000
+Text Label 4600 12800 0    10   ~ 0
+GND
+Connection ~ 4400 12900
+Wire Wire Line
+	4400 13000 4400 12900
+Wire Wire Line
+	4200 12900 4200 12800
+Wire Wire Line
+	4400 12900 4200 12900
+Wire Wire Line
+	4600 12900 4400 12900
+Wire Wire Line
+	4600 12800 4600 12900
+$Comp
+L power:GND #PWR04
+U 1 1 60E8CD6A
+P 4100 11500
+F 0 "#PWR04" H 4100 11250 50  0001 C CNN
+F 1 "GND" H 4105 11327 50  0000 C CNN
+F 2 "" H 4100 11500 50  0001 C CNN
+F 3 "" H 4100 11500 50  0001 C CNN
+	1    4100 11500
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 10400 0    85   ~ 0
+Supply Decoupling
+Text Notes 4900 10650 0    70   ~ 0
+Pin\n48
+Text Notes 4500 10650 0    70   ~ 0
+Pin\n36
+Text Notes 4100 10650 0    70   ~ 0
+Pin\n13
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY012
+U 1 1 31C2C8A5
+P 4500 10900
+F 0 "#SUPPLY012" H 4500 10900 50  0001 C CNN
+F 1 "VDD" H 4500 11010 59  0000 C BNN
+F 2 "" H 4500 10900 50  0001 C CNN
+F 3 "" H 4500 10900 50  0001 C CNN
+	1    4500 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0402-16V-10% C16
+U 1 1 5DE9A54D
+P 4500 11200
+F 0 "C16" H 4560 11315 70  0000 L BNN
+F 1 "100n" H 4560 11115 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 11200 50  0001 C CNN
+F 3 "" H 4500 11200 50  0001 C CNN
+	1    4500 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY011
+U 1 1 E0B04C0E
+P 4100 10900
+F 0 "#SUPPLY011" H 4100 10900 50  0001 C CNN
+F 1 "VDD" H 4100 11010 59  0000 C BNN
+F 2 "" H 4100 10900 50  0001 C CNN
+F 3 "" H 4100 10900 50  0001 C CNN
+	1    4100 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:4.7UF0603 C17
+U 1 1 B7EEE3FC
+P 4900 11200
+F 0 "C17" H 4960 11315 70  0000 L BNN
+F 1 "4.7u" H 4960 11115 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 11200 50  0001 C CNN
+F 3 "" H 4900 11200 50  0001 C CNN
+	1    4900 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY013
+U 1 1 8D803956
+P 4900 10900
+F 0 "#SUPPLY013" H 4900 10900 50  0001 C CNN
+F 1 "VDD" H 4900 11010 59  0000 C BNN
+F 2 "" H 4900 10900 50  0001 C CNN
+F 3 "" H 4900 10900 50  0001 C CNN
+	1    4900 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:0.1UF-0402-16V-10% C15
+U 1 1 C65B0EAD
+P 4100 11200
+F 0 "C15" H 4160 11315 70  0000 L BNN
+F 1 "100n" H 4160 11115 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 11200 50  0001 C CNN
+F 3 "" H 4100 11200 50  0001 C CNN
+	1    4100 11200
+	1    0    0    -1  
+$EndComp
+Text Label 4500 10900 0    10   ~ 0
+VDD
+Wire Wire Line
+	4500 10900 4500 11000
+Text Label 4100 10900 0    10   ~ 0
+VDD
+Wire Wire Line
+	4100 10900 4100 11000
+Text Label 4900 10900 0    10   ~ 0
+VDD
+Wire Wire Line
+	4900 10900 4900 11000
+Text Label 4100 11500 0    10   ~ 0
+GND
+Connection ~ 4500 11400
+Connection ~ 4100 11400
+Wire Wire Line
+	4500 11300 4500 11400
+Wire Wire Line
+	4100 11400 4100 11300
+Wire Wire Line
+	4900 11400 4900 11300
+Wire Wire Line
+	4500 11400 4900 11400
+Wire Wire Line
+	4100 11400 4500 11400
+Wire Wire Line
+	4100 11500 4100 11400
+Wire Wire Line
+	2700 12500 2800 12500
+Wire Wire Line
+	2800 12500 2800 12650
+Wire Wire Line
+	2800 12650 2200 12650
+Wire Wire Line
+	2200 12650 2200 12900
+Wire Wire Line
+	2200 12900 2300 12900
+Text Notes 2500 4450 0    50   ~ 0
+V2 -> V3\n- Load switch instead of mosfet for LED -> OK\n- Fixed high Iq from bq51050 -> OK\n- Changed position of buck converter (noise on LF crystal) -> Not possible\n
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R6
+U 1 1 6124EB97
+P 11050 7150
+F 0 "R6" H 10950 7230 50  0000 L BNN
+F 1 "10k" H 10950 7025 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11050 7150 50  0001 C CNN
+F 3 "" H 11050 7150 50  0001 C CNN
+	1    11050 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY014
+U 1 1 6127CA80
+P 11050 6950
+F 0 "#SUPPLY014" H 11050 6950 50  0001 C CNN
+F 1 "VDD" H 11050 7060 59  0000 C BNN
+F 2 "" H 11050 6950 50  0001 C CNN
+F 3 "" H 11050 6950 50  0001 C CNN
+	1    11050 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 7600 11050 7600
+Wire Wire Line
+	11050 7350 11050 7600
+Connection ~ 11050 7600
+Wire Wire Line
+	11050 7600 11450 7600
+Text Notes 11250 7250 0    59   ~ 0
+Pullup for \nopen-drain output\n
+Text Notes 10500 7150 0    50   ~ 0
+Current \nlimiting\n
+Text Notes 16900 6900 1    50   ~ 0
+Just in case
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R12
+U 1 1 614055A1
+P 2750 13800
+F 0 "R12" H 2650 13880 50  0000 L BNN
+F 1 "DNP" H 2650 13675 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2750 13800 50  0001 C CNN
+F 3 "" H 2750 13800 50  0001 C CNN
+	1    2750 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VDD #SUPPLY0101
+U 1 1 61494455
+P 3050 13750
+F 0 "#SUPPLY0101" H 3050 13750 50  0001 C CNN
+F 1 "VDD" H 3050 13860 59  0000 C BNN
+F 2 "" H 3050 13750 50  0001 C CNN
+F 3 "" H 3050 13750 50  0001 C CNN
+	1    3050 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 13800 2200 13800
+Connection ~ 2200 13800
+Wire Wire Line
+	2200 13800 2200 13700
+Wire Wire Line
+	2950 13800 3050 13800
+Wire Wire Line
+	3050 13800 3050 13750
+Text Notes 18650 6750 0    50   ~ 0
+Fix to eliminate rather\nhigh Iq of +- 15 uA
+Connection ~ 17000 6150
+Wire Wire Line
+	16150 6150 17000 6150
+Text Label 16150 6150 0    70   ~ 0
+EN2
+Text Notes 19350 7500 0    50   ~ 0
+Temperature control
+Wire Notes Line
+	22900 5400 22900 10900
+Wire Notes Line
+	10000 10900 22900 10900
+Wire Notes Line
+	10000 5400 22900 5400
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 61441E9C
+P 21850 7500
+F 0 "JP3" H 21850 7735 50  0000 C CNN
+F 1 "Jumper_2_Open" H 21850 7644 50  0000 C CNN
+F 2 "sparkfun-nrf52832-breakout:SMT-JUMPER_2_NO_SILK" H 21850 7500 50  0001 C CNN
+F 3 "~" H 21850 7500 50  0001 C CNN
+	1    21850 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 7500 21300 7500
+Text Label 21300 7500 0    50   ~ 0
+QI_SENS
+Text Notes 21250 7750 0    50   ~ 0
+Possibility to control\nQi charger via mcu
+Wire Wire Line
+	22200 7500 22350 7500
+Wire Wire Line
+	22050 7500 22200 7500
+Connection ~ 22200 7500
+Wire Wire Line
+	22200 7550 22200 7500
+$Comp
+L power:GND #PWR040
+U 1 1 6153C5EE
+P 22200 7950
+F 0 "#PWR040" H 22200 7700 50  0001 C CNN
+F 1 "GND" H 22205 7777 50  0000 C CNN
+F 2 "" H 22200 7950 50  0001 C CNN
+F 3 "" H 22200 7950 50  0001 C CNN
+	1    22200 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R13
+U 1 1 61475FCF
+P 22200 7750
+F 0 "R13" H 22100 7830 50  0000 L BNN
+F 1 "DNP" H 22100 7625 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 22200 7750 50  0001 C CNN
+F 3 "" H 22200 7750 50  0001 C CNN
+	1    22200 7750
+	0    -1   -1   0   
+$EndComp
+Text Label 8600 11400 0    50   ~ 0
+CHG_MCU
+Wire Wire Line
+	8300 11400 8450 11400
+Text Label 22350 7500 0    50   ~ 0
+MCU_QI_EN
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:NRF52832 U2
+U 1 1 4E0AB7A9
+P 7700 12300
+F 0 "U2" H 7100 13810 59  0000 L BNN
+F 1 "NRF52832" H 7100 10690 59  0000 L TNN
+F 2 "sparkfun-nrf52832-breakout:QFN48-6X6MM" H 7700 12300 50  0001 C CNN
+F 3 "" H 7700 12300 50  0001 C CNN
+	1    7700 12300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 13400 8500 13400
+Text Label 8500 13400 0    50   ~ 0
+MCU_QI_EN
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:VIN #SUPPLY017
+U 1 1 617A6DB3
+P 21950 6000
+F 0 "#SUPPLY017" H 21950 6000 50  0001 C CNN
+F 1 "VIN" H 21950 6110 59  0000 C BNN
+F 2 "" H 21950 6000 50  0001 C CNN
+F 3 "" H 21950 6000 50  0001 C CNN
+	1    21950 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21950 6050 21950 6000
+Text Label 20950 6050 0    50   ~ 0
+QI_VDD
+Text Notes 2500 5650 0    50   ~ 0
+V3 -> V4\n- Fixed misplaced via causing a short -> OK\n- Fixed footprint of load switch -> OK\n- Changed jumper to bypass Low Iq mode of bq51050 -> OK (1206 resistor)
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:RESISTOR0603 R14
+U 1 1 6170BA8A
+P 20750 6700
+F 0 "R14" H 20650 6780 50  0000 L BNN
+F 1 "DNP" H 20650 6575 50  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 20750 6700 50  0001 C CNN
+F 3 "" H 20750 6700 50  0001 C CNN
+	1    20750 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18650 7050 19250 7050
+Wire Wire Line
+	20750 6900 20750 7150
+Text Label 21150 6900 0    50   ~ 0
+QI_SENS
+Connection ~ 20750 6900
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 61B9BA97
+P 21450 6050
+F 0 "JP1" H 21450 6285 50  0000 C CNN
+F 1 "0" H 21450 6194 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 21450 6050 50  0001 C CNN
+F 3 "~" H 21450 6050 50  0001 C CNN
+	1    21450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 6050 21950 6050
+Wire Wire Line
+	20950 6050 21250 6050
+$Comp
+L Device:LED D3
+U 1 1 60CB0AC6
+P 14850 13600
+F 0 "D3" H 14843 13817 50  0000 C CNN
+F 1 "LED" H 14843 13726 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 14850 13600 50  0001 C CNN
+F 3 "~" H 14850 13600 50  0001 C CNN
+	1    14850 13600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 616831C5
+P 10850 13200
+F 0 "TP9" V 11045 13272 50  0000 C CNN
+F 1 "TestPoint" V 10954 13272 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11050 13200 50  0001 C CNN
+F 3 "~" H 11050 13200 50  0001 C CNN
+	1    10850 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 616E8DD5
+P 19500 13200
+F 0 "TP2" V 19695 13272 50  0000 C CNN
+F 1 "TestPoint" V 19604 13272 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 19700 13200 50  0001 C CNN
+F 3 "~" H 19700 13200 50  0001 C CNN
+	1    19500 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 61702348
+P 8450 11350
+F 0 "TP6" V 8645 11422 50  0000 C CNN
+F 1 "TestPoint" V 8554 11422 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8650 11350 50  0001 C CNN
+F 3 "~" H 8650 11350 50  0001 C CNN
+	1    8450 11350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 13200 10850 13300
+Connection ~ 10850 13300
+Wire Wire Line
+	10850 13300 11050 13300
+Wire Wire Line
+	8450 11350 8450 11400
+Connection ~ 8450 11400
+Wire Wire Line
+	8450 11400 8600 11400
+Wire Wire Line
+	18650 7150 19250 7150
+Wire Wire Line
+	8300 12000 9200 12000
+Wire Wire Line
+	8300 12100 9500 12100
+Wire Wire Line
+	15950 13300 16450 13300
+Wire Wire Line
+	21000 6900 21150 6900
+Wire Wire Line
+	20750 6900 21000 6900
+Connection ~ 21000 6900
+Wire Wire Line
+	21000 6450 21000 6900
+Wire Wire Line
+	20750 6450 20750 6500
+Wire Wire Line
+	20750 6350 20750 6450
+Connection ~ 20750 6450
+Wire Wire Line
+	20750 6450 21000 6450
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:220OHM-0603-1_10W-1% R9
+U 1 1 22D27FBD
+P 14850 13950
+F 0 "R9" H 14850 14010 70  0000 C BNN
+F 1 "220" H 14850 13890 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 14850 13950 50  0001 C CNN
+F 3 "" H 14850 13950 50  0001 C CNN
+	1    14850 13950
+	0    -1   -1   0   
+$EndComp
+Text Notes 20750 7000 0    50   ~ 0
+This connection is not made
+Text Notes 2500 6000 0    50   ~ 0
+PARTS:\n- All capacitors minimal rating 16V
+Wire Notes Line
+	17550 11250 22900 11250
+Wire Notes Line
+	22900 11250 22900 14850
+Wire Notes Line
+	22900 14850 17550 14850
+Wire Notes Line
+	17550 14850 17550 11250
+Text Notes 19650 11500 0    85   ~ 0
+Battery voltage
+Text Notes 6350 12100 0    50   ~ 0
+6pF
+Text Notes 20250 6100 0    50   ~ 0
+DNP
+Text Notes 20250 6850 0    50   ~ 0
+DNP
+$Comp
+L sparkfun-nrf52832-breakout-eagle-import:CAP_CERAMIC0603 C39
+U 1 1 615C72F7
+P 17000 6700
+F 0 "C39" H 17100 6800 50  0000 L BNN
+F 1 "DNP" H 17100 6700 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17000 6700 50  0001 C CNN
+F 3 "" H 17000 6700 50  0001 C CNN
+	1    17000 6700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

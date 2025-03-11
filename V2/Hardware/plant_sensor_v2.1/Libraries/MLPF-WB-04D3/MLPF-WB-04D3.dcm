@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MLPF-WB-04D3
+D 2.4GHz Center Frequency Low Pass RF Filter (Radio Frequency) 100MHz Bandwidth 1.2dB 6-WFBGA, CSPBGA
+K
+F https://www.st.com/resource/en/datasheet/mlpf-wb-04d3.pdf
+$ENDCMP
+#
+#End Doc Library
