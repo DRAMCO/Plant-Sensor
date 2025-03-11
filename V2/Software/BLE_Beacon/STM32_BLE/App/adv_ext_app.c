@@ -110,8 +110,8 @@ uint8_t ADV_EXT_Config(void)
   adv_set_param[i].data_len = sizeof(a_ext_adv_data_2);
   strcpy(adv_set_param[i].username, "Plant Sensor x");
   adv_set_param[i].sid = i;
-  adv_set_param[i].interval_min = 100;
-  adv_set_param[i].interval_max = 200;
+  adv_set_param[i].interval_min = 1000;
+  adv_set_param[i].interval_max = 1000;
   adv_set_param[i].tx_power = CFG_TX_POWER;
   adv_set_param[i].adv_channels = HCI_ADV_CH_ALL;
   adv_set_param[i].property = HCI_ADV_EVENT_PROP_NONE;
